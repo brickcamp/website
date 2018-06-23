@@ -1,0 +1,16 @@
+title: Brick.Camp
+
+author:
+  name: Brick.Camp
+  email: 'info@brick.camp'
+
+taxonomies: [part,tag,category]
+
+metadata:
+  description: 'The place to brick!'
+
+redirects:
+  '/redirect-test': '/'
+
+#routes:
+#  '/cool-name': '/blog/sample-3'
