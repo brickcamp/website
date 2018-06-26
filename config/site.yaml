@@ -4,7 +4,39 @@ author:
   name: Brick.Camp
   email: 'info@brick.camp'
 
-taxonomies: [part,tag,category]
+taxonomies: 
+  - tag
+  - category
+  - flag
+  - source
+
+  - part
+  - partcount
+  - tech
+
+  - width
+  - height
+  - depth
+
+  - function
+  - object
+
+  - pattern_1D_segsize
+  - pattern_2D_segsize
+  - pattern_3D_segsize
+
+  - stud_lift_length
+  - stud_shift_length
+  - axle_shift_length
+
+  - stud_tilt_angle
+  - stud_twist_angle
+  - axle_tilt_angle
+
+  - shape_2D_segments
+  - shape_2D_segsize
+  - shape_3D_segments
+  - shape_3D_segsize
 
 metadata:
   description: 'The place to brick!'

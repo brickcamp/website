@@ -1,4 +1,5 @@
 *
 */
 !.gitignore
-!brick**
+!brick-camp/
+!brick-camp/**

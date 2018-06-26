@@ -1,0 +1,22 @@
+<article class="{{ class }}">
+
+    {% if post.header.image %}
+        <figure class="post-image">
+            <a href="{{ post.url }}"><img src="{{ post.media[post.header.image].cropResize(300, 300).url }}" width="100%" height="100%" alt={{ post.title }}></a>
+        </figure>
+    {% endif %}
+
+    <header class="post-header">
+        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    </header>
+
+    {% if post.content %}
+        <section class="post-excerpt" itemprop="description">
+            <a href="{{post.url}}"><p>{{ post.content | striptags | truncate(140) }}</p></a>
+        </section>
+    {% endif %}
+    
+    <footer class="post-meta">
+        {% include "/partials/blog/meta.html.twig" with { 'post': post, 'short_meta': true } %}
+    </footer>
+</article>

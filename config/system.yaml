@@ -22,7 +22,7 @@ home:
   alias: /home
   hide_in_urls: false
 pages:
-  theme: quark
+  theme: brick-view
   order:
     by: default
     dir: asc
@@ -30,8 +30,8 @@ pages:
     count: 20
   dateformat:
     default: null
-    short: 'd-m-y G:i'
-    long: 'd-m-y G:i'
+    short: 'd-m-Y'
+    long: 'd-m-Y G:i'
   publish_dates: true
   process:
     markdown: true

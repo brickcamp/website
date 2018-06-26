@@ -1,7 +1,8 @@
 ---
-title: Techs
+title: All Drafts
+visible: false
 metadata:
-  description: A tale of **awesomazing** adventures
+  description: Shows all sumbitted techs for review
 
 content:
     items: @self.children
@@ -17,6 +18,3 @@ content:
 
 # pagination: true
 ---
-
-# My Gravtastic Blog
-A tale of **awesomazing** adventures

@@ -1,0 +1,69 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <article class="tech-single {{ page.header.slug }}">
+        <figure class="featured-image text-center left col-12 col-md-6">
+            {% if page.header.source.url %}
+                <a href="{{ page.header.source.url }}" target="_blank" rel="noopener">
+            {% endif %}
+
+            {% if page.header.image %}
+                <img src="{{ page.media[page.header.image].cropResize(500, 500).url }}" alt={{ page.title }}>
+            {% else %}
+                <img src="{{ media_directory('theme://images')['no_image.png'].cropResize(500,500).url }}" alt={{ page.title }}>
+            {% endif %}
+
+            {% if page.header.source.url %}</a>{% endif %}
+        </figure>
+
+        <header class="tech-header text-center left col-12 col-md-6">
+            <h1 class="tech-title">{{ page.title }}</h1>
+        </header>
+
+        <section class="tech-meta left col-12 col-md-6">
+            <h3>Information</h3>
+            <ul class="tech-meta-list">
+            {% if page.header.size %}
+                <li class="size">
+                    <div class="label">Size:</div>
+                    <div class="value">
+                        <span class="width"> {{ page.header.size.width[0] ~ ' ' ~ page.header.size.width[1]|pluralize }} </span> x
+                        <span class="depth"> {{ page.header.size.depth[0] ~ ' ' ~ page.header.size.depth[1]|pluralize }} </span> x
+                        <span class="height"> {{ page.header.size.height[0] ~ ' ' ~ page.header.size.height[1]|pluralize }} </span>
+                    </div>
+                </li>
+            {% endif %}
+
+            {% if page.taxonomy|length > 0 %}
+                {% for tax, terms in page.taxonomy %}
+                    {% if terms|length > 0 and tax != 'part' %}
+                        <li class="{{ tax|pluralize }}">
+                            <div class="label">{{ tax|pluralize|title }}:</div>
+                            <div class="value">
+                            {% for term in terms %}
+                                <span class="tech-{{ tax }} {{ term }}">
+                                    <a href="{{ base_url }}/techs/{{ tax }}{{ config.system.param_sep }}{{ term|url_encode }}">{{ term }}</a>
+                                </span>
+                            {% endfor %}
+                            </div>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            </ul>
+        </section>
+
+        <section class="tech-parts left col-12 col-md-6">
+            <h3>Parts</h3>
+            <ul class="tech-part-list">
+                {% for part in page.taxonomy.part %}
+                    <li class="part-{{ part }}">
+                        <a href="{{ base_url }}/techs/part{{ config.system.param_sep }}{{ part|url_encode }}">{{ part }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <div class="clear"></div>
+    </article>
+{% endblock %}

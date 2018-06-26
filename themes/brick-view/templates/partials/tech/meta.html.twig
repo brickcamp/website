@@ -1,0 +1,35 @@
+<div class="tech-meta">
+    {% if post.header.size %}
+        <div class="size">
+            {{ post.header.size.width[0] ~ ' ' ~post.header.size.width[1]}} x
+            {{ post.header.size.depth[0] ~ ' ' ~post.header.size.depth[1]}} x
+            {{ post.header.size.height[0] ~ ' ' ~post.header.size.height[1]}}
+        </div>
+    {% endif %}
+</div>
+
+
+{# date: 29-06-2016
+
+image: image.png
+
+size:
+  width: [7.5, stud]
+  depth: [2, stud]
+  height: [5, plate]
+part_count: 22
+
+source:
+  link: http://www.1000steine.de/de/gemeinschaft/forum/?entry=1&id=340717#id340717
+  title: Bahnübergang - MTM
+
+taxonomy:
+  flag: []
+  part: ["3794b", "3023", "30039", "3666", "30008", "30069", "85984"]
+  source: 1000steine.de
+  
+#  object: tree
+  pattern: [2D, segsize_11]
+#  offset: [stud_shift_10, stud_lift_4, axle_shift_10]
+#  rotation: [stud_tilt_90, stud_twist_90, axle_tilt_90]
+#  shape: [3D, sides_6, segments_8, segsize_1] #}

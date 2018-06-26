@@ -1,10 +1,11 @@
 ---
 title: Techs
 metadata:
-  description: A tale of **awesomazing** adventures
+  description: Shows everything on this website
 
 content:
-    items: @self.children
+    items: 
+        '@page.children': '/tech'
     order:
         by: date
         dir: desc

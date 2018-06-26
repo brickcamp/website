@@ -1,0 +1,24 @@
+
+<time class="post-date" datetime="{{ post.date | date(site.date_short) }}">{{ post.date | date(site.date_short) }}</time>
+
+{% if post.header.size %}
+    <div class="post-size">
+        <span class="width"> {{ post.header.size.width[0] ~ ' ' ~ post.header.size.width[1]|pluralize }} </span> x
+        <span class="depth"> {{ post.header.size.depth[0] ~ ' ' ~ post.header.size.depth[1]|pluralize }} </span> x
+        <span class="height"> {{ post.header.size.height[0] ~ ' ' ~ post.header.size.height[1]|pluralize }} </span>
+    </div>
+{% endif %}
+
+{% if post.taxonomy|length > 0 %}
+    {% for tax, terms in post.taxonomy %}
+        {% if terms|length > 0 %}
+            <div class="post-{{ tax|pluralize }}">
+                {% for term in terms %}
+                    <span class="post-{{ tax }} {{ term }}">
+                        <a href="{{ base_url }}/techs/{{ tax }}{{ config.system.param_sep }}{{ term|e('url') }}">{{ term }}</a>
+                    </span>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endif %}
