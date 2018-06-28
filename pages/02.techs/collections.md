@@ -5,12 +5,11 @@ metadata:
 
 content:
     items: 
-        '@page.children': '/tech'
+        '@self.children'
     order:
-        by: date
-        dir: desc
-    limit: 12
-    pagination: true
+        by: default
+        dir: asc
+    visible: true
 
 # feed:
 #     description: Sample Blog Description
@@ -19,5 +18,5 @@ content:
 # pagination: true
 ---
 
-# My Gravtastic Blog
-A tale of **awesomazing** adventures
+# Techs
+Here comes a collection of **awesomazing** LEGO building techniques.

@@ -1,6 +1,5 @@
 ---
 title: "Brick 1 x 2 Ring"
-date: 27-08-2015
 
 image: image.png
 cad: model.ldr

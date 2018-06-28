@@ -1,0 +1,5 @@
+{% extends 'blog.html.twig' %}
+
+{% block item %}
+    {% include 'partials/item/collection.html.twig' with {'post': post}%} 
+{% endblock %}

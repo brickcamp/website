@@ -1,6 +1,5 @@
 ---
 title: "Brick Octagonal with Side Studs"
-date: 08-11-2015
 
 image: image.png
 cad: model.ldr

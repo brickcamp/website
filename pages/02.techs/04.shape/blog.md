@@ -2,7 +2,7 @@
 title: Shape
 
 content:
-    items: 
+    items:
         - '@taxonomy.function': shape_2D
         - '@taxonomy.function': shape_3D
     order:

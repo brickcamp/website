@@ -27,31 +27,31 @@
 
 {% endblock head%}
 </head>
-<body class="{{ page.header.body_classes }}">
+<body class="type-{{ page.template }} slug-{{ page.slug }} {{ page.taxonomy.tag|join(" ") }}">
 
-{% block header %}
-    <div class="header">
+    <header id="header">
+    {% block header %}
         <div class="wrapper">
             {% include 'partials/header/main.html.twig' %}
         </div>
-    </div>
-{% endblock %}
+    {% endblock %}
+    </header>
 
-{% block body %}
-    <section id="body">
+    <main id="body">
+    {% block body %}
         <div class="wrapper">
-        {% block content %}{% endblock %}
+            {% block content %}{% endblock %}
         </div>
-    </section>
-{% endblock %}
+    {% endblock %}
+    </main>
 
-{% block footer %}
-    <div class="footer text-center">
-        <div class="wrapper">
+    <footer id="footer">
+    {% block footer %}
+        <div class="wrapper text-center">
             <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
         </div>
+    {% endblock %}
     </div>
-{% endblock %}
 
 {% block bottom %}
     {{ assets.js('bottom') }}

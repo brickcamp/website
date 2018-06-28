@@ -1,11 +1,42 @@
 {% extends 'partials/base.html.twig' %}
 
-{% set collection = page.collection() %}
+
+{% if page.header.content.visible is defined %}
+    {% set collection = page.header.content.visible ? page.collection().visible() : page.collection().invisible() %}
+{% else %}
+    {% set collection = page.collection() %}
+{% endif %}
+
+
 {% block content %}
-    <section class="masonry">
-        {% for post in collection %} 
-            {% include 'partials/blog/item.html.twig' with {'post': post, 'class': "left col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12"}%} 
+
+    <figure id="items-image"> 
+    {% block items_image %}
+        {% if post.header.image %}
+            <img src="{{ post.media[post.header.image].cropResize(300, 300).url }}" width="100%" height="100%" alt={{ post.title }}>
+        {% endif %}
+    {% endblock %}
+    </figure>
+
+    <header id="items-header">
+    {% block items_header %}
+        {{ page.content }}
+    {% endblock %}
+    </header>
+
+    <section id="items">
+    {% block items %}
+        {% for post in collection %}
+            {% block item %}
+                {% include 'partials/item/base.html.twig' with {'post': post}%} 
+            {% endblock %}
         {% endfor %}
-        <div class="clear">
+    {% endblock %}
     </section>
+
+    <footer id="items-footer">
+    {% block items_footer %}
+    {% endblock %}
+    </footer>
+
 {% endblock %}
