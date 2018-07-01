@@ -1,22 +1,6 @@
-{# find image folder #}
-{% set folder = page.find('/images/' ~ tax) %}
-{% if not folder %}
-    {% set folder = page.find('/images') %}
-{% endif %}
-
-{# find term image #}
-{% set image = folder.media[term ~ '.jpg'] %}
-{% if not image %}
-    {% set image = folder.media['no-image.jpg'] %}
-{% endif %}
-{% if not image %}
-    {% set image = media_directory('theme://images')['no_image.png'] %}
-{% endif %}
-
-{# render term section #}
-<figure class="taxonomy tax-{{ tax }} term-{{ term }}">
+<div class="term tax-{{ tax }} term-{{ term }} pure-u-1-3">
     <a href="{{ post.url ~ "/" ~ tax ~ config.system.param_sep ~ term }}">
-        <img src="{{ brickview_image(tax, term).cropResize(100, 100).url }}" alt={{ term }}>
-        <figcaption>{{ term|humanize|title }}</figcaption>
+        <img src="{{ brick_term_image(tax, term).resize(100, 100).url }}" alt={{ term }} class="pure-img">
+        <span class="name">{{ term|humanize|title }}</span>
     </a>
-</figure>
+</div>

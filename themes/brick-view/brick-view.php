@@ -29,25 +29,45 @@ class BrickView extends Theme
 
     public function onTwigExtensions()
     {
-        $brickview_image = new \Twig_simpleFunction( 
-            'brickview_image', function ( $taxonomy, $term, $ext='png' ) {
-                // find existing folder
-                $folder = $this->grav['page']->find('/images/tax-' . $taxonomy);
-                if (!$folder) {
-                    $folder = $this->grav['page']->find('/images');
-                }
+        // collect custom Twig functions
+        $functions = [
+            new \Twig_SimpleFunction( 'brick_term_image', [$this, 'getTermImage'] ),
+            new \Twig_SimpleFunction( 'brick_terms', [$this, 'getTerms'] ),
+        ];
 
-                // find image in folder
-                $image = $folder->media()[$term . '.' . $ext];
-                if ($image) { 
-                    return $image;
-                }
+        // make functions available in Twig templates
+        foreach ($functions as $function) {
+            $this->grav['twig']->twig->addFunction($function);
+        }
+    }
 
-                $image = $folder->media()['no_image.png'];
+    public function getTerms( $taxonomy, $order_by='count', $order='desc' ) {
+        $result = array();
+        $terms = $this->grav['taxonomy']->taxonomy()[$taxonomy];
+        
+        foreach ( $terms as $term => $pages ) {
+            $result[ $term ] = count( $pages );
+        }
 
-                return $image;
-            }
-        );
-        $this->grav['twig']->twig->addFunction($brickview_image);
+        $result = ($order == 'asc') ? asort( $result ) : arsort( $result );
+        return array_keys( $result );
+    }
+
+    public function getTermImage( $taxonomy, $term, $ext='png' ) {
+        // find existing folder
+        $folder = $this->grav['page']->find('/images/tax-' . $taxonomy);
+        if (!$folder) {
+            $folder = $this->grav['page']->find('/images');
+        }
+
+        // find image in folder
+        $image = $folder->media()[$term . '.' . $ext];
+        if ($image) { 
+            return $image;
+        }
+
+        $image = $folder->media()['no_image.png'];
+
+        return $image;
     }
 }

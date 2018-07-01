@@ -10,12 +10,6 @@ content:
         by: default
         dir: asc
     visible: true
-
-# feed:
-#     description: Sample Blog Description
-#     limit: 10
-
-# pagination: true
 ---
 
 # Techs

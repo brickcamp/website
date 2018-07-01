@@ -16,6 +16,6 @@ taxonomy:
 
   source: [swooshable.com]
 
-  function: stud_tilt
-  stud_tilt_angle: 180 
+  function: stud_lift
+  stud_lift_length: [2, ldu] 
 ---

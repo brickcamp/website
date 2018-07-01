@@ -1,12 +1,9 @@
 ---
 title: Part
-visible: false
+image: image.png
 
 content:
-    items: 
-        - '@taxonomy.function': stud_tilt
-        - '@taxonomy.function': stud_twist
-        - '@taxonomy.function': axle_tilt
+    items: '@self.children'
     order:
         by: title
         dir: desc

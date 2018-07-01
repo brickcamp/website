@@ -12,8 +12,8 @@
 
     <figure id="items-image"> 
     {% block items_image %}
-        {% if post.header.image %}
-            <img src="{{ post.media[post.header.image].cropResize(300, 300).url }}" width="100%" height="100%" alt={{ post.title }}>
+        {% if page.header.image %}
+            <img src="{{ page.media[page.header.image].cropResize(300, 300).url }}" width="100%" height="100%" alt="{{ page.title }}">
         {% endif %}
     {% endblock %}
     </figure>
@@ -24,7 +24,7 @@
     {% endblock %}
     </header>
 
-    <section id="items">
+    <section id="items" class="pure-g">
     {% block items %}
         {% for post in collection %}
             {% block item %}

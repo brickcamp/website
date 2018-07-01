@@ -1,9 +1,9 @@
-<article class="item type-{{ post.template }} slug-{{ post.slug }} left col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+<article class="item type-{{ post.template }} slug-{{ post.slug }} pure-u-sm-1-2 pure-u-lg-1-3 pure-u-xl-1-4">
 
-    <figure class="item-image"> 
+    <figure class="item-image .pure-img"> 
     {% block item_image %}
         {% if post.header.image %}
-            <a href="{{ post.url }}"><img src="{{ post.media[post.header.image].cropResize(300, 300).url }}" width="100%" height="100%" alt={{ post.title }}></a>
+            <a href="{{ post.url }}"><img src="{{ post.media[post.header.image].cropResize(500, 500).url }}" width="100%" height="100%" alt={{ post.title }}></a>
         {% endif %}
     {% endblock %}
     </figure>
@@ -24,8 +24,9 @@
     
     <footer class="item-footer">
     {% block item_footer %}
-        <time class="item-date" datetime="{{ post.date | date(site.date_short) }}">{{ post.date | date(site.date_short) }}</time>
-        {% include "/partials/blog/meta.html.twig" with { 'post': post, 'short_meta': true } %}
+        <time class="item-date" datetime="{{ post.modified | date() }}">{{ post.modified | date() | nicetime }}</time>
+        <span class="divider"> | </span>
+        <span class="author">{{ page.header.author|default("Brick.camp") }}</span>
     {% endblock %}
     </footer>
 </article>

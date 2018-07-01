@@ -14,44 +14,58 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', 100) %}
-        {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) %}
-        {% do assets.addCss('theme://css/custom.css', 98) %}
+        {# do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', 100) %}
+        {% do assets.addCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', 99) #}
+        {% do assets.addCss('theme://css/pure.css', 98) %}
+        {% do assets.addCss('theme://css/grids-responsive.css', 97) %}
+        {% do assets.addCss('theme://css/side-menu.css', 96) %}
+        {% do assets.addCss('theme://css/custom.css', 50) %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery', 100) %}
+        {# do assets.addJs('jquery', 100) #}
+        {% do assets.addJs('theme://js/side-menu.js', {'group': 'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
 {% endblock head%}
 </head>
 <body class="type-{{ page.template }} slug-{{ page.slug }} {{ page.taxonomy.tag|join(" ") }}">
+<div id="body">
 
-    <header id="header">
-    {% block header %}
-        <div class="wrapper">
-            {% include 'partials/header/main.html.twig' %}
-        </div>
+    <a href="#menu" id="menuLink" class="menu-link"><span></span></a>
+    <nav id="menu" class="pure-menu pure-menu-scrollable">
+    {% block header_logo %}
+        <a href="{{ base_url == '' ? '/' : base_url }}" alt="{{ config.site.title }}" class="pure-menu-heading">
+            <img src="{{ media['theme://images/logo.svg'].resize(150, 150).url }}" class="pure-img" />
+        </a>
     {% endblock %}
-    </header>
+    
+    {% block header_navigation %}
+        {% include 'partials/header/navigation.html.twig' %}
+    {% endblock %}
+    </nav>
 
-    <main id="body">
-    {% block body %}
-        <div class="wrapper">
-            {% block content %}{% endblock %}
-        </div>
+    {# <header id="header">
+    {% block header %}
+        {% include 'partials/header/base.html.twig' %}
+    {% endblock %}
+    </header> #}
+
+    <main id="main">
+    {% block main %}
+        {% block content %}{% endblock %}
     {% endblock %}
     </main>
 
     <footer id="footer">
     {% block footer %}
-        <div class="wrapper text-center">
-            <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
-        </div>
+        <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
     {% endblock %}
     </div>
+
+</div>
 
 {% block bottom %}
     {{ assets.js('bottom') }}

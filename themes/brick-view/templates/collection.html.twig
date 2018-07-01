@@ -1,0 +1,11 @@
+{% extends 'blog.html.twig' %}
+
+{% block items_image %}{% endblock %}
+
+{% block items_header %}
+    {% if page.header.filter %}
+        {% include "forms/form.html.twig" with { form: forms(page.header.filter) } %}
+    {% endif %}
+  
+    {{ parent() }}
+{% endblock %}

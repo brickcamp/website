@@ -1,6 +1,7 @@
 {% extends '/partials/item/base.html.twig' %}
 
 {% block item_content %}
+    <div class="pure-g">
     {% for sub in post.header.content.items %}
         {% if sub|keys|length == 1 and sub|keys|first starts with "@taxonomy" %}
             {% set sub_tax  = sub|keys|first|split('.')|last %}
@@ -11,4 +12,8 @@
             }%}
         {% endif %}
     {% endfor %}
+    </div>
+{% endblock %}
+
+{% block item_footer %}
 {% endblock %}

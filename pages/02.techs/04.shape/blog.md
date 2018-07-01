@@ -1,5 +1,6 @@
 ---
 title: Shape
+image: image.png
 
 content:
     items:

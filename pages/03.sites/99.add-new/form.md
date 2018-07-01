@@ -13,7 +13,7 @@ pagefrontmatter:
     template: tech
 
 form:
-    name: addpage-tech
+    name: test
     fields:
         -
             name: title
@@ -42,7 +42,5 @@ form:
             value: Submit
     process:
         -
-            addpage: null
-        -
-            redirect: '@self'
+            message: "{{ form.value.title }}"
 ---

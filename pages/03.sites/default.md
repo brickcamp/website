@@ -1,6 +1,6 @@
 ---
-title: Home
-visible: false
+title: Sites
+visible: true
 
 ---
 
