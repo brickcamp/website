@@ -1,5 +1,5 @@
 *
 */
 !.gitignore
-!brick-view/
-!brick-view/**
+!brick*/
+!brick*/**

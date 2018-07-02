@@ -29,6 +29,7 @@ taxonomies:
   - stud_shift_length
   - axle_shift_length
 
+  - angle
   - stud_tilt_angle
   - stud_twist_angle
   - axle_tilt_angle
