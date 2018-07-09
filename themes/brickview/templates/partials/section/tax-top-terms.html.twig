@@ -1,7 +1,0 @@
-<div class="taxonomy tax-{{ tax }} pure-g">
-    {% set count = count|default(3) %}
-    {% set terms = brick_terms(tax)|slice(1,count) %}
-    {% for term in terms %}
-        {% include '/partials/section/tax-term.html.twig' with { 'tax': tax, 'term': term } %}
-    {% endfor %}
-</div>
