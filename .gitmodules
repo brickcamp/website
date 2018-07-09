@@ -1,0 +1,3 @@
+[submodule "plugins/brick-work"]
+	path = plugins/brick-work
+	url = git@gitlab.com:brick.camp/brick.work.git
