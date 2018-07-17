@@ -50,19 +50,19 @@ form:
     process:
         redirect: >-
             /techs/rotation/{% 
-                set rotation_angle = form.value.rotation_angle                            %}{%
+                set rotation_angle = form.value.rotation_angle                                   %}{%
                 set rotation_angle = rotation_angle|slice(0,3) == 'all' ? 'all' : rotation_angle %}{%
-                set rotation_type   = form.value.rotation_type                            %}{%
-                if rotation_type == 'all'                                                 %}{%
-                    if rotation_angle != 'all'                                            %}{%
-                        set filter = 'angle:' ~ rotation_angle                            %}{%
-                    endif                                                                 %}{%
-                else                                                                      %}{%
-                    if rotation_angle != 'all'                                            %}{%
-                        set filter = rotation_type ~ '_angle:' ~ rotation_angle           %}{%
-                    else                                                                  %}{%
-                        set filter = 'function:' ~ rotation_type                          %}{%
-                    endif                                                                 %}{%
-                endif                                                                     %}{{ filter }}
+                set rotation_type   = form.value.rotation_type                                   %}{%
+                if rotation_type == 'all'                                                        %}{%
+                    if rotation_angle != 'all'                                                   %}{%
+                        set filter = 'angle:' ~ rotation_angle                                   %}{%
+                    endif                                                                        %}{%
+                else                                                                             %}{%
+                    if rotation_angle != 'all'                                                   %}{%
+                        set filter = rotation_type ~ '_angle:' ~ rotation_angle                  %}{%
+                    else                                                                         %}{%
+                        set filter = 'function:' ~ rotation_type                                 %}{%
+                    endif                                                                        %}{%
+                endif                                                                            %}{{ filter }}
 
 ---
