@@ -55,7 +55,7 @@ form:
                 set rotation_type   = form.value.rotation_type                                   %}{%
                 if rotation_type == 'all'                                                        %}{%
                     if rotation_angle != 'all'                                                   %}{%
-                        set filter = 'angle:' ~ rotation_angle                                   %}{%
+                        set filter = 'rotation_angle:' ~ rotation_angle                          %}{%
                     endif                                                                        %}{%
                 else                                                                             %}{%
                     if rotation_angle != 'all'                                                   %}{%

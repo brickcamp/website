@@ -1,7 +1,7 @@
 ---
 title: Techs
 metadata:
-  description: Shows everything on this website
+    description: Shows everything on this website
 
 content:
     items: 
