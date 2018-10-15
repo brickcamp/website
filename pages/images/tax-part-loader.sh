@@ -45,7 +45,7 @@ fi
 
 if [ $skipDownloads -eq 0 ];
 then
-    rm -rf *
+    rm -rf ./*
 ##########################################################################################
     echo "## Get list of part zip files"
     wget -q -O - $downloadPage | egrep --only-matching "$partFilePattern" | sort > $partFileList
@@ -61,7 +61,7 @@ then
     for zip in *.zip; 
     do
         echo -n "."
-        folder=`echo $zip | egrep --only-matching "[[:digit:]]+"`
+        folder=`echo $zip | egrep --only-matching "-?[[:digit:]]+"`
         if [[ ! -d "$folder" ]]; 
         then
             mkdir "$folder"
@@ -83,7 +83,8 @@ fi
 
 ##########################################################################################
 echo "## Prioritize colors"
-folders=`du -sk * | sort -nr | egrep --only-matching "\<[[:digit:]]+$"`
+folders=`du -sk ./* | sort -nr | egrep --only-matching "\<[[:digit:]]+$"`
+# folders=$folders$'\n'"-1"
 IFS=',' read -ra COLORS <<< "$importantColors"
 
 ##########################################################################################
@@ -120,6 +121,12 @@ echo "## Collect remaining colors into result folder"
 for folder in $folders;
 do
     echo -n "$folder "
+    if [[ ! -d "$workingFolder/$folder" ]]; 
+    then
+        echo -n "*"
+        continue
+    fi
+
     ls $workingFolder/$folder > $workingFolder/f1.txt
     ls > $workingFolder/f2.txt
     todo=`comm -23 $workingFolder/f1.txt $workingFolder/f2.txt`
