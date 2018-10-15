@@ -4,6 +4,7 @@ date: 29-06-2016
 
 image: image.png
 cad: model.ldr
+
 source: http://www.1000steine.de/de/gemeinschaft/forum/?entry=1&id=340717#id340717
 
 taxonomy:
@@ -13,8 +14,6 @@ taxonomy:
   width: [7.5, stud]
   depth: [2, stud]
   height: [5, plate]
-
-  source: [1000steine.de]
 
   function: pattern_2D
   pattern_2D_segsize: 11

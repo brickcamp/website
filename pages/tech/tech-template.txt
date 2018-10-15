@@ -1,0 +1,53 @@
+title: "Brick Magic"
+date: 31-12-1999
+
+image: image.png
+cad: model.ldr
+
+width: [4, stud]
+depth: [2, stud]
+height: [3, plate]
+
+source_url: "http://www.example.com/source/page.html"
+source_title: "Title of the post or site"
+source_name: "Name of the author"
+source_date: 01-01-2000
+
+taxonomy:
+  part: ["3002"]
+  partcount: 17
+  uses_tech: brick-simple-slug
+
+  function: ["stud_tilt", "stud_twist", "axle_tilt"]
+  stud_tilt_angle: 90
+  stud_twist_angle: 45
+  axle_tilt_angle: 45
+
+  function: ["stud_shift", "stud_lift", "axle_shift"]
+  stud_shift_lenght: 10
+  stud_lift_length: 2
+  axle_shift_length: 10
+
+  function: ["pattern_1D", "pattern_2D", "pattern_3D"]
+  pattern_1D_segsize: 4
+  pattern_2D_segsize: 4
+  pattern_3D_segsize: 4
+
+  function: ["shape_2D", "shape_3D"]
+  shape_2D_segments: 6
+  shape_2D_segsize: 1
+  shape_3D_segments: 6
+  shape_3D_segsize: 1
+
+  function: ["object"]
+  object: ["animal", "cat"]
+
+  flag: ["loosely", "instable", "unseparatable"]
+  flag: ["damaging", "stressing"]
+  flag: ["incomplete", "incorrect"]
+
+calculate:
+  volume: 4*stud*2*stud*3*plate
+  uses_tech: none
+  source: none
+  function: none
