@@ -1,5 +1,5 @@
 ---
-title: "Technic Axle Pin Connector #5 Ring"
+title: "Technic Axle Pin Connector #5 Ring-ish"
 date: 19-11-2016
 
 image: image.png
@@ -13,9 +13,7 @@ taxonomy:
   depth: [7, stud]
   height: [1, stud]
 
-  source: [none]
-
   function: shape_2D
   shape_2D_segments: 5
-  shape_2D_segsize: 1
+  shape_2D_segsize: 2
 ---

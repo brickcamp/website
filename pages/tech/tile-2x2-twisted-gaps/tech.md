@@ -4,17 +4,19 @@ title: "Twisted 2 x 2 Tile Gaps"
 image: image.png
 cad: model.ldr
 
+source_url: "https://www.flickr.com/photos/78006269@N04/15209752054"
+source_title: "Slanted Tile Technique"
+source_name: "Brickwielder"
+source_date: 20-11-2014
+
 taxonomy:
-  part: ["10288", "32062"]
-  partcount: 6
+  part: ["3068b", "3794b", "3070b"]
+  partcount: 13
 
-  width: [10, stud]
-  depth: [10, stud]
-  height: [1, stud]
+  width: [4, stud]
+  depth: [4, stud]
+  height: [2, plate]
 
-  source: [none]
-
-  function: shape_2D
-  shape_2D_segments: 6
-  shape_2D_segsize: 1
+  function: pattern_2D
+  pattern_2D_segsize: 6
 ---

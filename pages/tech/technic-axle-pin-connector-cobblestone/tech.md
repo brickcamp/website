@@ -17,7 +17,8 @@ source_date: 25-10-2015
 taxonomy:
   part: ["3651"]
   partcount: 4
+  uses_tech: "technic-axle-pin-connector"
 
-  function: pattern_2D
+  function: "pattern_2D"
   pattern_2D_segsize: 4
 ---

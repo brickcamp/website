@@ -4,23 +4,21 @@ title: "Connected Grille Slopes"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/scruffulous/4466106877/"
+source_title: "Another option for swoofty"
+source_name: "Mike Pianta"
+source_date: 27-03-2010
 
 taxonomy:
-  flag: tech-stressing
+  part: ["61409", "4085c", "2921"]
+  partcount: 6
 
-  part: ["3004"]
-  partcount: 240
+  width: [4, stud]
+  depth: [2.5, brick]
+  height: [1, stud]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  function: pattern_1D
+  pattern_1D_segsize: 3
 
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  flag: instable
 ---

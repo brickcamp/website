@@ -13,9 +13,7 @@ taxonomy:
   depth: [10, stud]
   height: [1, stud]
 
-  source: [none]
-
   function: shape_2D
   shape_2D_segments: 8
-  shape_2D_segsize: 1
+  shape_2D_segsize: 2
 ---

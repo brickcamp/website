@@ -4,23 +4,28 @@ title: "Lowell Sphere"
 image: image.png
 cad: model.ldr
 
-# TODO
+source_url: "http://www.brucelowell.com/lowell-sphere/"
+source_title: "Lowell Sphere"
+source_name: "Bruce Lowell"
+source_date: 29-05-2003
 
-source: http://www.brickbending.com/
+links:
+  - name: "Original Design"
+    url: "http://www.brickshelf.com/cgi-bin/gallery.cgi?f=44794"
+  - name: "Alternate Design"
+    url: "https://www.flickr.com/photos/legohaulic/5065049929/in/faves-64049564@N03/"
+  - name: "Bram Sphere Generator"
+    url: "http://lego.bldesign.org/sphere/"
 
 taxonomy:
-  flag: tech-stressing
+  part: ["3022", "2420", "3710", "3794b", "4733", "3709b", "3705", "3713"]
+  partcount: 89
 
-  part: ["3004"]
-  partcount: 240
+  width: [16, plate]
+  depth: [16, plate]
+  height: [16, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: shape_3D
+  shape_2D_segments: 6
+  shape_2D_segsize: 11
 ---

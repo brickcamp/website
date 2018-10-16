@@ -4,23 +4,22 @@ title: "Tile Grille Sandwich"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickshelf.com/cgi-bin/gallery.cgi?f=145764
+source_url: "https://www.flickr.com/photos/jastermereel08/4193501275"
+source_title: "Half plate grille tile offset"
+source_name: "consular_ship"
+source_date: 17-12-2009
 
 taxonomy:
-  flag: tech-stressing
+  part: ["2412b"]
+  partcount: 2
 
-  part: ["3004"]
-  partcount: 240
+  width: [2, stud]
+  depth: [1.2, stud]
+  height: [1.6, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  function: [stud_tilt, stud_shift]
+  stud_tilt_angle: 180
+  stud_shift_lenght: 4
 
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  flag: loosely
 ---

@@ -4,23 +4,19 @@ title: "Clip Gravel Road"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/eklund-1/8685771543"
+source_title: "Cobblestone Technique"
+source_name: "Tommy M."
+source_date: 27-04-2013
 
 taxonomy:
-  flag: tech-stressing
+  part: ["2555"]
+  partcount: 4
 
-  part: ["3004"]
-  partcount: 240
+  width: [1.5, stud]
+  depth: [1.5, stud]
+  height: [1, stud]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: pattern_2D
+  pattern_2D_segsize: 1
 ---

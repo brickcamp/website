@@ -4,23 +4,20 @@ title: "Plate 1 x 2 Flex Tooth Ring"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/reasonablyclever/3581739315/"
+source_title: "pinwheel"
+source_name: "Chris Doyle"
+source_date: 31-05-2009
 
 taxonomy:
-  flag: tech-stressing
+  part: ["61406", "73983"]
+  partcount: 48
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [17.5, stud]
+  depth: [17.5, stud]
+  height: [1, brick]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 24
+  shape_2D_segsize: 2
 ---

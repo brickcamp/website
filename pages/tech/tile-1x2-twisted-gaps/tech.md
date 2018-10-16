@@ -4,23 +4,19 @@ title: "Twisted 1 x 2 Tile Gaps"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/tekf/5694391960/"
+source_title: "Herringbone foundation"
+source_name: "Ben Weston"
+source_date: 06-05-2011
 
 taxonomy:
-  flag: tech-stressing
+  part: ["3794b", "3070b", "3069b"]
+  partcount: 9
 
-  part: ["3004"]
-  partcount: 240
+  width: [3, stud]
+  depth: [3, stud]
+  height: [2, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: pattern_2D
+  pattern_2D_segsize: 5
 ---

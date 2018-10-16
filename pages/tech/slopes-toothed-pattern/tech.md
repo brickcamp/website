@@ -4,23 +4,16 @@ title: "Toothed Slopes"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
-
 taxonomy:
   flag: tech-stressing
 
-  part: ["3004"]
-  partcount: 240
+  part: ["4070", "87087", "3024", "3040b", "3665", "4460b", "2449"]
+  partcount: 9
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  width: [8.5, stud]
+  depth: [3, stud]
+  height: [1, brick]
 
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: pattern_1D
+  pattern_1D_segsize: 6
 ---

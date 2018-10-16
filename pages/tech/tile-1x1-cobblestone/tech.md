@@ -5,7 +5,10 @@ date: 29-06-2016
 image: image.png
 cad: model.ldr
 
-source: http://www.1000steine.de/de/gemeinschaft/forum/?entry=1&id=340717#id340717
+source_url: "http://www.1000steine.de/de/gemeinschaft/forum/?entry=1&id=340717#id340717"
+source_title: "Bahnübergang"
+source_name: "MTM"
+source_date: 12-08-2015
 
 taxonomy:
   part: ["3794b", "3023", "30039", "3666", "30008", "30069", "85984"]

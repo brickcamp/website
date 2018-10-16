@@ -4,23 +4,20 @@ title: "Clip Wave Line"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/sheogorath/16285434127"
+source_title: "Clip Wave Technique"
+source_name: "Sheo"
 
 taxonomy:
-  flag: tech-stressing
+  part: ["15712", "60897", "99780", "3023", "4070", "2431"]
+  partcount: 13
 
-  part: ["3004"]
-  partcount: 240
+  width: [4, stud]
+  depth: [2, stud]
+  height: [8.5, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  function: pattern_1D
+  pattern_1D_segsize: 2
 
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  flag: link_404
 ---

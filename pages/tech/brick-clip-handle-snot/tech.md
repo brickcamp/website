@@ -4,23 +4,19 @@ title: "Clip Handle Flip"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/96739476@N04/14201282314"
+source_title: "180 Degree Reversal"
+source_name: "Joe Miller"
+source_date: 16-05-2014
 
 taxonomy:
-  flag: tech-stressing
+  part: ["60475b", "2921", "85861"]
+  partcount: 4
 
-  part: ["3004"]
-  partcount: 240
+  width: [3, stud]
+  depth: [1, stud]
+  height: [1, brick]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: 180
 ---
