@@ -1,5 +1,6 @@
 ---
 title: "Hinge Top Stripe with Cheese Slopes"
+date: 04-01-2016
 
 image: image.png
 cad: model.ldr

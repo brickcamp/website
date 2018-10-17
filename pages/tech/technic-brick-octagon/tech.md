@@ -1,5 +1,6 @@
 ---
 title: "Technic Brick Octagon"
+date: 01-01-2016
 
 image: image.png
 cad: model.ldr

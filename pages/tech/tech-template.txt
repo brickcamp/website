@@ -8,10 +8,16 @@ width: [4, stud]
 depth: [2, stud]
 height: [3, plate]
 
-source_url: "http://www.example.com/source/page.html"
+source_url: "https://www.example.com/source/page.html"
 source_title: "Title of the post or site"
 source_name: "Name of the author"
 source_date: 01-01-2000
+
+links:
+  - name: "Title 1"
+    url: "https://cool.info/example.html"
+  - name: "Further Reading here"
+    url: "https://exhaustive.material.com/readme.txt"
 
 taxonomy:
   part: ["3002"]
@@ -45,6 +51,11 @@ taxonomy:
   flag: ["loosely", "instable", "unseparatable"]
   flag: ["damaging", "stressing"]
   flag: ["incomplete", "incorrect"]
+  flag: ["link_404"]
+  flag: ["improvable"]
+
+flag_notes:
+  loosely: "Steine im oberen Teil sind nicht fest"
 
 calculate:
   volume: 4*stud*2*stud*3*plate

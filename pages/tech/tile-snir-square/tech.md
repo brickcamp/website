@@ -1,26 +1,24 @@
 ---
 title: "Tile SNIR Square"
+date: 06-12-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "http://www.brickshelf.com/gallery/JoTaALM/JOTAALM-II/jotaalm5.pdf"
+source_title: "A new and innovative SNOT approach for decorative applications. Mathematical calculation on 45° LEGO® parts geometr
+ies for further SNIR application."
+source_name: "Erik Amzallag & Didier Enjary"
+source_date: 02-09-2004
 
 taxonomy:
-  flag: tech-stressing
+  part: ["3005", "63324", "30039"]
+  partcount: 41
 
-  part: ["3004"]
-  partcount: 240
+  width: [9, stud]
+  depth: [9, stud]
+  height: [1, brick]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: pattern_2D
+  pattern_2D_segsize: 10
 ---

@@ -1,26 +1,22 @@
 ---
 title: "Nested Archs"
+date: 10-10-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/ltdemartinet/7085826707"
+source_title: "Why?"
+source_name: "Ryan Howerter"
+source_date: 16-04-2012
 
 taxonomy:
-  flag: tech-stressing
+  part: ["6091", "6005", "6060", "2339"]
+  partcount: 4
 
-  part: ["3004"]
-  partcount: 240
+  width: [7, stud]
+  depth: [1, stud]
+  height: [4, brick]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  flag: incomplete
 ---

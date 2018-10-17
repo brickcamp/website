@@ -1,26 +1,23 @@
 ---
 title: "SNOT Cube"
+date: 27-09-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/donsolo/3706017309"
+source_title: "more than one way to skin a cat"
+source_name: "Solo"
+source_date: 10-07-2009
 
 taxonomy:
-  flag: tech-stressing
+  part: ["4733", "3022"]
+  partcount: 10
 
-  part: ["3004"]
-  partcount: 240
+  width: [7, plate]
+  depth: [7, plate]
+  height: [7, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: [90, 180]
 ---

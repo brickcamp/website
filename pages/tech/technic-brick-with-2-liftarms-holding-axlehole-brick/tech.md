@@ -1,5 +1,6 @@
 ---
 title: "Technic Brick with 2 Liftarms"
+date: 16-01-2016
 
 image: image.png
 cad: model.ldr

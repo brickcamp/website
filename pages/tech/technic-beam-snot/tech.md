@@ -1,20 +1,18 @@
 ---
 title: "Technic Beam SNOT"
+date: 14-09-2015
 
 image: image.png
 cad: model.ldr
 
 taxonomy:
-  part: ["10288", "32062"]
-  partcount: 6
+  part: ["43857"]
+  partcount: 1
 
-  width: [10, stud]
-  depth: [10, stud]
+  width: [2, stud]
+  depth: [1, stud]
   height: [1, stud]
 
-  source: [none]
-
-  function: shape_2D
-  shape_2D_segments: 6
-  shape_2D_segsize: 1
+  function: [stud_tilt]
+  stud_tilt_angle: [180]
 ---

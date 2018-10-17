@@ -4,23 +4,18 @@ title: "LDU Offset Steps"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "http://swooshable.com/snot/pneumatic-t-with-plate-1x4-offset"
+source_title: "Pneumatic T with Plate 1x4 Offset"
+source_name: "Swooshable"
 
 taxonomy:
-  flag: tech-stressing
+  part: ["4697b", "4590", "4002"]
+  partcount: 5
 
-  part: ["3004"]
-  partcount: 240
+  width: [4, stud]
+  depth: [1.5, stud]
+  height: [5, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: 180
 ---

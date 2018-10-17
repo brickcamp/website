@@ -1,26 +1,25 @@
 ---
 title: "Pythagora's Twist"
+date: 06-12-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "http://www.eurobricks.com/forum/index.php?showtopic=21942"
+source_title: "Angled walls"
+source_name: "Teddy"
+source_date: 07-10-2008
 
 taxonomy:
-  flag: tech-stressing
+  part: ["30008", "3666"]
+  partcount: 3
 
-  part: ["3004"]
-  partcount: 240
+  width: [5, stud]
+  depth: [4, stud]
+  height: [2, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  function: stud_twist
+  stud_twist_angle: [8.8, 10.4, 11.4, 12.7, 14.3, 16.3, 18.9, 22.6, 25.1, 26.0, 28.1, 31.9, 33.4, 36.9, 41.1, 42.1, 43.6]
 
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  flag: [improvable]
 ---

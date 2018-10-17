@@ -1,20 +1,24 @@
 ---
 title: "Technic Beam Triangle"
+date: 08-11-2015
 
 image: image.png
 cad: model.ldr
 
+source_url: "http://www.technicbricks.com/2008/02/tbs-techtips-010-triangle-and-hexagon.html"
+source_title: "TBs TechTips 011 - Triangle and Hexagon TECHNIC structures"
+source_name: "Fernando Correia"
+source_date: 25-02-2008
+
 taxonomy:
-  part: ["10288", "32062"]
-  partcount: 6
+  part: ["32316", "41677", "6632", "32062"]
+  partcount: 27
 
-  width: [10, stud]
-  depth: [10, stud]
-  height: [1, stud]
-
-  source: [none]
+  width: [6, stud]
+  depth: [6, stud]
+  height: [2, stud]
 
   function: shape_2D
-  shape_2D_segments: 6
-  shape_2D_segsize: 1
+  shape_2D_segments: 3
+  shape_2D_segsize: 9
 ---

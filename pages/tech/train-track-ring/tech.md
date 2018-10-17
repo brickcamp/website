@@ -1,26 +1,24 @@
 ---
 title: "Train Track Ring"
+date: 10-10-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.youtube.com/watch?v=z8T2LR1GMOA"
+source_title: "IHS Gravtec Odyssey"
+source_name: "Robert Turner"
+source_date: 28-06-2015
 
 taxonomy:
-  flag: tech-stressing
+  part: ["2867"]
+  partcount: 16
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [88, stud]
+  depth: [88, stud]
+  height: [1, brick]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 16
+  shape_2D_segsize: 1
 ---

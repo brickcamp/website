@@ -1,5 +1,6 @@
 ---
 title: "Sidestud-Plate-Techbrick Offset"
+date: 16-01-2016
 
 image: image.png
 cad: model.ldr

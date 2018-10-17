@@ -1,26 +1,24 @@
 ---
 title: "Arch 1 x 3 x 2 Ring"
+date: 27-09-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/pepa_quin/5157991423"
+source_title: "Candy Swirl"
+source_name: "Matt De Lanoy"
+source_date: 08-11-2010
 
 taxonomy:
-  flag: tech-stressing
+  part: ["88292"]
+  partcount: 12
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [22, plate]
+  depth: [1, stud]
+  height: [22, plate]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 12
+  shape_2D_segsize: 1
 ---

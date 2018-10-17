@@ -1,26 +1,26 @@
 ---
 title: "Brick Octagonal Square"
+date: 08-11-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickshelf.com/cgi-bin/gallery.cgi?f=145764
+source_url: "http://uniquebriquetechniques.blogspot.de/2006/08/various-snot-techniques.html"
+source_title: "Various SNOT Techniques"
+source_name: "Unique Brique Techniques"
 
 taxonomy:
-  flag: tech-stressing
+  part: ["6042"]
+  partcount: 8
 
-  part: ["3004"]
-  partcount: 240
+  width: [8, stud]
+  depth: [8, stud]
+  height: [2, stud]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  function: [shape_2D, stud_tilt]
+  shape_2D_segments: 4
+  shape_2D_segsize: 2
+  stud_tilt_angle: [90, 180]
 
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  flag: [link_404]
 ---

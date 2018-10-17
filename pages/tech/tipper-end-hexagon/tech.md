@@ -1,26 +1,24 @@
 ---
 title: "Tipper End Hexagon"
+date: 09-10-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/moctagon/7392011202"
+source_title: "The Moctagon SNOT Connection"
+source_name: "Moctagon Jones"
+source_date: 18-06-2012
 
 taxonomy:
-  flag: tech-stressing
+  part: ["30022", "6061"]
+  partcount: 18
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [15.5, stud]
+  depth: [36.5, plate]
+  height: [2, stud]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 6
+  shape_2D_segsize: 3
 ---

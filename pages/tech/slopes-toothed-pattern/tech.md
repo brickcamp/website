@@ -1,5 +1,6 @@
 ---
 title: "Toothed Slopes"
+date: 03-01-2016
 
 image: image.png
 cad: model.ldr

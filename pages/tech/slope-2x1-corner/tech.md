@@ -1,5 +1,6 @@
 ---
 title: "Slope Corner"
+date: 04-01-2016
 
 image: image.png
 cad: model.ldr

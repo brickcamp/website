@@ -1,26 +1,23 @@
 ---
 title: "Panels in Plate Frame"
+date: 09-10-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/28192677@N06/4317222438/"
+source_title: "Behind the controls"
+source_name: "Larry Lars"
+source_date: 30-01-2010
 
 taxonomy:
-  flag: tech-stressing
+  part: ["2362b", "3710", "3005", "3023", "30070"]
+  partcount: 8
 
-  part: ["3004"]
-  partcount: 240
+  width: [4, stud]
+  depth: [2, stud]
+  height: [3, brick]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: [90, 180]
 ---

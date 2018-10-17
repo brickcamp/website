@@ -1,26 +1,24 @@
 ---
 title: "Mudguard Oval"
+date: 09-10-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickshelf.com/cgi-bin/gallery.cgi?f=145764
+source_url: "https://www.flickr.com/photos/gladius/1505160591"
+source_title: "Wheel-Hub SNOT Guide"
+source_name: "Lukas"
+source_date: 07-10-2007
 
 taxonomy:
-  flag: tech-stressing
+  part: ["50745", "3956", "3004", "3023", "3020"]
+  partcount: 7
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [5, stud]
+  depth: [4, stud]
+  height: [8, plate]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 2
+  shape_2D_segsize: 3
 ---

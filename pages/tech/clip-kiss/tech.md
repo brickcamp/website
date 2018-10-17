@@ -1,26 +1,23 @@
 ---
 title: "Kissing Clips"
+date: 10-10-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/proudlove/403603821"
+source_title: "IMG_1461"
+source_name: "Nathan Proudlove"
+source_date: 26-02-2007
 
 taxonomy:
-  flag: tech-stressing
+  part: ["2555"]
+  partcount: 2
 
-  part: ["3004"]
-  partcount: 240
+  width: [1, stud]
+  depth: [1, stud]
+  height: [3, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: 180
 ---
