@@ -1,26 +1,23 @@
 ---
 title: "Technic Brick with Halfpins"
+date: 22-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "http://www.brickshelf.com/gallery/KimT/Mixed/Instructions/advbuilding.pdf"
+source_title: "The Unofficial LEGO Advanced Building Techniques Guide"
+source_name: "Didier Enjary"
+source_date: 11-02-2007
 
 taxonomy:
-  flag: tech-stressing
+  part: ["4274", "6541", "32000", "3701"]
+  partcount: 2
 
-  part: ["3004"]
-  partcount: 240
+  width: [1, stud]
+  depth: [1, stud]
+  height: [1, brick]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: 90
 ---

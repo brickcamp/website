@@ -1,26 +1,24 @@
 ---
 title: "Steering Arms Pentagon"
+date: 29-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/proudlove/7974975607"
+source_title: "5-way-symmetry"
+source_name: "Nathan Proudlove"
+source_date: 11-09-2012
 
 taxonomy:
-  flag: tech-stressing
+  part: ["32068", "32069"]
+  partcount: 10
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [8, stud]
+  depth: [2, stud]
+  height: [8, stud]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 5
+  shape_2D_segsize: 2
 ---

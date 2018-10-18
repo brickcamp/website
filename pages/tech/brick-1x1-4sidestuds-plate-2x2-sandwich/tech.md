@@ -1,26 +1,23 @@
 ---
 title: "2 x 2 Studs Sandwich"
+date: 30-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/legocy/18383654893/"
+source_title: "Techniques: #2 Studs to Studs"
+source_name: "Sean & Steph Mayo"
+source_date: 21-06-2015
 
 taxonomy:
-  flag: tech-stressing
+  part: ["4733", "3022"]
+  partcount: 6
 
-  part: ["3004"]
-  partcount: 240
+  width: [3, stud]
+  depth: [3, stud]
+  height: [5.75, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: [stud_tilt]
+  stud_tilt_angle: 180
 ---

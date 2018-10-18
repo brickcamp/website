@@ -1,26 +1,21 @@
 ---
 title: "Plate Cylinder (Dodecagon)"
+date: 29-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
-
 taxonomy:
-  flag: tech-stressing
+  part: ["4733", "3024", "3023", "3460"]
+  partcount: 76
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  width: [5.5, stud]
+  depth: [5.5, stud]
+  height: [8, stud]
 
   source: [brickbending.com]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 16
+  shape_2D_segsize: 6
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Hinges as Jumper"
-date: 26-08-2015
+title: "Double Bracket"
+date: 23-08-2015
 
 image: image.png
 cad: model.ldr
@@ -11,13 +11,14 @@ source_name: "Didier Enjary"
 source_date: 11-02-2007
 
 taxonomy:
-  part: ["30389b", "40902", "30364", "30365", "2452", "4276b", "60471", "44567", "44301", "44302"]
-  partcount: 2
+  part: ["2436a", "3023", "3710"]
+  partcount: 5
+  uses-tech: bracket
 
   width: [4, stud]
   depth: [2, stud]
-  height: [1, plate]
+  height: [1, brick]
 
-  function: stud_shift
-  stud_shift_length: 10
+  function: stud_tilt
+  stud_tilt_angle: [90, 180]
 ---

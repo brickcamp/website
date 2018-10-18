@@ -1,26 +1,24 @@
 ---
 title: "Flower in Technic Brick Hole"
+date: 14-09-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/thomas_reincke/14356864278/"
+source_title: "Snotblumen"
+source_name: "Thomas Reincke"
+source_date: 29-06-2014
 
 taxonomy:
-  flag: tech-stressing
+  part: ["33291", "3709b"]
+  partcount: 3
 
-  part: ["3004"]
-  partcount: 240
+  width: [2, stud]
+  depth: [4, stud]
+  height: [2, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: [stud_tilt, stud_shift]
+  stud_tilt_angle: 180
+  stud_shift_length: 10
 ---

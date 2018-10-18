@@ -1,20 +1,18 @@
 ---
 title: "Sliding Technic Brick on Axle"
+date: 26-08-2015
 
 image: image.png
 cad: model.ldr
 
 taxonomy:
-  part: ["10288", "32062"]
-  partcount: 6
+  part: ["6541", "3706", "32064a"]
+  partcount: 4
 
-  width: [10, stud]
-  depth: [10, stud]
-  height: [1, stud]
+  width: [4, stud]
+  depth: [2, stud]
+  height: [1, brick]
 
-  source: [none]
-
-  function: shape_2D
-  shape_2D_segments: 6
-  shape_2D_segsize: 1
+  function: stud_shift
+  stud_shift_length: flex
 ---

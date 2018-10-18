@@ -1,26 +1,23 @@
 ---
 title: "Wrench Clipped Offset"
+date: 26-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/davidhensley/8448388481"
+source_title: "Slim ¼ plate offset"
+source_name: "David Hensley"
+source_date: 05-02-2013
 
 taxonomy:
-  flag: tech-stressing
+  part: ["55300", "2555", "3024"]
+  partcount: 3
 
-  part: ["3004"]
-  partcount: 240
+  width: [3, stud]
+  depth: [1, stud]
+  height: [2, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_lift
+  stud_lift_length: 2
 ---

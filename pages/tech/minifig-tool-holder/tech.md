@@ -10,7 +10,7 @@ source_title: "Chainsaw Body"
 source_name: "Swooshable"
 
 taxonomy:
-  part: ["2516, 3062b"]
+  part: ["2516", "3062b"]
   partcount: 3
 
   width: [2, stud]

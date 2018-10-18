@@ -1,26 +1,26 @@
 ---
 title: "Grilled Levers"
+date: 14-09-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "http://swooshable.com/snot/grill-tiles-and-levers"
+source_title: "Grill Tiles and Levers"
+source_name: "Swooshable"
 
 taxonomy:
-  flag: tech-stressing
+  part: ["2412b", "4593"]
+  partcount: 4
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
+  width: [3, stud]
+  depth: [1, stud]
+  height: [2, plate]
 
   source: [brickbending.com]
 
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: 180
+
+  flag: instable
 ---

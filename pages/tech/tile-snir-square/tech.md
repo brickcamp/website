@@ -6,8 +6,7 @@ image: image.png
 cad: model.ldr
 
 source_url: "http://www.brickshelf.com/gallery/JoTaALM/JOTAALM-II/jotaalm5.pdf"
-source_title: "A new and innovative SNOT approach for decorative applications. Mathematical calculation on 45° LEGO® parts geometr
-ies for further SNIR application."
+source_title: "A new and innovative SNOT approach for decorative applications. Mathematical calculation on 45° LEGO® parts geometries for further SNIR application."
 source_name: "Erik Amzallag & Didier Enjary"
 source_date: 02-09-2004
 

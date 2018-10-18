@@ -1,26 +1,24 @@
 ---
 title: "Blaster Ring"
+date: 29-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/biplex/13779694214"
+source_title: "Ode to the element - part 1"
+source_name: "the_jetboy"
+source_date: 11-04-2014
 
 taxonomy:
-  flag: tech-stressing
+  part: ["15071"]
+  partcount: 16
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [11.5, stud]
+  depth: [1, stud]
+  height: [11.5, stud]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 16
+  shape_2D_segsize: 1
 ---

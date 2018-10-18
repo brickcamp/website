@@ -1,26 +1,19 @@
 ---
 title: "Thread Ring Inverted"
+date: 29-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
-
 taxonomy:
-  flag: tech-stressing
+  part: ["57518"]
+  partcount: 45
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [22, stud]
+  depth: [5, stud]
+  height: [22, stud]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 45
+  shape_2D_segsize: 1
 ---

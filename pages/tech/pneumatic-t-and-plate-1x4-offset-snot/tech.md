@@ -9,7 +9,7 @@ source_title: "Pneumatic T with Plate 1x4 Offset"
 source_name: "Swooshable"
 
 taxonomy:
-  part: ["4697b", "4590", "4002"]
+  part: ["4697b", "4590", "3004"]
   partcount: 5
 
   width: [4, stud]

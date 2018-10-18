@@ -4,23 +4,18 @@ title: "Jumper in Donut"
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "http://swooshable.com/snot/donut-and-jumper"
+source_title: "Donut and Jumper"
+source_name: "Swooshable"
 
 taxonomy:
-  flag: tech-stressing
+  part: ["15535", "87580"]
+  partcount: 2
 
-  part: ["3004"]
-  partcount: 240
+  width: [2, stud]
+  depth: [2, stud]
+  height: [2, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: 180
 ---

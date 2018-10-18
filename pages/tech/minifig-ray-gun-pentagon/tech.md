@@ -1,26 +1,24 @@
 ---
 title: "Minifig Ray Gun Pentagon"
+date: 29-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/66864568@N00/5507975002"
+source_title: "Thought you might like to know"
+source_name: "whateverly"
+source_date: 07-03-2011
 
 taxonomy:
-  flag: tech-stressing
+  part: ["87993"]
+  partcount: 5
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [5.5, stud]
+  depth: [5.5, stud]
+  height: [1, stud]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 5
+  shape_2D_segsize: 1
 ---

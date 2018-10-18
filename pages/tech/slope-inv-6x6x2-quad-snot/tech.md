@@ -1,26 +1,24 @@
 ---
 title: "Quad Slope SNOT"
+date: 23-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/51476462@N03/5205076235"
+source_title: "Odd connection"
+source_name: "Andrew Somers"
+source_date: 24-11-2010
 
 taxonomy:
-  flag: tech-stressing
+  part: ["30373"]
+  partcount: 2
 
-  part: ["3004"]
-  partcount: 240
+  width: [8.5, stud]
+  depth: [8.5, stud]
+  height: [4, brick]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: [stud_tilt, stud_twist]
+  stud_tilt_angle: 180
+  stud_twist_angle: 45
 ---

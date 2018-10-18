@@ -1,26 +1,24 @@
 ---
 title: "Slope Curved 4 x 2 Ring"
+date: 26-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/96739476@N04/17047137816"
+source_title: "Circle Technique"
+source_name: "Joe Miller"
+source_date: 07-04-2015
 
 taxonomy:
-  flag: tech-stressing
+  part: ["93606", "3794b", "3023", "3023", "48336", "60470"]
+  partcount: 50
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [15, stud]
+  depth: [15, stud]
+  height: [2, stud]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 10
+  shape_2D_segsize: 5
 ---

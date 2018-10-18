@@ -1,26 +1,25 @@
 ---
 title: "Liftarms and Bars"
+date: 29-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/buildingsblockd/3938272712"
+source_title: "Rounds and Curves"
+source_name: "Deborah Higdon"
+source_date: 20-09-2009
 
 taxonomy:
-  flag: tech-stressing
+  part: ["41677", "30374"]
+  partcount: 12
 
-  part: ["3004"]
-  partcount: 240
+  width: [5, stud]
+  depth: [1, stud]
+  height: [4, stud]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: [shape_2D, pattern_1D]
+  shape_2D_segments: 6
+  shape_2D_segsize: 6
+  pattern_1D_segsize: 6
 ---

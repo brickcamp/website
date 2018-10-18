@@ -1,26 +1,23 @@
 ---
 title: "Bracket Inline SNOT"
+date: 23-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/biplex/9662786582"
+source_title: "howitsdone"
+source_name: "the_jetboy"
+source_date: 03-09-2013
 
 taxonomy:
-  flag: tech-stressing
+  part: ["99781", "99780", "44728", "99207", "3710", "3020"]
+  partcount: 3
 
-  part: ["3004"]
-  partcount: 240
+  width: [4, stud]
+  depth: [1.5, stud]
+  height: [1, stud]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: [90, 180]
 ---

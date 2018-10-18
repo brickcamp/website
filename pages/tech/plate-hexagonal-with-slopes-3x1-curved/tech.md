@@ -1,26 +1,24 @@
 ---
 title: "Hexagonal Plate with Curved Slopes"
+date: 29-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/crazy_texan/16375956292"
+source_title: "Ring"
+source_name: "John Moffatt"
+source_date: 27-01-2015
 
 taxonomy:
-  flag: tech-stressing
+  part: ["64566", "50950", "4070", "6541"]
+  partcount: 13
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [6, stud]
+  depth: [6, stud]
+  height: [3.5, plate]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 6
+  shape_2D_segsize: 2
 ---

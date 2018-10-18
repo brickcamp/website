@@ -1,26 +1,24 @@
 ---
 title: "Dish 8 x 8 Hinged Ring"
+date: 30-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/bobdequatre/19890912805/"
+source_title: "8x8 dishes trick"
+source_name: "BobDeQuatre"
+source_date: 20-06-2015 
 
 taxonomy:
-  flag: tech-stressing
+  part: ["3961", "44301", "44302"]
+  partcount: 90
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [54, plate]
+  depth: [8, stud]
+  height: [54, plate]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 18
+  shape_2D_segsize: 5
 ---

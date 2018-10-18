@@ -1,26 +1,24 @@
 ---
 title: "Hinged 32 x 28 Hexagon"
+date: 27-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/gambort/11072499513/"
+source_title: "Because MATHS"
+source_name: "Tim Gould"
+source_date: 27-11-2013
 
 taxonomy:
-  flag: tech-stressing
+  part: ["3830", "3831", "3623", "3666", "4282", "3005", "3010", "3009"]
+  partcount: 64
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [32, stud]
+  depth: [28, stud]
+  height: [5, plate]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 6
+  shape_2D_segsize: 10
 ---

@@ -1,26 +1,23 @@
 ---
 title: "Oppose-Pinned Technic Bricks"
+date: 23-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "http://www.brickshelf.com/gallery/KimT/Mixed/Instructions/advbuilding.pdf"
+source_title: "The Unofficial LEGO Advanced Building Techniques Guide"
+source_name: "Didier Enjary"
+source_date: 11-02-2007
 
 taxonomy:
-  flag: tech-stressing
+  part: ["3701", "2780"]
+  partcount: 4
 
-  part: ["3004"]
-  partcount: 240
+  width: [4, stud]
+  depth: [2, stud]
+  height: [3.5, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: 180
 ---

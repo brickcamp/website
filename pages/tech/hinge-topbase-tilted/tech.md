@@ -1,26 +1,18 @@
 ---
 title: "Hinge Top on Base (Tilted)"
+date: 14-09-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
-
 taxonomy:
-  flag: tech-stressing
+  part: ["3937", "3938"]
+  partcount: 2
 
-  part: ["3004"]
-  partcount: 240
+  width: [2, stud]
+  depth: [1.5, stud]
+  height: [1, brick]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_tilt
+  stud_tilt_angle: [90, 0to90]
 ---

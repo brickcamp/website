@@ -1,26 +1,18 @@
 ---
 title: "Clip slides on Handle"
+date: 26-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
-
 taxonomy:
-  flag: tech-stressing
+  part: ["48336", "6019", "4081b", "30374"]
+  partcount: 2
 
-  part: ["3004"]
-  partcount: 240
+  width: [3, stud]
+  depth: [2, stud]
+  height: [1, plate]
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
-
-  function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  function: stud_shift
+  stud_shift_length: 0to10
 ---

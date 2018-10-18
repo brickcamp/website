@@ -1,26 +1,24 @@
 ---
 title: "Control Panel Ring"
+date: 29-08-2018
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/bikicsmilan/6694991405"
+source_title: "Olympics"
+source_name: "Milán Bikics"
+source_date: 14-09-2011
 
 taxonomy:
-  flag: tech-stressing
+  part: ["2342"]
+  partcount: 18
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [13.5, stud]
+  depth: [2, stud]
+  height: [13.5, stud]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 18
+  shape_2D_segsize: 1
 ---

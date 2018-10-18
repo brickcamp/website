@@ -1,26 +1,19 @@
 ---
 title: "Brick Log Pentagon"
+date: 27-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
-
 taxonomy:
-  flag: tech-stressing
+  part: ["30137"]
+  partcount: 15
 
-  part: ["3004"]
-  partcount: 240
-
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [8, stud]
+  depth: [8, stud]
+  height: [3, brick]
 
   function: shape_2D
-  shape_2D_segments: 60
-  shape_2D_segsize: 4
+  shape_2D_segments: 5
+  shape_2D_segsize: 3
 ---
