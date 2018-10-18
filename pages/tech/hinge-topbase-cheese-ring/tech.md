@@ -1,24 +1,22 @@
 ---
 title: "Hinge Cheese Ring"
+date: 30-08-2015
 
 image: image.png
 cad: model.ldr
 
-# TODO
-
-source: http://www.brickbending.com/
+source_url: "https://www.flickr.com/photos/bohman/19938491366/"
+source_title: "roughly 60 degree slope technique"
+source_name: "Linus Bohman"
+source_date: 24-07-2015
 
 taxonomy:
-  flag: tech-stressing
-
-  part: ["3004"]
+  part: ["3021", "3022", "3937", "6134", "85984"]
   partcount: 240
 
-  width: [40.5, stud]
-  depth: [40.5, stud]
-  height: [12, plate]
-
-  source: [brickbending.com]
+  width: [6, stud]
+  depth: [6, stud]
+  height: [2, stud]
 
   function: shape_2D
   shape_2D_segments: 60
