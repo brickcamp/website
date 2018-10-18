@@ -30,7 +30,7 @@ taxonomy:
   axle_tilt_angle: 45
 
   function: ["stud_shift", "stud_lift", "axle_shift"]
-  stud_shift_lenght: 10
+  stud_shift_lenght: flex
   stud_lift_length: 2
   axle_shift_length: 10
 
