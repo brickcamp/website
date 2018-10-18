@@ -1,6 +1,6 @@
 ---
 title: "Gear between Plates"
-date: 23-08-2018
+date: 23-08-2015
 
 image: image.png
 cad: model.ldr

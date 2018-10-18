@@ -1,5 +1,6 @@
 ---
-title: "LDU Offset Steps"
+title: "Pneumatic T with Plate 1x4 Offset"
+date: 14-09-2015
 
 image: image.png
 cad: model.ldr
