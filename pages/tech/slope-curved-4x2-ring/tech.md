@@ -11,7 +11,7 @@ source_name: "Joe Miller"
 source_date: 07-04-2015
 
 taxonomy:
-  part: ["93606", "3794b", "3023", "3023", "48336", "60470"]
+  part: ["93606", "3794b", "3023", "3023", "48336", "60470b"]
   partcount: 50
 
   width: [15, stud]

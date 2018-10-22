@@ -11,7 +11,7 @@ source_name: "Arran Hearn"
 source_date: 19-02-2008
 
 taxonomy:
-  part: ["60470", "48336"]
+  part: ["60470b", "48336"]
   partcount: 6
 
   width: [3, stud]

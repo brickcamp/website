@@ -11,7 +11,7 @@ source_name: "Paramat"
 source_date: 15-10-2007
 
 taxonomy:
-  part: ["48336", "60470", "3022"]
+  part: ["48336", "60470b", "3022"]
   partcount: 30
 
   width: [7, stud]
