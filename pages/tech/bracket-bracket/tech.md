@@ -11,7 +11,7 @@ source_name: "Didier Enjary"
 source_date: 11-02-2007
 
 taxonomy:
-  part: ["2436a", "3023", "3710"]
+  part: ["2436", "3023", "3710"]
   partcount: 5
   uses-tech: bracket
 

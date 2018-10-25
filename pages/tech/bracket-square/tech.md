@@ -6,7 +6,7 @@ image: image.png
 cad: model.ldr
 
 taxonomy:
-  part: ["2436a", "3020"]
+  part: ["2436", "3020"]
   partcount: 8
 
   width: [2, stud]
