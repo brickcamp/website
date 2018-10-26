@@ -7,7 +7,7 @@ cad: model.ldr
 
 taxonomy:
   part: ["32014", "32062"]
-  partcount: 4
+  partcount: 8
 
   width: [4, stud]
   depth: [4, stud]
@@ -15,5 +15,5 @@ taxonomy:
 
   function: shape_2D
   shape_2D_segments: 4
-  shape_2D_segsize: 1
+  shape_2D_segsize: 2
 ---

@@ -7,7 +7,7 @@ cad: model.ldr
 
 taxonomy:
   part: ["32016", "32062"]
-  partcount: 16
+  partcount: 32
 
   width: [17, stud]
   depth: [17, stud]
