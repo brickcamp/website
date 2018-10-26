@@ -35,9 +35,11 @@ taxonomies:
   - stud_twist_angle
   - axle_tilt_angle
 
+  - shape_segments
   - shape_2D_segments
-  - shape_2D_segsize
   - shape_3D_segments
+  - shape_segsize
+  - shape_2D_segsize
   - shape_3D_segsize
 
 metadata:
