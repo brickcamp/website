@@ -27,6 +27,6 @@ taxonomy:
   height: [16, plate]
 
   function: shape_3D
-  shape_2D_segments: 6
-  shape_2D_segsize: 11
+  shape_3D_segments: 6
+  shape_3D_segsize: 11
 ---
