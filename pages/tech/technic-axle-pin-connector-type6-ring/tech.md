@@ -15,5 +15,5 @@ taxonomy:
 
   function: shape_2D
   shape_2D_segments: 4
-  shape_2D_segsize: 2
+  shape_2D_segsize: 1
 ---
