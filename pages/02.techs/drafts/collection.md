@@ -5,7 +5,7 @@ metadata:
   description: Shows all sumbitted techs for review
 
 content:
-    items: @self.children
+    items: '@self.children'
     order:
         by: date
         dir: desc
@@ -16,5 +16,5 @@ content:
 #     description: Sample Blog Description
 #     limit: 10
 
-# pagination: true
+pagination: true
 ---
