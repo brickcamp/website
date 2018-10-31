@@ -1,21 +1,23 @@
 ---
 title: Part
 image: image.png
+filter: filter-parts
 
-content:
-    items: 
-        - '@terms': part
-    order:
-        by: date
-        dir: desc
-    limit: 12
-    pagination: true
+terms:
+    taxonomy: part
+    pool: 'tech'
 
-term:
-    title: ['any_function_accepting_term_input']
-    links: 
+form:
+    name: filter-parts
+    id: items-filter
+    fields:
+        -
+            name: part_search
+            label: Search
+            type: text
+            id: part_search
 
-# Oder ein Plugin, dass automatisch zu Taxonomien Seiten anlegt
-# - Pfad zum Taxonomy-Ordner
-# - Blueprint für eine Term-Seite
+    buttons:
+        submit:
+            value: Filter
 ---
