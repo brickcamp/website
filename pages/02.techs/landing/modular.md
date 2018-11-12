@@ -9,8 +9,8 @@ content:
         by: default
         custom:
             - _newest
-            - _shapes
             - _rotations
             - _offsets
+            - _shapes
     limit: 4
 ---
