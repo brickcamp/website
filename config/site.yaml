@@ -21,6 +21,7 @@ taxonomies:
   - function
   - object
 
+  - pattern_segsize
   - pattern_1D_segsize
   - pattern_2D_segsize
   - pattern_3D_segsize
