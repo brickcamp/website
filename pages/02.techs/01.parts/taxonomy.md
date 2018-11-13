@@ -5,7 +5,7 @@ filter: filter-parts
 
 terms:
     taxonomy: part
-    pool: 'tech'
+    pool: 'techs/using'
 
 form:
     name: filter-parts
