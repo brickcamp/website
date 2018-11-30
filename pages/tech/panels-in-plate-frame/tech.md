@@ -11,7 +11,7 @@ source_name: "Larry Lars"
 source_date: 30-01-2010
 
 taxonomy:
-  part: ["2362b", "3710", "3005", "3023", "30070"]
+  part: ["2362b", "3710", "3005", "3023", "3069b"]
   partcount: 8
 
   width: [4, stud]

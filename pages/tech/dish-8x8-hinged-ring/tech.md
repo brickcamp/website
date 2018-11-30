@@ -11,7 +11,7 @@ source_name: "BobDeQuatre"
 source_date: 20-06-2015 
 
 taxonomy:
-  part: ["3961", "44301", "44302"]
+  part: ["3961", "44301a", "44302a"]
   partcount: 90
 
   width: [54, plate]

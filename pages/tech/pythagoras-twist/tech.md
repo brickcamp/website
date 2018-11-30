@@ -11,7 +11,7 @@ source_name: "Teddy"
 source_date: 07-10-2008
 
 taxonomy:
-  part: ["30008", "3666"]
+  part: ["3024", "3666"]
   partcount: 3
 
   width: [5, stud]

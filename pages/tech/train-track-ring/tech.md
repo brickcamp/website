@@ -11,7 +11,7 @@ source_name: "Robert Turner"
 source_date: 28-06-2015
 
 taxonomy:
-  part: ["2867"]
+  part: ["53400"]
   partcount: 16
 
   width: [88, stud]

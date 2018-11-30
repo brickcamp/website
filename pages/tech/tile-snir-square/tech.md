@@ -11,7 +11,7 @@ source_name: "Erik Amzallag & Didier Enjary"
 source_date: 02-09-2004
 
 taxonomy:
-  part: ["3005", "63324", "3070"]
+  part: ["3005", "6636", "3070b"]
   partcount: 41
 
   width: [9, stud]

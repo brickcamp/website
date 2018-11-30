@@ -11,7 +11,7 @@ source_name: "Bram"
 source_date: 07-04-2007
 
 taxonomy:
-  part: ["44728", "4085a", "2921", "3024", "3023"]
+  part: ["44728", "4085c", "2921", "3024", "3023"]
   partcount: 10
   uses_tech: clip_handle_snot_cube
 

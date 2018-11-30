@@ -11,7 +11,7 @@ source_name: "Didier Enjary"
 source_date: 11-02-2007
 
 taxonomy:
-  part: ["4085a", "2921", "3024", "3023"]
+  part: ["4085c", "2921", "3024", "3023"]
   partcount: 6
 
   width: [2, stud]

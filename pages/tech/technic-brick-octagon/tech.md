@@ -11,7 +11,7 @@ source_name: "Kaille400"
 source_date: 17-03-2011
 
 taxonomy:
-  part: ["3896", "32000", "2780"]
+  part: ["3894", "32000", "2780"]
   partcount: 80
 
   width: [14, stud]

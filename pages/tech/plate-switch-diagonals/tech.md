@@ -11,7 +11,7 @@ source_name: "stuifzand"
 source_date: 30-03-2014
 
 taxonomy:
-  part: ["30057", "3021", "3865"]
+  part: ["6141", "3021", "3865"]
   partcount: 4
 
   width: [3, stud]

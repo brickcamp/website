@@ -11,7 +11,7 @@ source_name: "Thomas Reincke"
 source_date: 29-06-2014
 
 taxonomy:
-  part: ["33291", "3709b"]
+  part: ["33291", "3709"]
   partcount: 3
 
   width: [2, stud]

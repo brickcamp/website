@@ -10,7 +10,7 @@ source_title: "Clip Wave Technique"
 source_name: "Sheo"
 
 taxonomy:
-  part: ["15712", "60897", "99780", "3023", "4070", "2431"]
+  part: ["15712", "4085c", "99780", "3023", "4070", "2431"]
   partcount: 13
 
   width: [4, stud]

@@ -11,7 +11,7 @@ source_name: "Li Li"
 source_date: 30-10-2015
 
 taxonomy:
-  part: ["30386", "4032", "3941", "32073", "6222"]
+  part: ["30386", "4032a", "3941", "32073", "6222"]
   partcount: 61
 
   width: [17, stud]

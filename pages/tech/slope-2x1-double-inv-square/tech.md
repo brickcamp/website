@@ -11,7 +11,7 @@ source_name: "David"
 source_date: 24-01-2015
 
 taxonomy:
-  part: ["3049b"]
+  part: ["3049d"]
   partcount: 4
 
   width: [3, stud]

@@ -11,7 +11,7 @@ source_name: "Mainman"
 source_date: 27-04-2010
 
 taxonomy:
-  part: ["44302"]
+  part: ["44302a"]
   partcount: 72
 
   width: [15, stud]
