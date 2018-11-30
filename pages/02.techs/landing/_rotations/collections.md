@@ -1,6 +1,7 @@
 ---
 title: 'Rotations'
 description: 'Studs Not On Top (SNOT) and more ...'
+module_link: '/techs/rotation'
 module_size: small
 
 collections:

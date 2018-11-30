@@ -1,6 +1,7 @@
 ---
 title: 'Shapes'
 description: 'Diving right into Geometry ...'
+module_link: '/techs/shape'
 module_size: small
 
 collections:

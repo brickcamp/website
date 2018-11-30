@@ -1,6 +1,7 @@
 ---
 title: 'Offsets'
 description: 'Breaking out of the LEGO grid ...'
+module_link: '/techs/offset'
 module_size: small
 
 collections:
