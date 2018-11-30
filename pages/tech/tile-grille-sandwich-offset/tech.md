@@ -20,7 +20,7 @@ taxonomy:
 
   function: [stud_tilt, stud_shift]
   stud_tilt_angle: 180
-  stud_shift_lenght: 4
+  stud_shift_length: 4
 
   flag: loosely
 ---
