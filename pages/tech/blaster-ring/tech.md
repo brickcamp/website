@@ -5,10 +5,11 @@ date: 29-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/biplex/13779694214"
-source_title: "Ode to the element - part 1"
-source_name: "the_jetboy"
-source_date: 11-04-2014
+source:
+  - url: "https://www.flickr.com/photos/biplex/13779694214"
+    title: "Ode to the element - part 1"
+    name: "the_jetboy"
+    date: 11-04-2014
 
 taxonomy:
   part: ["15071"]

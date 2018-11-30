@@ -44,7 +44,7 @@ form:
                 '6':   '6 per segment'
                 '7':   '7 per segment'
                 '8':   '8 per segment'
-                '9up': 'more parts'
+                '_9up': 'more parts'
 
     buttons:
         submit:

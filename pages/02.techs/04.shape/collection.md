@@ -32,7 +32,7 @@ form:
                 '2D:6':   '2D.6 | Hexagon'
                 '2D:7':   '2D.7 | Heptagon'
                 '2D:8':   '2D.6 | Octagon'
-                '2D:9up': '2D.+ | Circle'
+                '2D:_9up': '2D.+ | Circle'
                 'all-2':  '-----------------'
                 '3D':     '3D   | All Bodies'
 
@@ -51,7 +51,7 @@ form:
                 '6':   '6 per segment'
                 '7':   '7 per segment'
                 '8':   '8 per segment'
-                '9up': 'more parts'
+                '_9up': 'more parts'
 
     buttons:
         submit:

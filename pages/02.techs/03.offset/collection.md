@@ -38,8 +38,8 @@ form:
                 'all': '- All -'
                 '1'  : '01 LDU'
                 '2'  : '02 LDU'
-                '5'  : '05 LDU (quarter stud)'
-                '10' : '10 LDU (half stud)'
+                '5'  : '05 LDU | 1/4 Stud'
+                '10' : '10 LDU | 1/2 Stud'
 
     buttons:
         submit:
