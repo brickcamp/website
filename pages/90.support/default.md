@@ -1,5 +1,7 @@
 ---
-title: Add Tech
+title: Support Us
+published: false
+menu: '+'
 image: image.png
 
 pageconfig:

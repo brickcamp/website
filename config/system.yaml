@@ -19,7 +19,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /techs
+  alias: /explore
   hide_in_urls: false
 pages:
   theme: brick-view
