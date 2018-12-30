@@ -1,0 +1,36 @@
+git:
+    add-page-by-form:
+        url: https://github.com/bleutzinn/grav-plugin-add-page-by-form
+        path: user/plugins/add-page-by-form
+        branch: master
+    form:
+        url: https://github.com/getgrav/grav-plugin-form
+        path: user/plugins/form
+        branch: master
+    pagination:
+        url: https://github.com/getgrav/grav-plugin-pagination
+        path: user/plugins/pagination
+        branch: master
+    sitemap:
+        url: https://github.com/getgrav/grav-plugin-sitemap
+        path: user/plugins/sitemap
+        branch: master
+    
+
+links:
+    add-page-by-form:
+        src: grav-plugin-add-page-by-form
+        path: user/plugins/add-page-by-form
+        scm: github
+    form:
+        src: grav-plugin-form
+        path: user/plugins/form
+        scm: github
+    pagination:
+        src: grav-plugin-pagination
+        path: user/plugins/pagination
+        scm: github
+    sitemap:
+        src: grav-plugin-sitemap
+        path: user/plugins/sitemap
+        scm: github
