@@ -3,10 +3,11 @@ title: Collections
 
 content:
     items: 
-        - '@self.descendants'
+        - '@page.descendants': '/techs/collections/function'
+        - '@page.descendants': '/techs/collections/parts'
+        - '@page.descendants': '/techs/collections/size'
+        - '@page.descendants': '/techs/collections/time'
     filter:
         published: true
-        type: 'collection'    
-    # limit: 12
-    # pagination: true
+        type: 'collection'
 ---
