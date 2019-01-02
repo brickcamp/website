@@ -3,3 +3,5 @@
 !.gitignore
 !brick**/
 !brick**/**
+!taxo-meta/
+!taxo-meta/**
