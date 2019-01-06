@@ -12,4 +12,5 @@ content:
         published: true
         type: 'tech'
     limit: 12
+    pagination: false
 ---
