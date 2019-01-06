@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "Brick.Camp",
+			"path": "."
+		},
+		{
+			"name": "Brick.Work",
+			"path": "plugins/brick-work"
+		},
+		{
+			"name": "Brick.View",
+			"path": "themes/brick-view"
+		},
+		{
+			"name": "Taxo.Meta",
+			"path": "plugins/taxo-meta"
+		},
+		{
+			"path": "../system/src/Grav"
+		}
+	],
+	"settings": {
+		"phpcs.errorSeverity": 6
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/plugins/**/**": true,
+        "**/themes/**/**": true
+    }
+}

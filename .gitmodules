@@ -4,3 +4,6 @@
 [submodule "themes/brick-view"]
 	path = themes/brick-view
 	url = git@gitlab.com:brick.camp/brick.view.git
+[submodule "plugins/taxo-meta"]
+	path = plugins/taxo-meta
+	url = git@gitlab.com:brick.grav/taxo.meta.git
