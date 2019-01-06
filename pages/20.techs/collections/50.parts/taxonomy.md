@@ -1,5 +1,5 @@
 ---
-title: Part
+title: Parts
 image: image.png
 filter: filter-parts
 
