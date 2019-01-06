@@ -1,5 +1,5 @@
 ---
-title: All Techs
+title: Techs
 
 routes:
     aliases:
