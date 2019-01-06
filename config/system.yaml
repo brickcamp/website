@@ -19,8 +19,8 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /explore
-  hide_in_urls: false
+  alias: '/home'
+  hide_in_urls: true
 pages:
   theme: brick-view
   order:
@@ -148,3 +148,5 @@ gpm:
   method: auto
   verify_peer: true
   official_gpm_only: true
+strict_mode:
+  twig_compat: false
