@@ -94,7 +94,7 @@ cache:
 twig:
   cache: true
   debug: true
-  auto_reload: true
+  auto_reload: false
   autoescape: false
   undefined_functions: true
   undefined_filters: true
