@@ -1,7 +1,7 @@
 git:
-    add-page-by-form:
-        url: https://github.com/bleutzinn/grav-plugin-add-page-by-form
-        path: user/plugins/add-page-by-form
+    related-pages:
+        url: https://github.com/getgrav/grav-plugin-relatedpages
+        path: user/plugins/form
         branch: master
     form:
         url: https://github.com/getgrav/grav-plugin-form
@@ -18,9 +18,9 @@ git:
     
 
 links:
-    add-page-by-form:
-        src: grav-plugin-add-page-by-form
-        path: user/plugins/add-page-by-form
+    related-pages:
+        src: grav-plugin-relatedpages
+        path: user/plugins/form
         scm: github
     form:
         src: grav-plugin-form
