@@ -1,4 +1,6 @@
 title: Brick.Camp
+metadata:
+  description: 'The place to brick!'
 
 author:
   name: Brick.Camp
@@ -42,12 +44,3 @@ taxonomies:
   - shape_segsize
   - shape_2D_segsize
   - shape_3D_segsize
-
-metadata:
-  description: 'The place to brick!'
-
-redirects:
-  '/redirect-test': '/'
-
-#routes:
-#  '/cool-name': '/blog/sample-3'
