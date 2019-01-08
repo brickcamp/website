@@ -5,7 +5,7 @@ date: 16-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.example.com/source/page.html"
+source_url: "https://www.flickr.com/photos/catsy/3989317916"
 source_title: "Why I really wanted piece #85943"
 source_name: "Catsy"
 source_date: 06-10-2009
