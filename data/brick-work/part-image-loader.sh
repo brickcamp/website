@@ -48,12 +48,11 @@ then
     rm -rf ./*
 ##########################################################################################
     echo "## Get list of part zip files"
-    wget -q -O - $downloadPage | egrep --only-matching "$partFilePattern" | sort > $partFileList
+    wget -q -O - $downloadPage | grep -E --only-matching --regexp="$partFilePattern" | sort > $partFileList
 
 ##########################################################################################
     echo "## Download zip files"
     wget -q --show-progress --input-file $partFileList
-    exit
     rm -f $partFileList
 
 ##########################################################################################
@@ -61,7 +60,8 @@ then
     for zip in *.zip; 
     do
         echo -n "."
-        folder=`echo $zip | egrep --only-matching "-?[[:digit:]]+"`
+        folder=`echo $zip | grep -E --only-matching --regexp="-?[[:digit:]]+"`
+
         if [[ ! -d "$folder" ]]; 
         then
             mkdir "$folder"
@@ -83,8 +83,7 @@ fi
 
 ##########################################################################################
 echo "## Prioritize colors"
-folders=`du -sk ./* | sort -nr | egrep --only-matching "\<[[:digit:]]+$"`
-# folders=$folders$'\n'"-1"
+folders=`du -sk ./* | sort -nr | grep -E --only-matching '\<[[:digit:]]+$'`
 IFS=',' read -ra COLORS <<< "$importantColors"
 
 ##########################################################################################
@@ -92,7 +91,7 @@ cd ..
 if [ $clearTargetFolder -eq 1 ];
 then
     echo "## Clear target folder"
-    ls | egrep ".png$" | xargs rm -f
+    ls | grep -E ".png$" | xargs rm -f
 fi
 
 ##########################################################################################
