@@ -12,7 +12,7 @@ content:
         - '@page.descendants': '/techs/collections/patterns'
         - '@page.descendants': '/techs/collections/shapes'
         - '@page.descendants': '/techs/collections/parts'
-        - '@page.descendants': '/techs/collections/size'
+        # - '@page.descendants': '/techs/collections/size'
         - '@page.descendants': '/techs/collections/time'
     filter:
         published: true
