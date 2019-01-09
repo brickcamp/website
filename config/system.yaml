@@ -94,7 +94,7 @@ cache:
 twig:
   cache: true
   debug: true
-  auto_reload: false
+  auto_reload: true
   autoescape: false
   undefined_functions: true
   undefined_filters: true
@@ -134,7 +134,7 @@ media:
   auto_metadata_exif: false
   upload_limit: 52428800
 session:
-  enabled: true
+  enabled: false
   initialize: true
   timeout: 1800
   name: brickcamp
