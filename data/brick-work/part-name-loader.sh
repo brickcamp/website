@@ -7,7 +7,7 @@
 # Configuration
 ##########################################################################################
     targetFolder="."
-    targetFile="parts.csv"
+    targetFile="part.csv"
     downloadLink="https://m.rebrickable.com/media/downloads/parts.csv"
 ##########################################################################################
 #
