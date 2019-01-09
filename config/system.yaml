@@ -43,7 +43,7 @@ pages:
     twig: true
   markdown:
     extra: false
-    auto_line_breaks: false
+    auto_line_breaks: true
     auto_url_links: false
     escape_markup: false
     special_chars:

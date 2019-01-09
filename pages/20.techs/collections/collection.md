@@ -3,7 +3,6 @@ title: Explore
 routes:
     aliases: 
         - '/techs/explore'
-        - '/home'
 
 content:
     items: 
