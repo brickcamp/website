@@ -20,13 +20,13 @@ content:
 form:
     name: filter-patterns
     id: items-filter
-    classes: form-inline justify-content-center justify-content-md-between
+    classes: row
     fields:
         -
             name: filter
             type: fieldset
             id: filter
-            classes: form-inline
+            classes: "col-12 col-md-6 text-center text-md-left"
             fields:
                 -
                     name: pattern_type
@@ -47,20 +47,20 @@ form:
                     classes: custom-select
                     options:
                         'all': 'All Sizes'
-                        '1':   '1 per segment'
-                        '2':   '2 per segment'
-                        '3':   '3 per segment'
-                        '4':   '4 per segment'
-                        '5':   '5 per segment'
-                        '6':   '6 per segment'
-                        '7':   '7 per segment'
-                        '8':   '8 per segment'
+                        '1':   'repeat 1 part'
+                        '2':   'repeat 2 parts'
+                        '3':   'repeat 3 parts'
+                        '4':   'repeat 4 parts'
+                        '5':   'repeat 5 parts'
+                        '6':   'repeat 6 parts'
+                        '7':   'repeat 7 parts'
+                        '8':   'repeat 8 parts'
                         '_9up': 'more parts'
         -
             name: sorting
             type: fieldset
             id: sorting
-            classes: form-inline
+            classes: "col-12 col-md-6 text-center text-md-right"
             fields:
                 - 
                     name: order_by

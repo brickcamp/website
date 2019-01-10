@@ -19,13 +19,13 @@ content:
 form:
     name: filter-shapes
     id: items-filter
-    classes: form-inline justify-content-center justify-content-md-between
+    classes: row
     fields:
         -
             name: filter
             type: fieldset
             id: filter
-            classes: form-inline
+            classes: "col-12 col-md-6 text-center text-md-left"
             fields:
                 -
                     name: shape_type
@@ -42,7 +42,7 @@ form:
                         '2D:5':   '2D.5 | Pentagon'
                         '2D:6':   '2D.6 | Hexagon'
                         '2D:7':   '2D.7 | Heptagon'
-                        '2D:8':   '2D.6 | Octagon'
+                        '2D:8':   '2D.8 | Octagon'
                         '2D:_9up': '2D.+ | Circle'
                         'all-2':  '-----------------'
                         '3D':     '3D   | All Bodies'
@@ -67,7 +67,7 @@ form:
             name: sorting
             type: fieldset
             id: sorting
-            classes: form-inline
+            classes: "col-12 col-md-6 text-center text-md-right"
             fields:
                 - 
                     name: order_by
@@ -107,14 +107,14 @@ form:
 
                 if shape_type == 'all'                                                              %}{%
                     if shape_segsize != 'all'                                                       %}{%
-                        set filter = 'shape_segsize:' ~ shape_segsize                               %}{%
-                        endif                                                                       %}{%
+                        set filter = 'shape_segsize:' ~ shape_segsize  ~ '/'                        %}{%
+                    endif                                                                           %}{%
                 else                                                                                %}{%
                     if shape_segsize == 'all' and shape_segments == 'all'                           %}{%
                         set filter = 'function:' ~ shape_type  ~ '/'                                %}{%
                     else                                                                            %}{%
                         if shape_segments != 'all'                                                  %}{%
-                            set filter = shape_type ~ '_segments:' ~ shape_segments~ '/'            %}{%
+                            set filter = shape_type ~ '_segments:' ~ shape_segments ~ '/'           %}{%
                         endif                                                                       %}{%
 
                         if shape_segsize != 'all'                                                   %}{%

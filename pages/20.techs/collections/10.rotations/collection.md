@@ -20,13 +20,13 @@ content:
 form:
     name: filter-rotations
     id: items-filter
-    classes: form-inline justify-content-center justify-content-md-between
+    classes: row
     fields:
         -
             name: filter
             type: fieldset
             id: filter
-            classes: form-inline
+            classes: "col-12 col-md-6 text-center text-md-left"
             fields:
                 -
                     name: rotation_type
@@ -60,7 +60,7 @@ form:
             name: sorting
             type: fieldset
             id: sorting
-            classes: form-inline
+            classes: "col-12 col-md-6 text-center text-md-right"
             fields:
                 - 
                     name: order_by
