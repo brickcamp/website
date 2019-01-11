@@ -1,4 +1,4 @@
-force_ssl: false
+force_ssl: true
 cache:
   enabled: true
 twig:
