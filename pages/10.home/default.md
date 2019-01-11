@@ -6,12 +6,16 @@ image: 'themes://brick-view/images/logo.png'
 ___
 ## This site is a work-in-progress
 
-It's replacing a part of [my current website](https://brickup.de) that lately stopped working. The goal is to develop an open-source freely-usable simply-searchable collection of popular and interesting Lego building techniques. 
+It's replacing a part of [my current website](https://brickup.de) that lately stopped working. 
+
+The goal is to develop an open-source copyleft collection of popular and interesting Lego building techniques.
 ___
 
 ## Feel free to [explore](/techs/explore)
 
-Have a look around. There is still so much to do, so don't worry if some errors occur or something's missing. My brain is idea-overflowing while making things useable that are already implemented. Oh what an exciting time! Stay tuned - hope to officially launch this site soon.
+Have a look around. There is still so much to do, so don't worry if some errors occur or something's missing. 
+
+My brain is idea-overflowing while making things useable that are already implemented. Oh what an exciting time! Stay tuned - hope to officially launch this site soon.
 
 **Greetings**
 **Tobias**
