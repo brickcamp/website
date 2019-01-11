@@ -2,7 +2,7 @@
 title: Welcome
 image: 'themes://brick-view/images/logo.png'
 ---
-![Brick.Camp Logo](themes://brick-view/images/logo_oval.png?resize=300,200&classes=mx-auto,d-block,img-fluid)
+![Brick.Camp Logo](themes://brick-view/images/logo_oval.png?cropResize=400,400&classes=mx-auto,d-block,img-fluid)
 ___
 ## This site is a work-in-progress
 
