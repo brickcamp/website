@@ -3,6 +3,7 @@ title: Techs
 
 routes:
     aliases:
+        - '/techs'
         - '/techs/using'
 
 content:
