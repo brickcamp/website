@@ -1,7 +1,8 @@
 ---
 title: Parts
-image: image.png
-filter: filter-parts
+image: image.jpg  # Photo by Rick Mason on Unsplash (edited)
+icon: icon.png
+# filter: filter-parts
 
 terms:
     taxonomy: part

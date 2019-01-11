@@ -1,6 +1,6 @@
 ---
 title: 'Planar Patterns'
-image: 'image.png'
+icon: 'icon.png'
 redirect: 'techs/collections/patterns/function:pattern_2D'
 
 content:

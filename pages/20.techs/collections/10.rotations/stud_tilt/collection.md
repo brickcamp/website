@@ -1,6 +1,6 @@
 ---
 title: 'Stud Tilt'
-image: image.png
+icon: icon.png
 redirect: 'techs/collections/rotations/function:stud_tilt'
 
 content:

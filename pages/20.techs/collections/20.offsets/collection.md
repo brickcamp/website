@@ -1,6 +1,6 @@
 ---
 title: Offsets
-image: image.png
+icon: icon.png
 filter: filter-offsets
 
 content:

@@ -1,6 +1,6 @@
 ---
 title: 'Forms'
-image: image.png
+icon: icon.png
 redirect: 'techs/collections/shapes/function:shape_2D'
 
 content:

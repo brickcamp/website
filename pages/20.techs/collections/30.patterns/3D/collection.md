@@ -1,6 +1,6 @@
 ---
 title: 'Spatial Patterns'
-image: 'image.png'
+icon: 'icon.png'
 published: false
 redirect: 'techs/collections/patterns/function:pattern_3D'
 

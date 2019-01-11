@@ -1,6 +1,6 @@
 ---
 title: 'Oldest'
-image: 'image.png'
+icon: 'icon.png'
 redirect: '/techs/all/orderby:date/orderdir:asc'
 
 content:

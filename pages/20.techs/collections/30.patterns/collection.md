@@ -1,6 +1,6 @@
 ---
 title: Patterns
-image: image.png
+icon: icon.png
 filter: filter-patterns
 
 content:

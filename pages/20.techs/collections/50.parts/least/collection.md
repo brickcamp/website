@@ -1,6 +1,6 @@
 ---
 title: 'Least Parts'
-image: 'image.png'
+icon: 'icon.png'
 
 content:
     items: 

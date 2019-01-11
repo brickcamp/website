@@ -1,6 +1,6 @@
 ---
 title: 'Newest'
-image: 'image.png'
+icon: 'icon.png'
 redirect: '/techs/all/orderby:date/orderdir:desc'
 
 content:

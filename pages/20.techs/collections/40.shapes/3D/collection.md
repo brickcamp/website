@@ -1,6 +1,6 @@
 ---
 title: 'Bodies'
-image: image.png
+icon: icon.png
 redirect: 'techs/collections/shapes/function:shape_3D'
 
 content:

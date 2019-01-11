@@ -1,6 +1,6 @@
 ---
 title: 'Stud Lift'
-image: 'image.png'
+icon: 'icon.png'
 redirect: 'techs/collections/offsets/function:stud_lift'
 
 content:

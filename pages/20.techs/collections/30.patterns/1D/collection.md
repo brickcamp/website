@@ -1,6 +1,6 @@
 ---
 title: 'Linear Patterns'
-image: 'image.png'
+icon: 'icon.png'
 redirect: 'techs/collections/patterns/function:pattern_1D'
 
 content:

@@ -1,6 +1,6 @@
 ---
 title: Rotations
-image: image.png
+icon: icon.png
 filter: filter-rotations
 
 content:
