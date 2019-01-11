@@ -9,7 +9,7 @@ menu-items:
         - '@page.self': '/techs/collections/offsets'
         - '@page.self': '/techs/collections/patterns'
         - '@page.self': '/techs/collections/shapes'
-        - '@page.self': '/techs/collections/parts'
+        - '@page.self': '/techs/collections/more'
     order:
         by: default
         dir: asc
