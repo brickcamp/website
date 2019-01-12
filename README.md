@@ -1,6 +1,6 @@
-# Welcome to the Brick.Camp Documentation
+# Welcome to the BrickCamp Documentation
 
-In front of you, you see the main repository of http://brick.camp with files and links to all the functionalities and contents of this website.
+In front of you, you see the main repository of https://brick.camp with files and links to all the functionalities and contents of this website.
 
 To install your own copy of this site, simply follow these steps:
 
