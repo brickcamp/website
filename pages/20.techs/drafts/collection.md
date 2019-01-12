@@ -1,8 +1,9 @@
 ---
 title: All Drafts
-visible: false
+sitemap:
+    ignore: true
 metadata:
-  description: Shows all sumbitted techs for review
+    description: Shows all sumbitted techs for review
 
 content:
     items: '@self.children'

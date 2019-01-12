@@ -1,6 +1,8 @@
 ---
 title: Support Us
 image: image.png
+sitemap:
+    ignore: true
 
 pageconfig:
     parent: /tech/drafts

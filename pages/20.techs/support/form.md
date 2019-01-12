@@ -1,14 +1,8 @@
 ---
 title: Support
 image: image.png
-
-pageconfig:
-    parent: /tech/drafts
-
-pagefrontmatter:
-    visible: true
-    status: draft
-    template: tech
+sitemap:
+    ignore: true
 
 form:
     name: addpage-tech
@@ -29,7 +23,8 @@ form:
             destination: '@self'
         -
             name: taxonomy.part
-            label: 'Part IDs (comma separated)'
+            label: 'Parts'
+            description: 'Coma-seperated list of part IDs'
             type: text
         -
             name: email
@@ -39,8 +34,6 @@ form:
             type: submit
             value: Submit
     process:
-        -
-            addpage: null
         -
             redirect: '@self'
 ---
