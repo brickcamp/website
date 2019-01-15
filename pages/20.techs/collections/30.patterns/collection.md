@@ -7,7 +7,7 @@ content:
     items:
         - '@taxonomy.function': pattern_1D
         - '@taxonomy.function': pattern_2D
-        - '@taxonomy.function': pattern_3D
+        # - '@taxonomy.function': pattern_3D
     filter:
         published: true
         type: 'tech' 
