@@ -1,0 +1,17 @@
+enabled: true
+from: 'info@brick.camp'
+from_name: 'Brick.Camp'
+to: 'info@brick.camp'
+to_name: 'Brick.Camp'
+mailer:
+  engine: 'sendmail'
+  smtp:
+    server: 'localhost'
+    port: 25
+    encryption: none
+    user: ''
+    password: ''
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: 'text/html'
+debug: false
