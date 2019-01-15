@@ -1,7 +1,7 @@
 git:
     related-pages:
         url: https://github.com/getgrav/grav-plugin-relatedpages
-        path: user/plugins/form
+        path: user/plugins/relatedpages
         branch: master
     form:
         url: https://github.com/getgrav/grav-plugin-form
@@ -20,7 +20,7 @@ git:
 links:
     related-pages:
         src: grav-plugin-relatedpages
-        path: user/plugins/form
+        path: user/plugins/relatedpages
         scm: github
     form:
         src: grav-plugin-form
