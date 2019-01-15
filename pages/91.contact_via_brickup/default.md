@@ -1,4 +1,4 @@
 ---
 title: Kontakt
-redirect: 'https://www.brickup.de/contact'
+redirect: 'https://www.brickup.de/kontakt'
 ---
