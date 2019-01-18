@@ -12,8 +12,8 @@ content:
         published: true
         type: 'tech' 
     order:
-        by: date
-        dir: desc
+        by: header.taxonomy.partcount
+        dir: asc
     limit: 12
     pagination: true
 
