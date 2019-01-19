@@ -5,7 +5,7 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.example.com/source/page.html"
+source_url: "https://www.flickr.com/photos/ted_andes/7540229538"
 source_title: "Shingle Technique"
 source_name: "Ted Andes"
 source_date: 09-07-2012

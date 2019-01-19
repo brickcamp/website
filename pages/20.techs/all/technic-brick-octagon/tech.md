@@ -5,7 +5,7 @@ date: 01-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.example.com/source/page.html"
+source_url: "https://www.flickr.com/photos/kaille/5536199960"
 source_title: "135 Degree Corner"
 source_name: "Kaille400"
 source_date: 17-03-2011
