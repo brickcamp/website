@@ -1,12 +1,9 @@
+---
 title: "Brick Magic"
 date: 31-12-1999
 
 image: image.png
 cad: model.ldr
-
-width: [4, stud]
-depth: [2, stud]
-height: [3, plate]
 
 source_url: "https://www.example.com/source/page.html"
 source_title: "Title of the post or site"
@@ -23,6 +20,10 @@ taxonomy:
   part: ["3002"]
   partcount: 17
   uses_tech: brick-simple-slug
+
+  width: [4, stud]
+  depth: [2, stud]
+  height: [3, plate]
 
   function: ["stud_tilt", "stud_twist", "axle_tilt"]
   stud_tilt_angle: 90
@@ -56,9 +57,4 @@ taxonomy:
 
 flag_notes:
   loosely: "Steine im oberen Teil sind nicht fest"
-
-calculate:
-  volume: 4*stud*2*stud*3*plate
-  uses_tech: none
-  source: none
-  function: none
+---
