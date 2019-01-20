@@ -14,7 +14,7 @@ assets:
   js_minify: true
   enable_asset_timestamp: true
 errors:
-  display: 1
+  display: 0
   log: true
 debugger:
   enabled: false
