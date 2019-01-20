@@ -1,7 +1,7 @@
 git:
-    related-pages:
-        url: https://github.com/getgrav/grav-plugin-relatedpages
-        path: user/plugins/relatedpages
+    error:
+        url: https://github.com/getgrav/grav-plugin-error
+        path: user/plugins/error
         branch: master
     form:
         url: https://github.com/getgrav/grav-plugin-form
@@ -11,26 +11,15 @@ git:
         url: https://github.com/getgrav/grav-plugin-pagination
         path: user/plugins/pagination
         branch: master
+    problems:
+        url: https://github.com/getgrav/grav-plugin-problems
+        path: user/plugins/problems
+        branch: master
+    related-pages:
+        url: https://github.com/getgrav/grav-plugin-relatedpages
+        path: user/plugins/relatedpages
+        branch: master
     sitemap:
         url: https://github.com/getgrav/grav-plugin-sitemap
         path: user/plugins/sitemap
         branch: master
-    
-
-links:
-    related-pages:
-        src: grav-plugin-relatedpages
-        path: user/plugins/relatedpages
-        scm: github
-    form:
-        src: grav-plugin-form
-        path: user/plugins/form
-        scm: github
-    pagination:
-        src: grav-plugin-pagination
-        path: user/plugins/pagination
-        scm: github
-    sitemap:
-        src: grav-plugin-sitemap
-        path: user/plugins/sitemap
-        scm: github
