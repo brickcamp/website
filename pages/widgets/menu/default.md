@@ -4,21 +4,19 @@ routable: false
 
 menu-items:
     items:
-        - '@page.self': '/techs/collections/collections'
-        - '@page.self': '/techs/collections/rotations'
-        - '@page.self': '/techs/collections/offsets'
-        - '@page.self': '/techs/collections/patterns'
-        - '@page.self': '/techs/collections/shapes'
-        - '@page.self': '/techs/collections/more'
+        - '@page.self': '/techs/rotations'
+        - '@page.self': '/techs/offsets'
+        - '@page.self': '/techs/patterns'
+        - '@page.self': '/techs/shapes'
+        - '@page.self': '/techs/more'
     order:
         by: default
         dir: asc
         # custom: 
-        #     - techs/collections/parts
-        #     - techs/collections/collections
-        #     - techs/collections/rotations
-        #     - techs/collections/patterns
-        #     - techs/collections/shapes
-        #     - techs/collections/offsets
+        #     - techs/parts
+        #     - techs/rotations
+        #     - techs/patterns
+        #     - techs/shapes
+        #     - techs/offsets
     url_taxonomy_filters: false
 ---

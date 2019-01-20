@@ -4,7 +4,7 @@ show_score: true                # toggle to determine if scores should be displa
 score_threshold: 10             # minimum score needed to show up in the list
 filter:                         # filter a configurable collection of pages to compare
     items:
-        '@page.children': '/techs/all' # supports @self, @page, and @taxonomy collections
+        '@page.children': '/tech' # supports @self, @page, and @taxonomy collections
     order:
         by: date                # order type by default
         dir: desc               # order direction
