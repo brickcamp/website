@@ -71,6 +71,7 @@ pages:
   ignore_folders:
     - .git
     - .idea
+    - 00.drafts
   ignore_hidden: true
   url_taxonomy_filters: true
   frontmatter:
