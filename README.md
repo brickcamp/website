@@ -1,4 +1,4 @@
-**BrickCamp** is a visual dictionary for LEGO® building techniques. The vision of this project is to become a timeless point of reference for LEGO related stuff. Currently, it is still in heavy development.
+**BrickCamp** is a visual dictionary for LEGO`®` building techniques. The vision of this project is to become a timeless point of reference for this and related stuff. Currently, it is still in heavy development.
 
 
 ## Foundation
@@ -11,13 +11,13 @@ BrickCamp is only possible because of some amazing projects and technologies out
 - [Twig Templating](http://twig.sensiolabs.org/): An easy-to-learn templating engine used by Grav.
 - [Markdown](https://en.wikipedia.org/wiki/Markdown): A simple markup language for formatting text
 - [YAML](http://yaml.org/): One more markup language, this time for configuration and metadata.
-- [LDraw](http://www.ldraw.org/): An open standard for LEGO® 3D modelling
+- [LDraw](http://www.ldraw.org/): An open standard for LEGO`®` 3D modelling
 - [MLCAD](http://mlcad.lm-software.com/): A CAD programm based on the LDraw standard
-- [Rebrickable.com](https://rebrickable.com/): A LEGO® creations platform with open-accesible data/images.
+- [Rebrickable.com](https://rebrickable.com/): A LEGO`®` creations platform with open-accesible data/images.
 - [GitLab](http://gitlab.com/): A source-code versioning platform with many additional tools
 
-A huge thanks to each and every one of these projects and their supporting communities.
-
+A huge thanks to each and every one of these projects and their supporting communities.  
+_Legal Notice: LEGO`®` is a trademark of the LEGO Group which does not sponsor, authorize or endorse this site._
 
 ## License
 > Life would be much easier if I had the source code. <br>
