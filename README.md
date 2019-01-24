@@ -1,4 +1,7 @@
-**BrickCamp** is a visual dictionary for LEGO`®` building techniques. The vision of this project is to become a timeless point of reference for this and related stuff. Currently, it is still in heavy development.
+**BrickCamp** is a visual dictionary for LEGO`®` building techniques.
+
+I envision it to be a timeless point of reference for this and other LEGO`®` related stuff.  
+Currently, this project is still in beta stage.
 
 
 ## Foundation
