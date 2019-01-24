@@ -2,7 +2,7 @@
 
 
 ## Foundation
-> A dwarf standing on the shoulders of a giant may see farther than a giant himself. 
+> A dwarf standing on the shoulders of a giant may see farther than a giant himself. <br>
 > _Bernard of Chartres_
 
 BrickCamp is only possible because of some amazing projects and technologies out there. This project is based on:
@@ -20,7 +20,7 @@ A huge thanks to each and every one of these projects and their supporting commu
 
 
 ## License
-> Life would be much easier if I had the source code. 
+> Life would be much easier if I had the source code. <br>
 > _Unknown Author_
 
 The **source code** of this project is released under the [MIT License](https://choosealicense.com/licenses/mit/), which can also be found in the LICENSE file.
@@ -29,7 +29,7 @@ The **content** (images, texts, ...) published on Brick.Camp (and stored in this
 
 
 ## Local Setup
-> I know what to do and I go and execute
+> I know what to do and I go and execute <br>
 > _Usain Bolt_
 
 _Disclaimer: This setup is currently only tested with the admin user of this (and the connected) repositories. So you might run in trouble with following these steps currently._
@@ -46,5 +46,5 @@ _Disclaimer: This setup is currently only tested with the admin user of this (an
 7. You should be ready to go.
 
 ## Thanks for your attention
-> I think quotes are very dangerous things.
+> I think quotes are very dangerous things. <br>
 > _Kate Bush_
