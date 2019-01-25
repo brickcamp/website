@@ -32,10 +32,10 @@ The **content** (images, texts, ...) published on Brick.Camp (and stored in this
 
 
 ## Local Setup
-> I know what to do and I go and execute <br>
+> I know what to do and I go and execute. <br>
 > _Usain Bolt_
 
-_Disclaimer: This setup is currently only tested with the admin user of this (and the connected) repositories. So you might run in trouble with following these steps currently._
+_Disclaimer: This setup is currently only tested with the admin user of this (and the connected) repositories. So you might run into trouble with following these steps currently._
 
 1. [Download Grav](http://getgrav.org/downloads) from the https://getgrav.org site
 2. Extract the ZIP archive into a directory in your webroot (e.g. `~/www/brick.camp/`)
