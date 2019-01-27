@@ -6,7 +6,7 @@ image: image.png
 cad: model.ldr
 
 source_url: "https://www.flickr.com/photos/153437010@N05/29249010987"
-source_title: "Lego Building Technique: "2x2 Round Plate" Pieces (Variation 2)"
+source_title: "Lego Building Technique: 2x2 Round Plate Pieces (Variation 2)"
 source_name: "thebrickccentric"
 source_date: 02-08-2018
 
