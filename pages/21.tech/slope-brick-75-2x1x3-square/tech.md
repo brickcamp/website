@@ -18,7 +18,7 @@ taxonomy:
   depth: [15.5, plate]
   height: [1, brick]
 
-  function: pattern_2D
-  pattern_2D_segments: 4
-  pattern_2D_segsize: 1
+  function: shape_2D
+  shape_2D_segments: 4
+  shape_2D_segsize: 1
 ---

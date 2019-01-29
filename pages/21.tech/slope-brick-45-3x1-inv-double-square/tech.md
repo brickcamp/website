@@ -18,8 +18,8 @@ taxonomy:
   depth: [3, stud]
   height: [1, brick]
 
-  function: [stud_tilt, pattern_2D]
+  function: [stud_tilt, shape_2D]
   stud_tilt_angle: [90, 180]
-  pattern_2D_segments: 4
-  pattern_2D_segsize: 1
+  shape_2D_segments: 4
+  shape_2D_segsize: 1
 ---
