@@ -11,7 +11,7 @@ source_name: "Legoman19892"
 source_date: 12-03-2017
 
 taxonomy:
-  part: ["27255", "4085b","3023"]
+  part: ["27255", "4085c","3023"]
   partcount: 140
 
   width: [15.5, stud]
