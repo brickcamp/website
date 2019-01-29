@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"name": "Tech.Drafts",
+			"path": "pages/21.tech/00.drafts"
+		},		
+		{
 			"name": "Brick.Camp",
 			"path": "."
 		},
