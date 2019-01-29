@@ -11,7 +11,7 @@ source_name: "鉄男"
 source_date: 11-04-2010
 
 taxonomy:
-  part: ["3709b", "32062", "4032a", "3022" ]
+  part: ["3709", "32062", "4032a", "3022" ]
   partcount: 7
 
   width: [4, stud]
