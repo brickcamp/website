@@ -7,7 +7,7 @@ cad: model.ldr
 
 source_url: "http://swooshable.com/snot/plate-with-holes"
 source_title: "Plate with Holes"
-source_name: "Swooshable"
+source_name: "Linus Bohman"
 
 taxonomy:
   part: ["2817", "3794b"]

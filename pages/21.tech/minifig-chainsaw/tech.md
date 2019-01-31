@@ -7,7 +7,7 @@ cad: model.ldr
 
 source_url: "http://swooshable.com/snot/minifig-chainsaw"
 source_title: "Minifig Chainsaw"
-source_name: "Swooshable"
+source_name: "Linus Bohman"
 
 taxonomy:
   part: ["6117"]

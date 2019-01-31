@@ -7,7 +7,7 @@ cad: model.ldr
 
 source_url: "http://swooshable.com/snot/donut-and-jumper"
 source_title: "Donut and Jumper"
-source_name: "Swooshable"
+source_name: "Linus Bohman"
 
 taxonomy:
   part: ["15535", "87580"]

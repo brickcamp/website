@@ -7,7 +7,7 @@ cad: model.ldr
 
 source_url: "http://swooshable.com/snot/minifig-wrench"
 source_title: "Minifig Wrench"
-source_name: "Swooshable"
+source_name: "Linus Bohman"
 
 taxonomy:
   part: ["55300"]

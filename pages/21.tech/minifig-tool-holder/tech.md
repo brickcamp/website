@@ -7,7 +7,7 @@ cad: model.ldr
 
 source_url: "http://swooshable.com/snot/chainsaw-body"
 source_title: "Chainsaw Body"
-source_name: "Swooshable"
+source_name: "Linus Bohman"
 
 taxonomy:
   part: ["2516", "3062b"]

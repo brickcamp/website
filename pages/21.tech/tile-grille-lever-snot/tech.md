@@ -7,7 +7,7 @@ cad: model.ldr
 
 source_url: "http://swooshable.com/snot/grill-tiles-and-levers"
 source_title: "Grill Tiles and Levers"
-source_name: "Swooshable"
+source_name: "Linus Bohman"
 
 taxonomy:
   part: ["2412b", "4593"]
