@@ -12,13 +12,14 @@ source_date: 24-07-2015
 
 taxonomy:
   part: ["3021", "3022", "3937", "6134", "85984"]
-  partcount: 240
+  partcount: 36
 
   width: [6, stud]
   depth: [6, stud]
   height: [2, stud]
 
-  function: shape_2D
+  function: ["stud_tilt", "shape_2D"]
+  stud_tilt_angle: 30
   shape_2D_segments: 60
   shape_2D_segsize: 4
 ---
