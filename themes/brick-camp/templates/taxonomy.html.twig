@@ -1,0 +1,19 @@
+{% extends 'collection.html.twig' %}
+
+{% set tax = page.header.terms.taxonomy %}
+{% set terms = brick_terms(tax) %}
+{% set collection_url = base_url_absolute ~ '/' ~ page.header.terms.pool %}
+
+{% block items %}
+<section id="items" class="row">
+    {% for term in terms %}
+    {% block item %}
+        {% include '/partials/item/term.html.twig' with { 
+            'tax': tax, 
+            'term': term,
+            'collection_url': collection_url,
+        }%}
+    {% endblock %}
+    {% endfor %}
+</section>
+{% endblock %}

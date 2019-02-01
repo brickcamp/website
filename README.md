@@ -40,10 +40,10 @@ _Disclaimer: This setup is currently only tested with the admin user of this (an
 1. [Download Grav](http://getgrav.org/downloads) from the https://getgrav.org site
 2. Extract the ZIP archive into a directory in your webroot (e.g. `~/www/brick.camp/`)
 3. Switch into the `user`-subfolder (e.g. `~/www/brick.camp/user/`) and run the following command:
-`git clone --recurse-submodules https://gitlab.com/brick.camp/brick.camp.git .`
+`git clone https://gitlab.com/brick.camp/brick.camp.git .`
 4. Switch back to the Grav root folder (e.g. `~/www/brick.camp/` ) and run the following command:
 `bin/grav install`
-5. Run the scripts in subfolder /data/brick-work to load the part names and part images from [Rebrickable.com](https://rebrickable.com/downloads/).
+5. Run the scripts in subfolder /data/brick-camp to load the part names and part images from [Rebrickable.com](https://rebrickable.com/downloads/).
 6. Start the included server by mapping the router.php to a local address (as quick development setup) - for example by:
 `php -S 127.0.0.1:8080 system/router.php`
 7. You should be ready to go.

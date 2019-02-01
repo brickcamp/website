@@ -1,0 +1,31 @@
+{% set menu = pages.find('/menu') %}
+{% set collection = menu.collection() %}
+
+<header id="header">
+{% block header %}
+    {% set menu = pages.find('/widgets/menu') %}
+    {% set collection = menu.collection('menu-items') %}
+
+    <nav class="navbar navbar-expand navbar-light fixed-top bg-light border-bottom shadow-sm">
+        <div class="container">
+            <a class="navbar-brand mr-1" href="{{ base_url == '' ? '/' : base_url }}" alt="{{ config.site.title }}">
+                <img src="{{ media['theme://images/logo_icon.svg'].url }}" class="img-fluid" title="Home" alt="{{ config.site.title }}" width="32px" height="32px">
+                <span class="brand-text">{{ config.site.title }}</span>
+            </a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav text-center ml-auto">
+                    {% for item in collection %}
+                        <li class="nav-item mr-sm-1 mr-xl-3">
+                            <a class="nav-link" href="{{ item.url }}" title="{{ item.menu }}">
+                                <span class="d-inline-block"><img class="img-fluid" src="{{ item.media[item.header.icon].resize(32, 32).url }}" alt="{{ item.menu }}"></span>
+                                <span class="d-none d-md-inline-block pl-1">{{ item.menu }}</span>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+{% endblock header %}
+</header>

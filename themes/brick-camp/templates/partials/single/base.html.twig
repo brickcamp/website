@@ -1,0 +1,9 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <article id="single" class="type-{{ page.template }} slug-{{ page.slug }} mx-auto">
+        {% block single_content %}
+            {{ page.content|raw }}
+        {% endblock %}
+    </article>
+{% endblock content %}

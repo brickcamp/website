@@ -1,0 +1,42 @@
+<footer id="footer" class="mt-auto  bg-dark">
+{% block footer %}
+    {% set footer = pages.find('/widgets/footer') %}
+    {% set collection = footer.collection() %}
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container justify-content-between text-center">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item mr-md-auto">
+                    <a class="nav-link" href="{{ base_url == '' ? '/' : base_url }}" alt="{{ config.site.title }}">
+                        © {{ "now" | date('Y') }} {{ config.site.title }}
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ config.site.gitlab }}" title="{{ config.site.title }} on Gitlab" target="_blank" rel="noopener noreferrer">
+                        Gitlab Repository
+                    </a>
+                </li>
+                <li class="nav-item mr-md-auto">
+                    <a class="nav-link" href="{{ config.site.gitlab }}/tree/master/{{ page.filePathClean[5:] }}" title="Current page on Gitlab" target="_blank" rel="noopener noreferrer">
+                        View Source
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mx-auto">
+                {% for item in collection %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ item.url }}" title="{{ item.title }}"> {{ item.title }} </a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+
+        </div>
+    </nav>
+    <div class="text-center w-100 text-muted pb-3">
+        <em>LEGO® is a trademark of the LEGO Group which does not sponsor, authorize or endorse this site.</em>
+    </div>
+{% endblock %}
+</footer>

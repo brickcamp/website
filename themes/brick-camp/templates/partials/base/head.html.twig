@@ -1,0 +1,32 @@
+{% block head %}
+    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/logo_icon.png') }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block meta %}
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% for meta in page.metadata %}
+            <meta 
+                {% if meta.name %} name="{{ meta.name }}" {% endif %}
+                {% if meta.http_equiv %} http-equiv="{{ meta.http_equiv }}" {% endif %}
+                {% if meta.charset %} charset="{{ meta.charset }}" {% endif %}
+                {% if meta.property %} property="{{ meta.property }}" {% endif %}
+                {% if meta.content %} content="{{ meta.content }}" {% endif %}/>
+        {% endfor %}
+    {% endblock meta %}
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css/app.css', '50') %}
+        {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css', '97') %}
+    {% endblock stylesheets %}
+    {{ assets.css()|raw }}
+
+    {% block javascripts %}
+        {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js', {'group': 'bottom', 'priority': '99'}) %}
+    {% endblock javascripts %}
+    {{ assets.js()|raw }}
+{% endblock head %}

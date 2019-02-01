@@ -1,9 +1,0 @@
-[submodule "plugins/brick-work"]
-	path = plugins/brick-work
-	url = git@gitlab.com:brick.camp/brick.work.git
-[submodule "themes/brick-view"]
-	path = themes/brick-view
-	url = git@gitlab.com:brick.camp/brick.view.git
-[submodule "plugins/taxo-meta"]
-	path = plugins/taxo-meta
-	url = git@gitlab.com:brick.grav/taxo.meta.git

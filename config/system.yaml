@@ -22,7 +22,7 @@ home:
   alias: '/home'
   hide_in_urls: true
 pages:
-  theme: brick-view
+  theme: brick-camp
   order:
     by: default
     dir: asc

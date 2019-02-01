@@ -98,8 +98,7 @@
        inkscape:export-xdpi="293.11557"
        id="g961"
        transform="translate(-49.816081,-256.93522)"
-       style="fill:#a05a2c;stroke:#a05a2c"
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/parts/image.png">
+       style="fill:#a05a2c;stroke:#a05a2c">
       <g
          id="g959"
          style="fill:#a05a2c;stroke:#a05a2c">
@@ -181,7 +180,6 @@
      transform="translate(98.422102,280.7179)">
     <g
        id="g1045"
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/60.more/icon.png"
        inkscape:export-xdpi="309.38892"
        inkscape:export-ydpi="309.38892">
       <g
@@ -189,7 +187,6 @@
          transform="matrix(0,0.84822645,-0.84822645,0,-194.95167,-286.71931)"
          inkscape:export-ydpi="394.05573"
          inkscape:export-xdpi="394.05573"
-         inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/60.more/icon.png"
          id="g1036">
         <circle
            style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.1789304;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:7.34759998;stroke-opacity:1;paint-order:fill markers stroke"
@@ -228,7 +225,6 @@
      style="display:inline;opacity:1"
      transform="translate(98.422102,280.7179)">
     <g
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/50.parts/most/image.png"
        style="fill:#a05a2c;stroke:#a05a2c"
        transform="translate(4.5565634,-256.93522)"
        id="g984"
@@ -329,12 +325,10 @@
        inkscape:export-xdpi="293.11557"
        id="g1141"
        transform="translate(52.305587,-255.90169)"
-       style="fill:#a05a2c;stroke:#a05a2c"
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/50.parts/most/image.png">
+       style="fill:#a05a2c;stroke:#a05a2c">
       <g
          id="g1139"
          style="fill:#a05a2c;stroke:#a05a2c"
-         inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/50.parts/most/image.png"
          inkscape:export-xdpi="293"
          inkscape:export-ydpi="293">
         <g
@@ -772,8 +766,7 @@
        transform="matrix(0.8522834,0,0,0.8522834,41.004337,33.641363)"
        id="g1231-2"
        inkscape:export-xdpi="291.31119"
-       inkscape:export-ydpi="291.31119"
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/40.shapes/3D/icon.png">
+       inkscape:export-ydpi="291.31119">
       <g
          id="g2954"
          transform="translate(-55.221648,39.787026)">
@@ -839,8 +832,7 @@
        transform="matrix(0.8522834,0,0,0.8522834,-7.1338961,33.044786)"
        id="g1231"
        inkscape:export-xdpi="267.18356"
-       inkscape:export-ydpi="267.18356"
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/40.shapes/2D/icon.png">
+       inkscape:export-ydpi="267.18356">
       <path
          inkscape:transform-center-y="-4.1159488"
          inkscape:transform-center-x="-0.27080034"
@@ -881,7 +873,6 @@
      transform="translate(98.422102,280.7179)">
     <g
        id="g1098"
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/40.shapes/icon.png"
        inkscape:export-xdpi="268.35034"
        inkscape:export-ydpi="268.35034">
       <path
@@ -1502,8 +1493,7 @@
        id="path3240-4"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="317.49976"
-       inkscape:export-ydpi="317.49976"
-       inkscape:export-filename="/home/bucki/Dokumente/Coding/Brick.Camp/user/pages/20.techs/collections/time/oldest/image.png" />
+       inkscape:export-ydpi="317.49976" />
   </g>
   <g
      inkscape:groupmode="layer"

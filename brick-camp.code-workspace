@@ -1,24 +1,8 @@
 {
 	"folders": [
 		{
-			"name": "Tech.Drafts",
-			"path": "pages/21.tech/00.drafts"
-		},		
-		{
 			"name": "Brick.Camp",
 			"path": "."
-		},
-		{
-			"name": "Brick.Work",
-			"path": "plugins/brick-work"
-		},
-		{
-			"name": "Brick.View",
-			"path": "themes/brick-view"
-		},
-		{
-			"name": "Taxo.Meta",
-			"path": "plugins/taxo-meta"
 		},
 		{
 			"path": "../system/src/Grav"

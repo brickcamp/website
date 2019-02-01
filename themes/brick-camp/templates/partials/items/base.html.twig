@@ -1,0 +1,12 @@
+<section id="{{ section_id ?: "items" }}" class="row justify-content-center">
+    {% for item in items %}
+    {% block item %}
+        {% switch item.template %}
+            {% case "collection" %}
+                {% include 'partials/item/collection.html.twig' with {'page': item, 'item_size': item_size} %} 
+            {% default %}
+                {% include 'partials/item/base.html.twig' with {'page': item, 'item_size': item_size} %}             
+        {% endswitch %}
+    {% endblock %}
+    {% endfor %}
+</section>

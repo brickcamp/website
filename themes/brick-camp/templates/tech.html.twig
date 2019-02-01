@@ -1,0 +1,85 @@
+{% extends 'partials/single/card.html.twig' %}
+
+{# block single_image %}
+    {% if page.header.source.url %} <a href="{{ page.header.source.url }}" target="_blank" rel="noopener"> {% endif %}
+        {{ parent() }}
+    {% if page.header.source.url %} </a> {% endif %}
+{% endblock #}
+
+{% block single_content %}
+    {% if page.header.source_url %}
+        <blockquote class="blockquote">
+            <a href="{{ page.header.source_url }}" target="_blank" rel="noopener" role="button" class="btn btn-success w-100" title="Visit source website">
+                <div class="text-truncate">{{ page.header.source_title }}</div>
+            </a>
+            <footer class="blockquote-footer pl-2">
+                <cite title="{{ page.header.source_name }}">
+                    {{ page.header.source_name ?: 'Unknown' }}
+                </cite>
+                <div class="w-100">
+                    {% if page.header.source_date %}
+                        <small><em>{{ page.header.source_date }}</em>
+                    {% endif %}
+                    {% if page.taxonomy.source %}
+                        on <em>{{ page.taxonomy.source[0] }}</em></small>
+                    {% endif %}
+                </div>
+            </footer>
+        </blockquote>
+        <hr/>
+    {% endif %}
+    
+        <div class="size text-center">
+            <div class="w-100 width"><strong>Width:</strong> {{ page.taxonomy.width[0] ~ ' ' ~ page.taxonomy.width[1]|pluralize|capitalize }}</div>
+            <div class="w-100 depth"><strong>Depth:</strong> {{ page.taxonomy.depth[0] ~ ' ' ~ page.taxonomy.depth[1]|pluralize|capitalize }}</div>
+            <div class="w-100 height"><strong>Height:</strong> {{ page.taxonomy.height[0] ~ ' ' ~ page.taxonomy.height[1]|pluralize|capitalize }}</div>
+        </div>
+        <hr/>
+
+        {% set functions = brick_functions(page) %}
+        {% for function, taxonomies in functions %}
+        <div class="{{ function }} text-center">
+            <div class="w-100 {{ function }}"><strong>{{ function|humanize }}:</strong>
+            {# {{ brick_term_image('function', function).resize(50, 50).html( function|humanize, function, 'img-fluid') }} #}
+            {% for taxonomy, values in taxonomies %}
+                {% for value in values %}
+                    <a href="{{ base_url }}/techs/with/{{ taxonomy }}{{ config.system.param_sep }}{{ value|url_encode }}">
+                        <span class="{{ taxonomy }}">{{ value }}</span>
+                    </a>
+                {% endfor %}
+            {% endfor %}
+            </div>
+        </div>
+        <hr/>
+        {% endfor %}
+
+        <div class="parts text-center row px-2">
+            <div class="col-12 text-center mb-2"><strong>Parts:</strong> {{ page.taxonomy.partcount|first }}</div>
+            {# <div class="parts scroll-x"> #}
+                {% for part in page.taxonomy.part %}
+                    {% include '/partials/item/term.html.twig' with { 
+                        'tax': 'part', 
+                        'term': part,
+                        'collection_url': base_url ~ '/techs/with',
+                        'columns': 'col-4 col-sm-3 col-md-6 col-lg-4 px-1',  
+                    } %}  {#  d-inline-block px-1 #}
+                {% endfor %}
+            {# </div> #}
+        </div>
+
+        {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+        <hr/>
+        <div class="related text-center row px-2">
+            <div class="col-12 text-center mb-2"><strong>Randomly Related</strong></div>
+            {% set item_show_footer = false %}
+            {% set item_wrapper_classes = 'col-4 col-sm-3 col-md-6 col-lg-4 px-1' %}
+            {% for related_path, score in related_pages %}
+                {% set related = grav['pages'].get(related_path) %}
+                {% if related %}
+                    {% include '/partials/item/base.html.twig' with { 'page': related } %}
+                {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    {# </div> #}
+{% endblock %}

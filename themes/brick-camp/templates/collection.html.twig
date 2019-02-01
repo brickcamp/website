@@ -1,0 +1,19 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set items = page.collection() %}
+{% block content %}
+    {% if page.header.filter %}
+    <div class="mb-2 mt-1">
+        {% include "forms/form.html.twig" with { form: forms(page.header.filter) } %}
+    </div>
+    {% endif %}
+
+    {% block items %}
+        {% include 'partials/items/base.html.twig' with { 'items': items } %}
+    {% endblock %}
+
+    {# Render the pagination list #}
+    {% if config.plugins.pagination.enabled and items.params.pagination %}
+        {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+    {% endif %}
+{% endblock content %}

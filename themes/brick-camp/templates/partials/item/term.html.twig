@@ -1,0 +1,27 @@
+{% set term_url = collection_url ~ '/' ~ tax ~ config.system.param_sep ~ term %}
+{% set image_url = brick_term_image(tax, term).resize(100, 100, '0xffffff').quality(50).url %}
+{% set term_title = brick_term_title(tax, term) %}
+
+<div class="{{ columns ?: 'col-4 col-sm-3 col-md-2' }}">
+    <div class="term card mb-4 shadow-sm text-center tax-{{ tax }} term-{{ term }}">
+        {% block item_image %}
+            <a href="{{ term_url }}"><img class="card-img-top card-img-bottom" src="{{ image_url }}" alt="{{ tax }}-{{ term }}" title="{{ term_title }}"></a>
+        {% endblock %}
+
+        {# <header class="card-header">
+        {% block item_header %}
+            <h3 class="item-title"><a href="{{ term_url }}">{{ term_title }}</a></h3>
+        {% endblock %}
+        </header>
+
+        <section class="card-content">
+        {% block item_content %}
+        {% endblock %}
+        </section> #}
+        
+        {# <footer class="card-footer">
+        {% block item_footer %}
+        {% endblock %}
+        </footer> #}
+    </div>
+</div>

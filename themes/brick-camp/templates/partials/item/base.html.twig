@@ -1,0 +1,46 @@
+{% set item_show_image = item_show_image is defined ? item_show_image : page.header.image %}
+{# set item_show_content = item_show_content is defined ? item_show_content : page.content #}
+{% set item_show_footer = item_show_footer is defined ? item_show_footer : page.title %}
+
+<div class="{{ item_wrapper_classes ?: 'col-sm-6 col-md-4 col-xl-3' }}">
+    <div class="{{ item_classes ?: 'card mb-4 mx-auto shadow-sm text-center' }}">
+
+        {% if item_show_image %}
+            {% block item_image %}
+                <a href="{{ page.url }}" class="{{ item_image_link_classes ?: 'card-image test' }}">
+                    {% set item_image = item_image ?: page.header.image ?: 'themes://brick-camp/images/no_image.png' %}
+                    <img    
+                        class="{{ item_image_classes ?: 'card-img-top img-fluid w-auto' }}" 
+                        src="{{ page.media[item_image].cropZoom(300, 300).url }}" 
+                        alt="{{ page.title }}" 
+                        title="{{ page.title }}"
+                    />
+                </a>
+            {% endblock %}
+        {% endif %}
+        
+        {% if item_show_content %}
+            {% block item_content %}
+                {% set item_content = item_content ?: page.content %}
+                {{ item_content | raw }}
+            {% endblock %}
+        {% endif %}
+
+        
+        {% if item_show_footer %}
+            <div class="card-footer {{ page.header.icon ? 'd-flex justify-content-between align-items-center py-1 pr-1' }}">
+                {% block item_footer %}
+                    <a href="{{ page.url }}" class="text-dark">
+                        <span class="caption text-truncate {{ page.header.icon ? '' : 'd-block' }}">{{ page.title }}</span>
+                    </a>
+                
+                    {% if page.header.icon %}
+                        <a href="{{ page.url }}">
+                            <img class="img-fluid" src="{{ page.media[page.header.icon].resize(48,48).url }}" alt="{{ page.title }}">
+                        </a>
+                    {% endif %}
+                {% endblock %}
+            </div>
+        {% endif %}
+    </div>
+</div>

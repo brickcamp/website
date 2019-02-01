@@ -1,0 +1,212 @@
+/* * * * * * * * * * * * * * *
+ *  GENERAL
+ * * * * * * * * * * * * * * */
+html, body, main, #header .navbar {
+    min-width: 300px;
+}
+
+main {
+    padding-top: 80px;
+}
+
+/* * * * * * * * * * * * * * *
+ *  NAVIGATION
+ * * * * * * * * * * * * * * */
+ #header .navbar-nav .nav-item:last-child .d-none {
+    display: none !important;
+}
+
+@media (max-width: 475px) {
+    #header .brand-text {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    #header .navbar {
+        padding-right: 0px;
+        padding-left: 5px;
+    }
+}
+
+/* * * * * * * * * * * * * * *
+ *  COLLECTION
+ * * * * * * * * * * * * * * */
+.pagination {
+    justify-content: center !important;
+    margin: 1rem 0 2rem 0 !important;
+}
+
+/* * * * * * * * * * * * * * *
+ *  COLLECTION FILTER
+ * * * * * * * * * * * * * * */
+#items-filter label {
+    /* >> .sr-only */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+#items-filter .form-field {
+    display: inline-block;
+}
+
+@media (max-width: 575px){
+    #items-filter fieldset#filter .form-field {
+        max-width: 48%;
+        margin-right: 0;
+    }
+    #items-filter fieldset#sorting .form-field:first-child {
+        max-width: 63%;
+        margin-right: 0;
+    }
+    #items-filter fieldset#sorting .form-field:last-child {
+        max-width: 33%;
+        margin-right: 0;
+    }
+}
+
+/* * * * * * * * * * * * * * *
+ *  COLLECTION ITEM
+ * * * * * * * * * * * * * * */
+.card-img-grid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.card-img-grid :only-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.card-img-grid :first-child:nth-last-child(2),
+.card-img-grid :first-child:nth-last-child(3),
+.card-img-grid :last-child:nth-child(2) {
+    grid-row: 1 / 3;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.card-img-grid .more-count::before {
+    content: '+';
+}
+
+.card-img-grid .more-count {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 30%;
+}
+
+#items .card {
+    max-width: 300px;
+}
+
+@media (max-width: 575px){
+    .card-img-grid .more-count {
+        padding-top: 1.5em;
+        max-width: 150px;
+    }
+}
+
+/* * * * * * * * * * * * * * *
+ *  MODULAR
+ * * * * * * * * * * * * * * */
+.module.default section {
+    max-width: 500px;
+}
+
+@media (max-width: 575px){
+    .module.default section {
+        max-width: 300px;
+    } 
+}
+
+/* * * * * * * * * * * * * * *
+ *  SINGLE
+ * * * * * * * * * * * * * * */
+#single.type-default {
+    max-width: 500px;
+}
+
+#single > h1,
+#single > h2,
+#single > h3 {
+    text-align: center;
+}
+
+#single > h3 {
+    color: #6c757d;
+}
+
+#single-image .card-img-top {
+    width: initial;
+    max-width: 100%;
+
+}
+
+.shape_2D_segments::before,
+.shape_3D_segments::before {
+    content: '\A';
+    white-space: pre;
+}
+
+.shape_2D_segments::after,
+.shape_3D_segments::after {
+    content: ' x ';
+}
+
+.shape_2D_segsize::after,
+.shape_3D_segsize::after,
+.pattern_1D_segsize::after,
+.pattern_2D_segsize::after {
+    content: ' Parts';
+}
+
+.stud_tilt_angle::after,
+.stud_twist_angle::after {
+    content: '°';
+}
+
+.stud_shift_length::after,
+.stud_lift_length::after {
+    content: ' LDU';
+}
+
+@media (min-width: 768px) {
+    .border-md-left {
+        border-left: 1px solid #dee2e6;
+    }
+    .border-md-top-0 {
+        border-top: 0 !important;
+    }
+    .min-height-500 {
+        min-height: 500px;
+    }
+}
+
+/* * * * * * * * * * * * * * *
+ *  FORMS
+ * * * * * * * * * * * * * * */
+ form .turing-test {
+    visibility: hidden !important;
+    position: absolute !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+}
+
+form .required {
+    color: red;
+}
+
+form .w-100.dropzone {
+    min-height: initial;
+}

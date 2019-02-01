@@ -1,0 +1,40 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <article class="single type-{{ page.template }} slug-{{ page.slug }} card">
+    
+        <!-- <header class="card-header">
+        {% block single_header %}
+            <span class="font-weight-bold text-dark">{{ page.title }}</span>
+        {% endblock %}
+        </header> -->
+        
+        <div class="row px-0 mx-0">
+            <figure id="single-image" class="d-flex col-md-8 px-0 mx-0 mb-0 min-height-500 align-items-center justify-content-center">
+                {% block single_image %}
+                    {% if page.header.image %}
+                        {% set media = page.media[page.header.image] %}
+                    {% else %}
+                        {% set media = media_directory('theme://images')['no_image.png'] %}
+                    {% endif %}
+                    <img class="card-img-top" src="{{ media.cropResize(750,750).url }}" alt="{{ page.title }}" title="{{ page.title }}">
+                {% endblock %}
+            </figure>
+        
+            <section class="col-md-4 px-0 border-top border-md-top-0 border-md-left">
+                <div class="card-body">
+                    {% block single_content %}
+                        {{ page.content }}
+                    {% endblock %}
+                </div>
+            </section>
+        </div>
+
+        {# <footer class="card-footer text-right">
+            {% block single_footer %}
+                <small>Added <time class="item-date" datetime="{{ page.date | date() }}">{{ page.date | date() | nicetime }}</time></small>            
+            {% endblock %}
+        </footer> #}
+    </article>
+
+{% endblock content %}

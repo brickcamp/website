@@ -1,0 +1,28 @@
+<div class="{{ page.header.module_wrapper_classes ?: 'col-12' }}">
+    <section id="{{ page.slug }}" class="module {{ page.template[8:] }} {{ page.header.module_classes ?: 'text-center pb-3 px-md-2 px-lg-4' }}">
+        <header>
+        {% block module_header %}
+            {% if page.header.module_link %}<a class="text-decoration-none text-success" href='{{ base_url_absolute ~ page.header.module_link }}'>{% endif %}
+                <h2>
+                    {{ page.title }}
+                </h2>
+
+                {% if page.header.module_description %}
+                    <p class="h5 pb-2 text-muted">{{ page.header.module_description }}</p>
+                {% endif %}
+            {% if page.header.module_link %}</a>{% endif %}
+        {% endblock %}
+        </header>
+    
+        <section class="mx-auto">
+        {% block module_content %}
+            {{ page.content|raw }}
+        {% endblock %}
+        </section>
+
+        <footer>
+        {% block module_footer %}
+        {% endblock %}
+        </footer>
+    </section>
+</div>

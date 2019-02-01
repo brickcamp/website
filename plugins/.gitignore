@@ -1,7 +1,5 @@
-*
-*/
-!.gitignore
-!brick**/
-!brick**/**
-!taxo-meta/
-!taxo-meta/**
+/*
+/*/
+!/.gitignore
+!/brick-camp/
+!/brick-camp/**
