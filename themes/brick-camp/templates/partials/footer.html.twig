@@ -7,18 +7,18 @@
         <div class="container justify-content-between text-center">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item mr-md-auto">
-                    <a class="nav-link" href="{{ base_url == '' ? '/' : base_url }}" alt="{{ config.site.title }}">
+                    <a class="nav-link" href="{{ config.site.gitlab.base ~ config.site.gitlab.license }}" alt="{{ config.site.title }}">
                         © {{ "now" | date('Y') }} {{ config.site.title }}
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ config.site.gitlab }}" title="{{ config.site.title }} on Gitlab" target="_blank" rel="noopener noreferrer">
+                    <a class="nav-link" href="{{ config.site.gitlab.url }}" title="{{ config.site.title }} on Gitlab" target="_blank" rel="noopener noreferrer">
                         Gitlab Repository
                     </a>
                 </li>
                 <li class="nav-item mr-md-auto">
-                    <a class="nav-link" href="{{ config.site.gitlab }}/tree/master/{{ page.filePathClean[5:] }}" title="Current page on Gitlab" target="_blank" rel="noopener noreferrer">
+                    <a class="nav-link" href="{{ config.site.gitlab.base ~ page.filePathClean[5:] }}" title="Current page on Gitlab" target="_blank" rel="noopener noreferrer">
                         View Source
                     </a>
                 </li>

@@ -1,7 +1,11 @@
 title: BrickCamp
-gitlab: 'https://gitlab.com/brick.camp/brick.camp'
 metadata:
   description: 'The place to brick!'
+
+gitlab:
+  url: 'https://gitlab.com/brick.camp/brick.camp'
+  base: 'https://gitlab.com/brick.camp/brick.camp/tree/master/'
+  license: 'README.md#license'
 
 author:
   name: Brick.Camp
