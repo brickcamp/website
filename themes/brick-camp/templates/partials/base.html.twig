@@ -1,22 +1,22 @@
 <!doctype html>
 <html class="h-100">
 <head>
-    {% include "partials/base/head.html.twig" %}
+    {% include "partials/head.html.twig" %}
 </head>
 
 <body class="bg-light d-flex flex-column h-100">
 {% block body %}
-    {% include "partials/base/header.html.twig" %}
+    {% include "partials/header.html.twig" %}
     
     <main id="content" class="flex-shrink-0 mb-4" role="main">
-        {% include "partials/base/intro.html.twig" %}
+        {% include "partials/intro.html.twig" %}
         
         <div class="container">
             {% block content %}
             {% endblock content %}
         </div>
     </main>
-    {% include "partials/base/footer.html.twig" %}
+    {% include "partials/footer.html.twig" %}
 {% endblock body %}
 
 {% block bottom %}
