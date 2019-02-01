@@ -7,8 +7,8 @@
 <body class="bg-light d-flex flex-column h-100">
 {% block body %}
     {% include "partials/header.html.twig" %}
-    
-    <main id="content" class="flex-shrink-0 mb-4" role="main">
+
+    <main id="content" class="flex-shrink-0 mb-4 {{ content_vertical_center ? 'mt-auto' }}" role="main">
         {% include "partials/intro.html.twig" %}
         
         <div class="container">

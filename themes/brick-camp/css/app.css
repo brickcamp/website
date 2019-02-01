@@ -5,7 +5,7 @@ html, body, main, #header .navbar {
     min-width: 300px;
 }
 
-main {
+.navbar-margin {
     padding-top: 80px;
 }
 

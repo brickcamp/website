@@ -5,10 +5,10 @@
             {{ page.media[page.header.icon].resize(150,150).html( page.title, page.title, 'rounded bg-white border' )|raw }}
         {% endif %}
 
-        <h1 class="mb-0">{{ page.title }}</h1>
+        <h1 class="mb-0">{{ page_title ?: page.title }}</h1>
 
-        {% if page.header.subtitle %}
-            <p class="h3 text-center text-muted">{{ page.header.subtitle }}</p>
+        {% if page_subtitle or page.header.subtitle %}
+            <p class="h3 text-center text-muted">{{ page_subtitle ?: page.header.subtitle }}</p>
         {% endif %}
 
         {# if page.collection()|length > 0 %}
