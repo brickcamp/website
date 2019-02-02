@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/tekf/5694391960/"
-source_title: "Herringbone foundation"
-source_name: "Ben Weston"
-source_date: 06-05-2011
+source:
+  url: "https://www.flickr.com/photos/tekf/5694391960/"
+  title: "Herringbone foundation"
+  author: "Ben Weston"
+  date: 06-05-2011
 
 taxonomy:
   part: ["3794b", "3070b", "3069b"]

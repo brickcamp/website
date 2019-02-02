@@ -5,10 +5,11 @@ date: 26-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/pmiaki/7451841124/in/pool-lego_math/"
-source_title: "3 LDU"
-source_name: "Mike"
-source_date: 26-06-2012
+source:
+  url: "https://www.flickr.com/photos/pmiaki/7451841124/in/pool-lego_math/"
+  title: "3 LDU"
+  author: "Mike"
+  date: 26-06-2012
 
 taxonomy:
   part: ["4070", "87087", "42446", "3024", "3023", "3794b", "3005"]

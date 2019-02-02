@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/78006269@N04/15209752054"
-source_title: "Slanted Tile Technique"
-source_name: "Brickwielder"
-source_date: 20-11-2014
+source:
+  url: "https://www.flickr.com/photos/78006269@N04/15209752054"
+  title: "Slanted Tile Technique"
+  author: "Brickwielder"
+  date: 20-11-2014
 
 taxonomy:
   part: ["3068b", "3794b", "3070b"]

@@ -5,10 +5,11 @@ date: 29-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/proudlove/7974975607"
-source_title: "5-way-symmetry"
-source_name: "Nathan Proudlove"
-source_date: 11-09-2012
+source:
+  url: "https://www.flickr.com/photos/proudlove/7974975607"
+  title: "5-way-symmetry"
+  author: "Nathan Proudlove"
+  date: 11-09-2012
 
 taxonomy:
   part: ["32068", "32069"]

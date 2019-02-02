@@ -7,18 +7,18 @@
 {% endblock #}
 
 {% block single_content %}
-    {% if page.header.source_url %}
+    {% if page.header.source.url %}
         <blockquote class="blockquote">
-            <a href="{{ page.header.source_url }}" target="_blank" rel="noopener" role="button" class="btn btn-success w-100" title="Visit source website">
-                <div class="text-truncate">{{ page.header.source_title }}</div>
+            <a href="{{ page.header.source.url }}" target="_blank" rel="noopener" role="button" class="btn btn-success w-100" title="Visit source website">
+                <div class="text-truncate">{{ page.header.source.title }}</div>
             </a>
             <footer class="blockquote-footer pl-2">
-                <cite title="{{ page.header.source_name }}">
-                    {{ page.header.source_name ?: 'Unknown' }}
+                <cite title="{{ page.header.source.author }}">
+                    {{ page.header.source.author ?: 'Unknown' }}
                 </cite>
                 <div class="w-100">
-                    {% if page.header.source_date %}
-                        <small><em>{{ page.header.source_date }}</em>
+                    {% if page.header.source.date %}
+                        <small><em>{{ page.header.source.date }}</em>
                     {% endif %}
                     {% if page.taxonomy.source %}
                         on <em>{{ page.taxonomy.source[0] }}</em></small>

@@ -5,10 +5,11 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.eurobricks.com/forum/index.php?/forums/topic/21936-advanced-building-techniques/&do=findComment&comment=370700"
-source_title: "Advanced Building Techniques"
-source_name: "KimT"
-source_date: 07-10-2008
+source:
+  url: "https://www.eurobricks.com/forum/index.php?/forums/topic/21936-advanced-building-techniques/&do=findComment&comment=370700"
+  title: "Advanced Building Techniques"
+  author: "KimT"
+  date: 07-10-2008
 
 taxonomy:
   part: ["3062b", "3004"]

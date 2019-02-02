@@ -5,10 +5,11 @@ date: 27-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/numo/3403588235"
-source_title: "Lego Triangle 3"
-source_name: "Arran Hearn"
-source_date: 27-09-2015
+source:
+  url: "https://www.flickr.com/photos/numo/3403588235"
+  title: "Lego Triangle 3"
+  author: "Arran Hearn"
+  date: 27-09-2015
 
 taxonomy:
   part: ["4276b", "4275b"]

@@ -5,10 +5,11 @@ date: 01-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/reasonablyclever/3581739315/"
-source_title: "pinwheel"
-source_name: "Chris Doyle"
-source_date: 31-05-2009
+source:
+  url: "https://www.flickr.com/photos/reasonablyclever/3581739315/"
+  title: "pinwheel"
+  author: "Chris Doyle"
+  date: 31-05-2009
 
 taxonomy:
   part: ["61406", "73983"]

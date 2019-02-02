@@ -5,10 +5,11 @@ date: 19-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/135669374@N02/29397153466/in/pool-788191@N24/"
-source_title: "Studs on 5 sides square"
-source_name: "durazno_33"
-source_date: 03-09-2016
+source:
+  url: "https://www.flickr.com/photos/135669374@N02/29397153466/in/pool-788191@N24/"
+  title: "Studs on 5 sides square"
+  author: "durazno_33"
+  date: 03-09-2016
 
 taxonomy:
   part: ["30386", "4070"]

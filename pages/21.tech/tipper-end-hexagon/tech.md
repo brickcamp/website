@@ -5,10 +5,11 @@ date: 09-10-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/moctagon/7392011202"
-source_title: "The Moctagon SNOT Connection"
-source_name: "Moctagon Jones"
-source_date: 18-06-2012
+source:
+  url: "https://www.flickr.com/photos/moctagon/7392011202"
+  title: "The Moctagon SNOT Connection"
+  author: "Moctagon Jones"
+  date: 18-06-2012
 
 taxonomy:
   part: ["30022", "6061"]

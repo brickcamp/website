@@ -5,10 +5,11 @@ date: 23-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/bram/449129582"
-source_title: "5 sides x 4 studs..."
-source_name: "Bram"
-source_date: 07-04-2007
+source:
+  url: "https://www.flickr.com/photos/bram/449129582"
+  title: "5 sides x 4 studs..."
+  author: "Bram"
+  date: 07-04-2007
 
 taxonomy:
   part: ["4595", "3022"]

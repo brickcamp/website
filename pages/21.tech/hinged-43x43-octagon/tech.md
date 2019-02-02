@@ -5,10 +5,11 @@ date: 27-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/gambort/11072499513/"
-source_title: "Because MATHS"
-source_name: "Tim Gould"
-source_date: 27-11-2013
+source:
+  url: "https://www.flickr.com/photos/gambort/11072499513/"
+  title: "Because MATHS"
+  author: "Tim Gould"
+  date: 27-11-2013
 
 taxonomy:
   part: ["3830", "3831", "3623", "3666", "3460", "4282", "3005", "3009"]

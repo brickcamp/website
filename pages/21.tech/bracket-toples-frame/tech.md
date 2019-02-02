@@ -5,10 +5,11 @@ date: 23-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/50983505@N05/4873096343"
-source_title: "Bordeded"
-source_name: "Element Stacker"
-source_date: 08-08-2010
+source:
+  url: "https://www.flickr.com/photos/50983505@N05/4873096343"
+  title: "Bordeded"
+  author: "Element Stacker"
+  date: 08-08-2010
 
 taxonomy:
   part: ["44728"]

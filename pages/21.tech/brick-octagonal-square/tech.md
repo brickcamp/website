@@ -5,9 +5,10 @@ date: 08-11-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://uniquebriquetechniques.blogspot.de/2006/08/various-snot-techniques.html"
-source_title: "Various SNOT Techniques"
-source_name: "Unique Brique Techniques"
+source:
+  url: "http://uniquebriquetechniques.blogspot.de/2006/08/various-snot-techniques.html"
+  title: "Various SNOT Techniques"
+  author: "Unique Brique Techniques"
 
 taxonomy:
   part: ["6042"]

@@ -5,9 +5,10 @@ date: 29-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.ntbricks.com/BuildersCorner/TipsandTricks.html"
-source_title: "Tips and Tricks"
-source_name: "Nathan Todd"
+source:
+  url: "http://www.ntbricks.com/BuildersCorner/TipsandTricks.html"
+  title: "Tips and Tricks"
+  author: "Nathan Todd"
 
 taxonomy:
   part: ["6565", "6564"]

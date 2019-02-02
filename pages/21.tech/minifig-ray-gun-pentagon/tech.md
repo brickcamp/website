@@ -5,10 +5,11 @@ date: 29-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/66864568@N00/5507975002"
-source_title: "Thought you might like to know"
-source_name: "whateverly"
-source_date: 07-03-2011
+source:
+  url: "https://www.flickr.com/photos/66864568@N00/5507975002"
+  title: "Thought you might like to know"
+  author: "whateverly"
+  date: 07-03-2011
 
 taxonomy:
   part: ["87993"]

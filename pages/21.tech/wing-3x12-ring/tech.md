@@ -5,9 +5,10 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/sheogorath/16704263372/"
-source_title: "Circular Basement"
-source_name: "Sheo"
+source:
+  url: "https://www.flickr.com/photos/sheogorath/16704263372/"
+  title: "Circular Basement"
+  author: "Sheo"
 
 taxonomy:
   part: ["47398", "47397", "73983" ,"3020"]

@@ -5,9 +5,10 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.l3go.bugge.com/articles/technique/Hypotech1.shtml"
-source_title: "Hypo-technique 1"
-source_name: "Sir Bugges"
+source:
+  url: "http://www.l3go.bugge.com/articles/technique/Hypotech1.shtml"
+  title: "Hypo-technique 1"
+  author: "Sir Bugges"
 
 links:
   - name: "Calculate Angles"

@@ -5,10 +5,11 @@ date: 29-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/156114156@N07/29595683788"
-source_title: "LEGO Technique 0370"
-source_name: "ZoulBrick"
-source_date: 17-07-2018
+source:
+  url: "https://www.flickr.com/photos/156114156@N07/29595683788"
+  title: "LEGO Technique 0370"
+  author: "ZoulBrick"
+  date: 17-07-2018
 
 taxonomy:
   part: ["18759", "4733"]

@@ -5,10 +5,11 @@ date: 01-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/66864568@N00/5535726032/"
-source_title: "Grid"
-source_name: "whateverly"
-source_date: 16-03-2011
+source:
+  url: "https://www.flickr.com/photos/66864568@N00/5535726032/"
+  title: "Grid"
+  author: "whateverly"
+  date: 16-03-2011
 
 taxonomy:
   part: ["32034", "4519"]

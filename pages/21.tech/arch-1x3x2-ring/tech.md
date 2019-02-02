@@ -5,10 +5,11 @@ date: 27-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/pepa_quin/5157991423"
-source_title: "Candy Swirl"
-source_name: "Matt De Lanoy"
-source_date: 08-11-2010
+source:
+  url: "https://www.flickr.com/photos/pepa_quin/5157991423"
+  title: "Candy Swirl"
+  author: "Matt De Lanoy"
+  date: 08-11-2010
 
 taxonomy:
   part: ["88292"]

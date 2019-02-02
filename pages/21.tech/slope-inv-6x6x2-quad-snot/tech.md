@@ -5,10 +5,11 @@ date: 23-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/51476462@N03/5205076235"
-source_title: "Odd connection"
-source_name: "Andrew Somers"
-source_date: 24-11-2010
+source:
+  url: "https://www.flickr.com/photos/51476462@N03/5205076235"
+  title: "Odd connection"
+  author: "Andrew Somers"
+  date: 24-11-2010
 
 taxonomy:
   part: ["30373"]

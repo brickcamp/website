@@ -5,10 +5,11 @@ date: 29-09-2016
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.1000steine.de/de/gemeinschaft/forum/?entry=1&id=345875#id345875"
-source_title: "Sch*** Straßen"
-source_name: "MTM"
-source_date: 25-10-2015
+source:
+  url: "http://www.1000steine.de/de/gemeinschaft/forum/?entry=1&id=345875#id345875"
+  title: "Sch*** Straßen"
+  author: "MTM"
+  date: 25-10-2015
 
 taxonomy:
   part: ["3651"]

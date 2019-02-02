@@ -5,10 +5,11 @@ date: 30-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/28134808@N02/4598427796"
-source_title: "Assembly"
-source_name: "mahjqa"
-source_date: 11-05-2010
+source:
+  url: "https://www.flickr.com/photos/28134808@N02/4598427796"
+  title: "Assembly"
+  author: "mahjqa"
+  date: 11-05-2010
 
 taxonomy:
   part: ["32184", "4519"]

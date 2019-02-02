@@ -5,10 +5,11 @@ date: 10-10-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.youtube.com/watch?v=z8T2LR1GMOA"
-source_title: "IHS Gravtec Odyssey"
-source_name: "Robert Turner"
-source_date: 28-06-2015
+source:
+  url: "https://www.youtube.com/watch?v=z8T2LR1GMOA"
+  title: "IHS Gravtec Odyssey"
+  author: "Robert Turner"
+  date: 28-06-2015
 
 taxonomy:
   part: ["53400"]

@@ -5,10 +5,11 @@ date: 30-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/bobdequatre/19890912805/"
-source_title: "8x8 dishes trick"
-source_name: "BobDeQuatre"
-source_date: 20-06-2015 
+source:
+  url: "https://www.flickr.com/photos/bobdequatre/19890912805/"
+  title: "8x8 dishes trick"
+  author: "BobDeQuatre"
+  date: 20-06-2015 
 
 taxonomy:
   part: ["3961", "44301a", "44302a"]

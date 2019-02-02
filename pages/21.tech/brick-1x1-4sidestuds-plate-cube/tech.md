@@ -5,10 +5,11 @@ date: 27-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/donsolo/3706017309"
-source_title: "more than one way to skin a cat"
-source_name: "Solo"
-source_date: 10-07-2009
+source:
+  url: "https://www.flickr.com/photos/donsolo/3706017309"
+  title: "more than one way to skin a cat"
+  author: "Solo"
+  date: 10-07-2009
 
 taxonomy:
   part: ["4733", "3022"]

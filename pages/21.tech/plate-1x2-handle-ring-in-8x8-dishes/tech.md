@@ -5,10 +5,11 @@ date: 28-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/captainredstorm/432694019"
-source_title: "Steampunk unicycle maybe?"
-source_name: "Captain Redstorm"
-source_date: 24-03-2007
+source:
+  url: "https://www.flickr.com/photos/captainredstorm/432694019"
+  title: "Steampunk unicycle maybe?"
+  author: "Captain Redstorm"
+  date: 24-03-2007
 
 taxonomy:
   part: ["2540", "3961", "3941", "3705"]

@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.brickshelf.com/cgi-bin/gallery.cgi?f=145764"
-source_title: "Basic Brick Wall"
-source_name: "Marakoeschtra"
-source_date: 16-09-2005
+source:
+  url: "http://www.brickshelf.com/cgi-bin/gallery.cgi?f=145764"
+  title: "Basic Brick Wall"
+  author: "Marakoeschtra"
+  date: 16-09-2005
 
 taxonomy:
   part: ["87087", "3005", "3070b", "3069b"]

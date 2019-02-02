@@ -5,10 +5,11 @@ date: 03-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/scruffulous/4466106877/"
-source_title: "Another option for swoofty"
-source_name: "Mike Pianta"
-source_date: 27-03-2010
+source:
+  url: "https://www.flickr.com/photos/scruffulous/4466106877/"
+  title: "Another option for swoofty"
+  author: "Mike Pianta"
+  date: 27-03-2010
 
 taxonomy:
   part: ["61409", "4085c", "2921"]

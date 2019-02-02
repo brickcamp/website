@@ -5,10 +5,11 @@ date: 26-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/96739476@N04/17047137816"
-source_title: "Circle Technique"
-source_name: "Joe Miller"
-source_date: 07-04-2015
+source:
+  url: "https://www.flickr.com/photos/96739476@N04/17047137816"
+  title: "Circle Technique"
+  author: "Joe Miller"
+  date: 07-04-2015
 
 taxonomy:
   part: ["93606", "3794b", "3023", "3023", "48336", "60470b"]

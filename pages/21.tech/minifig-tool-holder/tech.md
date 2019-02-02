@@ -5,9 +5,10 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://swooshable.com/snot/chainsaw-body"
-source_title: "Chainsaw Body"
-source_name: "Linus Bohman"
+source:
+  url: "http://swooshable.com/snot/chainsaw-body"
+  title: "Chainsaw Body"
+  author: "Linus Bohman"
 
 taxonomy:
   part: ["2516", "3062b"]

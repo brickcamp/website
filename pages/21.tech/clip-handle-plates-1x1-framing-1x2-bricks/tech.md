@@ -5,10 +5,11 @@ date: 29-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/bradslegoroom/4649076955"
-source_title: "SNOT Techniques 10"
-source_name: "鉄男"
-source_date: 13-05-2010
+source:
+  url: "https://www.flickr.com/photos/bradslegoroom/4649076955"
+  title: "SNOT Techniques 10"
+  author: "鉄男"
+  date: 13-05-2010
 
 taxonomy:
   part: ["26047", "6019", "3069b", "3023", "3004" ]

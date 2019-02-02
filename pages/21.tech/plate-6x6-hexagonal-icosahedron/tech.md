@@ -5,10 +5,11 @@ date: 27-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/legoman19892/33250196252"
-source_title: "Truncated Icosahedron"
-source_name: "Legoman19892"
-source_date: 12-03-2017
+source:
+  url: "https://www.flickr.com/photos/legoman19892/33250196252"
+  title: "Truncated Icosahedron"
+  author: "Legoman19892"
+  date: 12-03-2017
 
 taxonomy:
   part: ["27255", "4085c","3023"]

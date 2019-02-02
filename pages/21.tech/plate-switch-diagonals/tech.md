@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.lowlug.nl/brickbieb/bouwtechniek-schuin-plaatsen/"
-source_title: "Bouwtechniek: schuin plaatsen"
-source_name: "stuifzand"
-source_date: 30-03-2014
+source:
+  url: "http://www.lowlug.nl/brickbieb/bouwtechniek-schuin-plaatsen/"
+  title: "Bouwtechniek: schuin plaatsen"
+  author: "stuifzand"
+  date: 30-03-2014
 
 taxonomy:
   part: ["6141", "3021", "3865"]

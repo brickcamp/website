@@ -5,10 +5,11 @@ date: 16-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/swoofty/10144907284"
-source_title: "DAT OFFSET"
-source_name: "swoofty"
-source_date: 07-10-2013
+source:
+  url: "https://www.flickr.com/photos/swoofty/10144907284"
+  title: "DAT OFFSET"
+  author: "swoofty"
+  date: 07-10-2013
 
 taxonomy:
   part: ["3700", "4274", "6141"]

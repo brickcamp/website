@@ -5,10 +5,11 @@ date: 26-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/11181786@N02/2879599244"
-source_title: "Rigid Pentagon"
-source_name: "Paramat"
-source_date: 22-09-2008
+source:
+  url: "https://www.flickr.com/photos/11181786@N02/2879599244"
+  title: "Rigid Pentagon"
+  author: "Paramat"
+  date: 22-09-2008
 
 taxonomy:
   part: ["48336", "60470b", "3022"]

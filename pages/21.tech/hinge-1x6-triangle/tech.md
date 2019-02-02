@@ -5,10 +5,11 @@ date: 11-10-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/numo/3403587517"
-source_title: "Lego Triangle 21"
-source_name: "Arran Hearn"
-source_date: 19-02-2008
+source:
+  url: "https://www.flickr.com/photos/numo/3403587517"
+  title: "Lego Triangle 21"
+  author: "Arran Hearn"
+  date: 19-02-2008
 
 taxonomy:
   part: ["4504"]

@@ -5,10 +5,11 @@ date: 08-11-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.technicbricks.com/2008/02/tbs-techtips-010-triangle-and-hexagon.html"
-source_title: "TBs TechTips 011 - Triangle and Hexagon TECHNIC structures"
-source_name: "Fernando Correia"
-source_date: 25-02-2008
+source:
+  url: "http://www.technicbricks.com/2008/02/tbs-techtips-010-triangle-and-hexagon.html"
+  title: "TBs TechTips 011 - Triangle and Hexagon TECHNIC structures"
+  author: "Fernando Correia"
+  date: 25-02-2008
 
 taxonomy:
   part: ["32316", "41677", "6632", "32062"]

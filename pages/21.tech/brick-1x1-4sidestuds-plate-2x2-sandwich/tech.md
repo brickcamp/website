@@ -5,10 +5,11 @@ date: 30-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/legocy/18383654893/"
-source_title: "Techniques: #2 Studs to Studs"
-source_name: "Sean & Steph Mayo"
-source_date: 21-06-2015
+source:
+  url: "https://www.flickr.com/photos/legocy/18383654893/"
+  title: "Techniques: #2 Studs to Studs"
+  author: "Sean & Steph Mayo"
+  date: 21-06-2015
 
 taxonomy:
   part: ["4733", "3022"]

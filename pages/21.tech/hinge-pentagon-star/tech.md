@@ -5,10 +5,11 @@ date: 27-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/59352975@N08/7218201886"
-source_title: "Star Techniques"
-source_name: "Water Snap"
-source_date: 17-05-2012
+source:
+  url: "https://www.flickr.com/photos/59352975@N08/7218201886"
+  title: "Star Techniques"
+  author: "Water Snap"
+  date: 17-05-2012
 
 taxonomy:
   part: ["30386", "3048b", "3044b", "54200"]

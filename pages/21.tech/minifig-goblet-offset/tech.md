@@ -5,10 +5,11 @@ date: 30-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/marinstipkovic/16440008257"
-source_title: "Height difference"
-source_name: "Marin Stipkovic"
-source_date: 25-02-2015
+source:
+  url: "https://www.flickr.com/photos/marinstipkovic/16440008257"
+  title: "Height difference"
+  author: "Marin Stipkovic"
+  date: 25-02-2015
 
 taxonomy:
   part: ["2343", "6141"]

@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.brucelowell.com/lowell-sphere/"
-source_title: "Lowell Sphere"
-source_name: "Bruce Lowell"
-source_date: 29-05-2003
+source:
+  url: "http://www.brucelowell.com/lowell-sphere/"
+  title: "Lowell Sphere"
+  author: "Bruce Lowell"
+  date: 29-05-2003
 
 links:
   - name: "Original Design"

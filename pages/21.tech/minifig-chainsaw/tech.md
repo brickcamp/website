@@ -5,9 +5,10 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://swooshable.com/snot/minifig-chainsaw"
-source_title: "Minifig Chainsaw"
-source_name: "Linus Bohman"
+source:
+  url: "http://swooshable.com/snot/minifig-chainsaw"
+  title: "Minifig Chainsaw"
+  author: "Linus Bohman"
 
 taxonomy:
   part: ["6117"]

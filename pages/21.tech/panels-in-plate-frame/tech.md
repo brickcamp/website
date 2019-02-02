@@ -5,10 +5,11 @@ date: 09-10-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/28192677@N06/4317222438/"
-source_title: "Behind the controls"
-source_name: "Larry Lars"
-source_date: 30-01-2010
+source:
+  url: "https://www.flickr.com/photos/28192677@N06/4317222438/"
+  title: "Behind the controls"
+  author: "Larry Lars"
+  date: 30-01-2010
 
 taxonomy:
   part: ["2362b", "3710", "3005", "3023", "3069b"]

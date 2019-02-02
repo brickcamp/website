@@ -5,10 +5,11 @@ date: 19-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/umamen/23999220611/in/pool-788191@N24/"
-source_title: "How to make ball"
-source_name: "umamen"
-source_date: 31-12-2015
+source:
+  url: "https://www.flickr.com/photos/umamen/23999220611/in/pool-788191@N24/"
+  title: "How to make ball"
+  author: "umamen"
+  date: 31-12-2015
 
 taxonomy:
   part: ["2654", "33291", "4733"]

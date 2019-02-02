@@ -5,10 +5,11 @@ date: 01-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/96739476@N04/14201282314"
-source_title: "180 Degree Reversal"
-source_name: "Joe Miller"
-source_date: 16-05-2014
+source:
+  url: "https://www.flickr.com/photos/96739476@N04/14201282314"
+  title: "180 Degree Reversal"
+  author: "Joe Miller"
+  date: 16-05-2014
 
 taxonomy:
   part: ["60475b", "2921", "85861"]

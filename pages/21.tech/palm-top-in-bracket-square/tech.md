@@ -5,10 +5,11 @@ date: 11-10-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/65992320@N05/6230552713"
-source_title: "Technique"
-source_name: "4estFeller"
-source_date: 10-10-2011
+source:
+  url: "https://www.flickr.com/photos/65992320@N05/6230552713"
+  title: "Technique"
+  author: "4estFeller"
+  date: 10-10-2011
 
 taxonomy:
   part: ["2566", "44728"]

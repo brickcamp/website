@@ -5,10 +5,11 @@ date: 23-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/vynsane/5514015532"
-source_title: "Slotted SNOT"
-source_name: "Vyn Raskopf"
-source_date: 10-03-2011
+source:
+  url: "https://www.flickr.com/photos/vynsane/5514015532"
+  title: "Slotted SNOT"
+  author: "Vyn Raskopf"
+  date: 10-03-2011
 
 taxonomy:
   part: ["2653", "32028", "4510", "3710"]

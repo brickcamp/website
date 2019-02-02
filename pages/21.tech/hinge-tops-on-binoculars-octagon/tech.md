@@ -5,10 +5,11 @@ date: 27-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/42725373@N02/3944562691"
-source_title: "DSCF8702"
-source_name: "Logan Thyr"
-source_date: 31-08-2008
+source:
+  url: "https://www.flickr.com/photos/42725373@N02/3944562691"
+  title: "DSCF8702"
+  author: "Logan Thyr"
+  date: 31-08-2008
 
 taxonomy:
   part: ["3938", "30162", "4733"]

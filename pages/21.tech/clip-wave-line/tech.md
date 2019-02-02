@@ -5,9 +5,10 @@ date: 03-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/sheogorath/16285434127"
-source_title: "Clip Wave Technique"
-source_name: "Sheo"
+source:
+  url: "https://www.flickr.com/photos/sheogorath/16285434127"
+  title: "Clip Wave Technique"
+  author: "Sheo"
 
 taxonomy:
   part: ["2555", "4085c", "99780", "3023", "4070", "2431"]

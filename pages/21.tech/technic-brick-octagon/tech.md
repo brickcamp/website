@@ -5,10 +5,11 @@ date: 01-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/kaille/5536199960"
-source_title: "135 Degree Corner"
-source_name: "Kaille400"
-source_date: 17-03-2011
+source:
+  url: "https://www.flickr.com/photos/kaille/5536199960"
+  title: "135 Degree Corner"
+  author: "Kaille400"
+  date: 17-03-2011
 
 taxonomy:
   part: ["3894", "32000", "2780"]

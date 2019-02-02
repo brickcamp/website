@@ -5,10 +5,11 @@ date: 19-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.dagsbricks.com/2014/01/lego-techniques-cones.html"
-source_title: "LEGO Techniques - Cones"
-source_name: "Brian Dag"
-source_date: 15-01-2014
+source:
+  url: "http://www.dagsbricks.com/2014/01/lego-techniques-cones.html"
+  title: "LEGO Techniques - Cones"
+  author: "Brian Dag"
+  date: 15-01-2014
 
 taxonomy:
   part: ["11610", "59900"]

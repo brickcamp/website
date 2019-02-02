@@ -5,9 +5,10 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://swooshable.com/snot/minifig-wrench"
-source_title: "Minifig Wrench"
-source_name: "Linus Bohman"
+source:
+  url: "http://swooshable.com/snot/minifig-wrench"
+  title: "Minifig Wrench"
+  author: "Linus Bohman"
 
 taxonomy:
   part: ["55300"]

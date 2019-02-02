@@ -5,10 +5,11 @@ date: 29-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/crazy_texan/16375956292"
-source_title: "Ring"
-source_name: "John Moffatt"
-source_date: 27-01-2015
+source:
+  url: "https://www.flickr.com/photos/crazy_texan/16375956292"
+  title: "Ring"
+  author: "John Moffatt"
+  date: 27-01-2015
 
 taxonomy:
   part: ["64566", "50950", "4070", "6541"]

@@ -8,7 +8,7 @@ cad: model.ldr
 source:
   - url: "https://www.flickr.com/photos/biplex/13779694214"
     title: "Ode to the element - part 1"
-    name: "the_jetboy"
+    author: "the_jetboy"
     date: 11-04-2014
 
 taxonomy:

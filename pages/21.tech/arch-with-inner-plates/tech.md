@@ -5,10 +5,11 @@ date: 29-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/62bricks/4917543775"
-source_title: "1x5x4 Arch Geometry"
-source_name: "Don Rogerson"
-source_date: 22-08-2010
+source:
+  url: "https://www.flickr.com/photos/62bricks/4917543775"
+  title: "1x5x4 Arch Geometry"
+  author: "Don Rogerson"
+  date: 22-08-2010
 
 taxonomy:
   part: ["2339", "3024"]

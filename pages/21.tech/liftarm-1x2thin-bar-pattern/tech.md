@@ -5,10 +5,11 @@ date: 29-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/buildingsblockd/3938272712"
-source_title: "Rounds and Curves"
-source_name: "Deborah Higdon"
-source_date: 20-09-2009
+source:
+  url: "https://www.flickr.com/photos/buildingsblockd/3938272712"
+  title: "Rounds and Curves"
+  author: "Deborah Higdon"
+  date: 20-09-2009
 
 taxonomy:
   part: ["41677", "30374"]

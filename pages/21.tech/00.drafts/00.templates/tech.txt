@@ -5,10 +5,11 @@ date: 31-12-1999
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.example.com/source/page.html"
-source_title: "Title of the post or site"
-source_name: "Name of the author"
-source_date: 01-01-2000
+source:
+  url: "https://www.example.com/source/page.html"
+  title: "Title of the post or site"
+  author: "Name of the author"
+  date: 01-01-2000
 
 links:
   - name: "Title 1"

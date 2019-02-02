@@ -5,10 +5,11 @@ date: 16-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/catsy/3989317916"
-source_title: "Why I really wanted piece #85943"
-source_name: "Catsy"
-source_date: 06-10-2009
+source:
+  url: "https://www.flickr.com/photos/catsy/3989317916"
+  title: "Why I really wanted piece #85943"
+  author: "Catsy"
+  date: 06-10-2009
 
 taxonomy:
   part: ["85943", "32064a", "32062"]

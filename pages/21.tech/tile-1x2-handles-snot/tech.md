@@ -5,10 +5,11 @@ date: 27-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/legohungary/31164198135"
-source_title: "Snot 180"
-source_name: "Péter Ittzés"
-source_date: 21-11-2016
+source:
+  url: "https://www.flickr.com/photos/legohungary/31164198135"
+  title: "Snot 180"
+  author: "Péter Ittzés"
+  date: 21-11-2016
 
 taxonomy:
   part: ["2432","60470b"]

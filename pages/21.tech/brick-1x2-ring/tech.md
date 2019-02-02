@@ -5,9 +5,10 @@ date: 27-05-2018
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.brickbending.com/"
-source_title: "BrickBending.com"
-source_name: "Jeff Sanders"
+source:
+  url: "http://www.brickbending.com/"
+  title: "BrickBending.com"
+  author: "Jeff Sanders"
 
 taxonomy:
   part: ["3004"]

@@ -5,10 +5,11 @@ date: 10-10-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/ltdemartinet/7085826707"
-source_title: "Why?"
-source_name: "Ryan Howerter"
-source_date: 16-04-2012
+source:
+  url: "https://www.flickr.com/photos/ltdemartinet/7085826707"
+  title: "Why?"
+  author: "Ryan Howerter"
+  date: 16-04-2012
 
 taxonomy:
   part: ["6091", "6005", "6060", "2339"]

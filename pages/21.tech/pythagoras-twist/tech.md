@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.eurobricks.com/forum/index.php?showtopic=21942"
-source_title: "Angled walls"
-source_name: "Teddy"
-source_date: 07-10-2008
+source:
+  url: "http://www.eurobricks.com/forum/index.php?showtopic=21942"
+  title: "Angled walls"
+  author: "Teddy"
+  date: 07-10-2008
 
 taxonomy:
   part: ["3024", "3666"]

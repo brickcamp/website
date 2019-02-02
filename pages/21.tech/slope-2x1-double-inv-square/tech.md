@@ -5,10 +5,11 @@ date: 03-01-2016
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/oepilman/16329387596"
-source_title: "so jeah..."
-source_name: "David"
-source_date: 24-01-2015
+source:
+  url: "https://www.flickr.com/photos/oepilman/16329387596"
+  title: "so jeah..."
+  author: "David"
+  date: 24-01-2015
 
 taxonomy:
   part: ["3049d"]

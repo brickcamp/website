@@ -5,10 +5,11 @@ date: 31-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/horlack/36264590134"
-source_title: "Published-0004"
-source_name: "Horlack"
-source_date: 08-09-2017
+source:
+  url: "https://www.flickr.com/photos/horlack/36264590134"
+  title: "Published-0004"
+  author: "Horlack"
+  date: 08-09-2017
 
 taxonomy:
   part: ["57585", "30259", "99021"]

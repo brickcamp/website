@@ -5,10 +5,11 @@ date: 28-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/the-magic-tuba-pixie/3505240953"
-source_title: "Tablescraps."
-source_name: "The Magic Tuba Pixie"
-source_date: 05-05-2009
+source:
+  url: "https://www.flickr.com/photos/the-magic-tuba-pixie/3505240953"
+  title: "Tablescraps."
+  author: "The Magic Tuba Pixie"
+  date: 05-05-2009
 
 taxonomy:
   part: ["2555", "3070b"]

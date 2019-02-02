@@ -5,9 +5,10 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://swooshable.com/snot/grill-tiles-and-levers"
-source_title: "Grill Tiles and Levers"
-source_name: "Linus Bohman"
+source:
+  url: "http://swooshable.com/snot/grill-tiles-and-levers"
+  title: "Grill Tiles and Levers"
+  author: "Linus Bohman"
 
 taxonomy:
   part: ["2412b", "4593"]

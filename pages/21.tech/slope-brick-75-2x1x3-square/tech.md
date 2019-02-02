@@ -5,10 +5,11 @@ date: 29-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/guanness/43502081982"
-source_title: "An impossibility connection :)"
-source_name: "Raymond Soh"
-source_date: 21-07-2018
+source:
+  url: "https://www.flickr.com/photos/guanness/43502081982"
+  title: "An impossibility connection :)"
+  author: "Raymond Soh"
+  date: 21-07-2018
 
 taxonomy:
   part: ["2449", "4733"]

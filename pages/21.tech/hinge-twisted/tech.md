@@ -5,10 +5,11 @@ date: 23-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://www.brickshelf.com/gallery/KimT/Mixed/Instructions/advbuilding.pdf"
-source_title: "The Unofficial LEGO Advanced Building Techniques Guide"
-source_name: "Didier Enjary"
-source_date: 11-02-2007
+source:
+  url: "http://www.brickshelf.com/gallery/KimT/Mixed/Instructions/advbuilding.pdf"
+  title: "The Unofficial LEGO Advanced Building Techniques Guide"
+  author: "Didier Enjary"
+  date: 11-02-2007
 
 taxonomy:
   part: ["3639", "3640", "44567a", "60471", "44301a", "44302a", "4275b", "4276b", "30540", "30541", "30364", "30365", "30386", "4315", "4213"]

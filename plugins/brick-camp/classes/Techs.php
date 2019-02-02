@@ -62,13 +62,18 @@ abstract class Techs {
     public static function addSourceTaxonomy( $tech ){
         // check for source url
         $header = $tech->header();
-        if ( ! isset($header->source_url) ) {
+        if ( ! isset($header->source) ){
+            return;
+        }
+
+        $source = (array)$header->source;
+        if ( ! isset($source['url']) ){
             return;
         }
 
         // set host as source taxonomy term
         $pagetax = $tech->taxonomy();
-        $domain = parse_url($header->source_url, PHP_URL_HOST);
+        $domain = parse_url($source['url'], PHP_URL_HOST);
         if (substr( $domain, 0, 4 ) === "www.") {
             $domain = substr( $domain, 4);
         }

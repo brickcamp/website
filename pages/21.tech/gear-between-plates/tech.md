@@ -5,10 +5,11 @@ date: 23-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/aka_zero/7586911092"
-source_title: "Gear Technique"
-source_name: "Sandy"
-source_date: 16-07-2012
+source:
+  url: "https://www.flickr.com/photos/aka_zero/7586911092"
+  title: "Gear Technique"
+  author: "Sandy"
+  date: 16-07-2012
 
 taxonomy:
   part: ["4019", "3648a", "3031"]

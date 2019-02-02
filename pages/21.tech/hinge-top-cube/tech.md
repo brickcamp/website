@@ -5,10 +5,11 @@ date: 19-01-2019
 image: image.png
 cad: model.ldr
 
-source_url: "https://swooshable.com/snot/dsnot2"
-source_title: "DSnot #2"
-source_name: "Linus Bohman"
-source_date: 20-08-2017
+source:
+  url: "https://swooshable.com/snot/dsnot2"
+  title: "DSnot #2"
+  author: "Linus Bohman"
+  date: 20-08-2017
 
 taxonomy:
   part: ["3938", "6134"]

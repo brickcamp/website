@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/eklund-1/8685771543"
-source_title: "Cobblestone Technique"
-source_name: "Tommy M."
-source_date: 27-04-2013
+source:
+  url: "https://www.flickr.com/photos/eklund-1/8685771543"
+  title: "Cobblestone Technique"
+  author: "Tommy M."
+  date: 27-04-2013
 
 taxonomy:
   part: ["2555"]

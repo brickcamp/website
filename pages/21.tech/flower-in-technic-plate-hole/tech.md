@@ -5,10 +5,11 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/thomas_reincke/14356864278/"
-source_title: "Snotblumen"
-source_name: "Thomas Reincke"
-source_date: 29-06-2014
+source:
+  url: "https://www.flickr.com/photos/thomas_reincke/14356864278/"
+  title: "Snotblumen"
+  author: "Thomas Reincke"
+  date: 29-06-2014
 
 taxonomy:
   part: ["33291", "3709"]

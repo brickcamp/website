@@ -5,9 +5,10 @@ date: 14-09-2015
 image: image.png
 cad: model.ldr
 
-source_url: "http://swooshable.com/snot/pneumatic-t-with-plate-1x4-offset"
-source_title: "Pneumatic T with Plate 1x4 Offset"
-source_name: "Linus Bohman"
+source:
+  url: "http://swooshable.com/snot/pneumatic-t-with-plate-1x4-offset"
+  title: "Pneumatic T with Plate 1x4 Offset"
+  author: "Linus Bohman"
 
 taxonomy:
   part: ["4697b", "4590", "3004"]

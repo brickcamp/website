@@ -5,10 +5,11 @@ date: 08-11-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/mainman/4558556165"
-source_title: "Click hinge curves"
-source_name: "Mainman"
-source_date: 27-04-2010
+source:
+  url: "https://www.flickr.com/photos/mainman/4558556165"
+  title: "Click hinge curves"
+  author: "Mainman"
+  date: 27-04-2010
 
 taxonomy:
   part: ["44302a"]

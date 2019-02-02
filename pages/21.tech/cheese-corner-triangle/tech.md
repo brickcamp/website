@@ -5,10 +5,11 @@ date: 06-12-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/eilonwy77/6860252743"
-source_title: "Triangle"
-source_name: "Katie Walker"
-source_date: 12-02-2012
+source:
+  url: "https://www.flickr.com/photos/eilonwy77/6860252743"
+  title: "Triangle"
+  author: "Katie Walker"
+  date: 12-02-2012
 
 taxonomy:
   part: ["2420", "3622", "54200", "3024"]

@@ -5,10 +5,11 @@ date: 26-08-2015
 image: image.png
 cad: model.ldr
 
-source_url: "https://www.flickr.com/photos/11181786@N02/2049548243"
-source_title: "Rigid Hexagon"
-source_name: "Paramat"
-source_date: 15-10-2007
+source:
+  url: "https://www.flickr.com/photos/11181786@N02/2049548243"
+  title: "Rigid Hexagon"
+  author: "Paramat"
+  date: 15-10-2007
 
 taxonomy:
   part: ["48336", "60470b", "3022"]
