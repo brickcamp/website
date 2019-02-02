@@ -4,8 +4,8 @@ namespace Grav\Plugin;
 use Grav\Common\Grav;
 use Grav\Common\Plugin;
 use Grav\Common\Uri;
-use Grav\Plugin\BrickCamp\Posttype\Techs;
-use Grav\Plugin\BrickCamp\Twig\TermsTwigExtension;
+use Grav\Plugin\BrickCamp\Techs;
+use Grav\Plugin\BrickCamp\TermsTwigExtension;
 use RocketTheme\Toolbox\Event\Event;
 
 /**
@@ -92,7 +92,12 @@ class BrickCampPlugin extends Plugin
         $collection = $event['collection'];
         $params = $collection->params();
 
-        $process_taxonomy = isset($params['url_taxonomy_filters']) ? $params['url_taxonomy_filters'] : $this->grav['config']->get('system.pages.url_taxonomy_filters');
+        if (isset($params['url_taxonomy_filters'])) {
+            $process_taxonomy = $params['url_taxonomy_filters'];
+        } else {
+            $process_taxonomy = $this->grav['config']->get('system.pages.url_taxonomy_filters');
+        }
+        
         if ($process_taxonomy) {
             $orderby = $this->grav['uri']->param('orderby');
             $orderdir = $this->grav['uri']->param('orderdir');

@@ -1,5 +1,5 @@
 <?php
-namespace Grav\Plugin\BrickCamp\Taxonomy;
+namespace Grav\Plugin\BrickCamp;
 
 abstract class Functions {
 
@@ -176,40 +176,4 @@ abstract class Functions {
     public const SEGSIZE_GROUPS = array( 
         array( 9, PHP_INT_MAX, '9up'),
     );
-
-    // public const FUNCTION_OBJECT   = 'object';
-    // public const FUNCTION_OFFSET   = 'offset';
-    // public const FUNCTION_PATTERN  = 'pattern';
-    // public const FUNCTION_ROTATION = 'rotation';
-    // public const FUNCTION_SHAPE    = 'shape';
-
-    // public static function get_rotation_choices() {
-    //     return array(
-    //         self::ROTATION_STUD_TILT  => __('Stud Tilt', 'BrickCamp'),
-    //         self::ROTATION_STUD_TWIST => __('Stud Twist', 'BrickCamp'),
-    //         self::ROTATION_AXLE_TILT  => __('Axle Tilt', 'BrickCamp'),
-    //     );
-    // }
-
-    // public const OFFSET_STUD_SHIFT = 'stud_shift';
-    // public const OFFSET_STUD_LIFT = 'stud_lift';
-    // public const OFFSET_AXLE_SHIFT = 'axle_shift';
-
-    // public const PATTERN_1D = '1D';
-    // public const PATTERN_2D = '2D';
-    // public const PATTERN_3D = '3D';
-
-    // public const SHAPE_2D = '2D';
-    // public const SHAPE_3D = '3D';
-
-    // public const ORDER_ASC = 'ASC';
-    // public const ORDER_DESC = 'DESC';
-
-    // public const ORDER_BY_AUTHOR = 'author';
-    // public const ORDER_BY_TITLE = 'title';
-    // public const ORDER_BY_DATE = 'date';
-    // public const ORDER_BY_MODIFIED = 'modified';
-    // public const ORDER_BY_RANDOM = 'rand';
-    // public const ORDER_BY_COMMENTS = 'comment_count';
-    // public const ORDER_BY_PART_COUNT = Names::PART_COUNT;
 }

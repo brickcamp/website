@@ -1,10 +1,12 @@
 <?php
-namespace Grav\Plugin\BrickCamp\Posttype;
-use Grav\Plugin\BrickCamp\Taxonomy\Functions;
+namespace Grav\Plugin\BrickCamp;
+use Grav\Plugin\BrickCamp\Functions;
 
 abstract class Techs {
 
-    // Taxonomies related to function terms 
+    /**
+     * Conversion factors: each Units in LDU
+     */
     public const LENGTH_UNITS = array(
         'ldu'    => 1,
         'plate'  => 8,
@@ -35,12 +37,13 @@ abstract class Techs {
         self::addTermGroups($tech);
         self::addTaxonomyGroups($tech);
     }
-            
 
     public static function addVolumeTaxonomy( $tech ){
         // check obligatory header fields
         $pagetax = $tech->taxonomy();
-        if (!isset($pagetax['width']) || !isset($pagetax['depth']) || !isset($pagetax['height'])) {
+        if (!isset($pagetax['width']) || 
+            !isset($pagetax['depth']) || 
+            !isset($pagetax['height'])) {
             return;
         }
 
@@ -140,7 +143,8 @@ abstract class Techs {
     }
 
     /**
-     * Summarizes functions of a tech by combining the different function-related taxonomies/terms
+     * Summarizes functions of a tech by combining the different 
+     * function-related taxonomies/terms
      *
      * @param Page $tech Tech to get functions from
      * @return array List of functions and their values
@@ -164,9 +168,12 @@ abstract class Techs {
 
             // add non-generated terms to result
             foreach ($taxonomies as $taxonomy) {
-                $result[$function][$taxonomy] = array_filter($pagetax[$taxonomy], function($term){
-                    return self::isOriginalTerm($term);
-                });
+                $result[$function][$taxonomy] = array_filter(
+                    $pagetax[$taxonomy], 
+                    function($term){
+                        return self::isOriginalTerm($term);
+                    }
+                );
             }
         }
 

@@ -1,5 +1,5 @@
 <?php
-namespace Grav\Plugin\BrickCamp\Taxonomy;
+namespace Grav\Plugin\BrickCamp;
 
 use Grav\Common\Grav;
 
