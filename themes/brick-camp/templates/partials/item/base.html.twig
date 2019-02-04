@@ -3,7 +3,7 @@
 {% set item_show_footer = item_show_footer is defined ? item_show_footer : page.title %}
 
 <div class="{{ item_wrapper_classes ?: 'col-sm-6 col-md-4 col-xl-3' }}">
-    <div class="{{ item_classes ?: 'card mb-4 mx-auto shadow-sm text-center' }}">
+    <div class="{{ item_classes ?: 'mb-4' }} card mx-auto shadow-sm text-center">
 
         {% if item_show_image %}
             {% block item_image %}

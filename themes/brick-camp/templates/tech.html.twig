@@ -1,13 +1,8 @@
 {% extends 'partials/single/card.html.twig' %}
 
-{# block single_image %}
-    {% if page.header.source.url %} <a href="{{ page.header.source.url }}" target="_blank" rel="noopener"> {% endif %}
-        {{ parent() }}
-    {% if page.header.source.url %} </a> {% endif %}
-{% endblock #}
-
 {% block single_content %}
     {% if page.header.source.url %}
+        {# Source #}
         <blockquote class="blockquote">
             <a href="{{ page.header.source.url }}" target="_blank" rel="noopener" role="button" class="btn btn-success w-100" title="Visit source website">
                 <div class="text-truncate">{{ page.header.source.title }}</div>
@@ -28,18 +23,37 @@
         </blockquote>
         <hr/>
     {% endif %}
-    
-        <div class="size text-center">
-            <div class="w-100 width"><strong>Width:</strong> {{ page.taxonomy.width[0] ~ ' ' ~ page.taxonomy.width[1]|pluralize|capitalize }}</div>
-            <div class="w-100 depth"><strong>Depth:</strong> {{ page.taxonomy.depth[0] ~ ' ' ~ page.taxonomy.depth[1]|pluralize|capitalize }}</div>
-            <div class="w-100 height"><strong>Height:</strong> {{ page.taxonomy.height[0] ~ ' ' ~ page.taxonomy.height[1]|pluralize|capitalize }}</div>
+        
+    {# Width / Depth / Height #}
+    {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
+        <div class="width row">
+            <div class="label col text-right"><strong>Width:</strong></div>
+            <div class="value col">{{ page.taxonomy.width[0] ~ ' ' ~ page.taxonomy.width[1]|pluralize }}</div>
         </div>
-        <hr/>
+        {% set has_size = true %}
+    {% endif %}
+    {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
+        <div class="depth row">
+            <div class="label col text-right"><strong>Depth:</strong></div>
+            <div class="value col">{{ page.taxonomy.depth[0] ~ ' ' ~ page.taxonomy.depth[1]|pluralize }}</div>
+        </div>
+        {% set has_size = true %}
+    {% endif %}
+    {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
+        <div class="height row">
+            <div class="label col text-right"><strong>Height:</strong></div>
+            <div class="value col">{{ page.taxonomy.height[0] ~ ' ' ~ page.taxonomy.height[1]|pluralize }}</div>
+        </div>
+        {% set has_size = true %}
+    {% endif %}
+    {{ has_size ? '<hr/>' }}
 
-        {% set functions = brick_functions(page) %}
-        {% for function, taxonomies in functions %}
-        <div class="{{ function }} text-center">
-            <div class="w-100 {{ function }}"><strong>{{ function|humanize }}:</strong>
+    {# Functions #}
+    {% set functions = brick_functions(page) %}
+    {% for function, taxonomies in functions %}
+        <div class="{{ function }} row">
+            <div class="label col text-right"><strong>{{ function|humanize }}:</strong></div>
+            <div class="values col scroll">
             {# {{ brick_term_image('function', function).resize(50, 50).html( function|humanize, function, 'img-fluid') }} #}
             {% for taxonomy, values in taxonomies %}
                 {% for value in values %}
@@ -50,29 +64,37 @@
             {% endfor %}
             </div>
         </div>
-        <hr/>
-        {% endfor %}
+    {% endfor %}
+    {{ functions ? '<hr/>' }}
 
-        <div class="parts text-center row px-2">
-            <div class="col-12 text-center mb-2"><strong>Parts:</strong> {{ page.taxonomy.partcount|first }}</div>
-            {# <div class="parts scroll-x"> #}
-                {% for part in page.taxonomy.part %}
-                    {% include '/partials/item/term.html.twig' with { 
-                        'tax': 'part', 
-                        'term': part,
-                        'collection_url': base_url ~ '/techs/with',
-                        'columns': 'col-4 col-sm-3 col-md-6 col-lg-4 px-1',  
-                    } %}  {#  d-inline-block px-1 #}
-                {% endfor %}
-            {# </div> #}
+    {# Parts #}
+    {% if page.taxonomy.partcount %}
+        <div class="partcount w-100 mb-2 text-center">
+            <strong>{{ page.taxonomy.partcount|first }} Parts</strong>
         </div>
-
-        {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+    {% endif %}
+    {% if page.taxonomy.part %}
+        <div class="parts row justify-content-center">
+            {% set item_term_column_classes = 'col-4 col-sm-3 col-md-6 col-lg-4 px-1' %}
+            {% set item_term_card_classes = 'mb-2' %}
+            {% for part in page.taxonomy.part %}
+                {% include '/partials/item/term.html.twig' with { 
+                    'tax': 'part', 
+                    'term': part,
+                    'collection_url': base_url ~ '/techs/with',  
+                } %} 
+            {% endfor %}
+        </div>
         <hr/>
-        <div class="related text-center row px-2">
+    {% endif %}
+
+    {# Related Pages #}
+    {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+        <div class="related row px-2 justify-content-center">
             <div class="col-12 text-center mb-2"><strong>Randomly Related</strong></div>
             {% set item_show_footer = false %}
             {% set item_wrapper_classes = 'col-4 col-sm-3 col-md-6 col-lg-4 px-1' %}
+            {% set item_classes = 'mb-2' %}
             {% for related_path, score in related_pages %}
                 {% set related = grav['pages'].get(related_path) %}
                 {% if related %}
@@ -80,6 +102,5 @@
                 {% endif %}
             {% endfor %}
         </div>
-        {% endif %}
-    {# </div> #}
+    {% endif %}
 {% endblock %}

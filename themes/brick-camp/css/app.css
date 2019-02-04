@@ -151,10 +151,9 @@ html, body, main, #header .navbar {
 
 }
 
-.shape_2D_segments::before,
-.shape_3D_segments::before {
-    content: '\A';
-    white-space: pre;
+.card-body .scroll {
+    overflow: auto;
+    max-height: 75px;
 }
 
 .shape_2D_segments::after,
@@ -166,17 +165,20 @@ html, body, main, #header .navbar {
 .shape_3D_segsize::after,
 .pattern_1D_segsize::after,
 .pattern_2D_segsize::after {
-    content: ' Parts';
+    content: ' Parts\A';
+    white-space: pre;
 }
 
 .stud_tilt_angle::after,
 .stud_twist_angle::after {
-    content: '°';
+    content: '°\A';
+    white-space: pre;
 }
 
 .stud_shift_length::after,
 .stud_lift_length::after {
-    content: ' LDU';
+    content: ' LDU\A';
+    white-space: pre;
 }
 
 @media (min-width: 768px) {

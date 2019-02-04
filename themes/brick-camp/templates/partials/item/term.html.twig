@@ -2,8 +2,8 @@
 {% set image_url = brick_term_image(tax, term).resize(100, 100, '0xffffff').quality(50).url %}
 {% set term_title = brick_term_title(tax, term) %}
 
-<div class="{{ columns ?: 'col-4 col-sm-3 col-md-2' }}">
-    <div class="term card mb-4 shadow-sm text-center tax-{{ tax }} term-{{ term }}">
+<div class="{{ item_term_column_classes ?: 'col-4 col-sm-3 col-md-2' }}">
+    <div class="term card {{ item_term_card_classes ?: 'mb-4' }} shadow-sm text-center tax-{{ tax }} term-{{ term }}">
         {% block item_image %}
             <a href="{{ term_url }}"><img class="card-img-top card-img-bottom" src="{{ image_url }}" alt="{{ tax }}-{{ term }}" title="{{ term_title }}"></a>
         {% endblock %}
