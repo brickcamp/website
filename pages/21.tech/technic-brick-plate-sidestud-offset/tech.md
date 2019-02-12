@@ -1,6 +1,10 @@
 ---
-title: "Sidestud-Plate-Techbrick Offset"
+title: "Techbrick-Plate-Sidestud Offset"
 date: 16-01-2016
+
+routes:
+    aliases:
+        - '/tech/sidestud-plate-technicbrick-offset'
 
 image: image.png
 cad: model.ldr

@@ -2,6 +2,10 @@
 title: "Tipper End Hexagon"
 date: 09-10-2015
 
+routes:
+    aliases:
+        - '/tech/tipper-end-hexagon'
+
 image: image.png
 cad: model.ldr
 

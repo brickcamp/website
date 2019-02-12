@@ -2,6 +2,10 @@
 title: "Blaster Ring"
 date: 29-08-2015
 
+routes:
+    aliases:
+        - '/tech/blaster-ring'
+
 image: image.png
 cad: model.ldr
 

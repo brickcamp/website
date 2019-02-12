@@ -1,6 +1,10 @@
 ---
-title: "Flower in Technic Brick Hole"
+title: "Flowers in Technic Brick Holes"
 date: 14-09-2015
+
+routes:
+    aliases:
+        - '/tech/flower-in-technic-plate-hole'
 
 image: image.png
 cad: model.ldr

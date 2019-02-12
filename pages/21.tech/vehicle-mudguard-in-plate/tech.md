@@ -2,6 +2,10 @@
 title: "Mudguard in Plate"
 date: 30-01-2019
 
+routes:
+    aliases:
+        - '/tech/mudguard-in-plate'
+
 image: image.png
 cad: model.ldr
 
