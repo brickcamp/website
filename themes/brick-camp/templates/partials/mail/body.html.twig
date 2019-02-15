@@ -1,0 +1,12 @@
+Hi {{ form.value.name|e }},<br/> 
+the following message was sent via a <a href="https://brick.camp/contact">contact form on BrickCamp</a>: <br/>
+<br/>
+{% include 'forms/data.html.twig' %}<br/>
+<br/>
+In case you didn't send this message, please <a href="mailto:info@brick.camp?subject={{
+    ('[Report] ' ~ form.value.subject)|url_encode }}&body={{
+    ('Hi there, \nI did not send this mail.\n\n Greetings \n' ~ form.value.name)|url_encode
+    }}">let me know</a><br/>
+<br/>
+Greetings<br/>
+The BrickCamp Contact Form Bot

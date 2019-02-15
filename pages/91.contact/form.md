@@ -1,13 +1,13 @@
 ---
 title: Contact
-image: image.png
+icon: image.png
 
 form:
     name: contact
     fields:
         -
             name: name
-            label: 'Your Name'
+            label: 'Name'
             placeholder: 'John Doe'
             type: text
             validate:
@@ -44,13 +44,9 @@ form:
         
     process:
         - email:
-            subject: "[Brick.Camp] {{ form.value.name|e }} | {{ form.value.subject|e }}"
-            body: "{% include 'forms/data.html.twig' %}"
-        - save:
-            fileprefix: contact-
-            dateformat: Ymd-His-u
-            extension: txt
-            body: "{% include 'forms/data.txt.twig' %}"
-        - message: Thank you for getting in touch!
-        - display: thankyou
+            subject: "[Brick.Camp] {{ form.value.subject|e }}"
+            body: "{% include 'partials/mail/body.html.twig' %}"
+            cc: "{{ form.value.person|e }}"
+            reply_to: "{{ form.value.person|e }}"
+        - message: "Thank you for getting in touch!"
 ---

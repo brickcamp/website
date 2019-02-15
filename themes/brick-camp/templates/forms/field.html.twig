@@ -1,11 +1,12 @@
 {% if form.name != page.header.filter %}
     {% set is_file = field.type == 'file' %}
-    {% set form_field_outer_classes = 'form-group row' %}
-    {% set form_field_outer_label_classes = 'col-sm-3 col-form-label' %}
+    {% set form_field_outer_classes = 'form-group row justify-content-center' %}
+    {% set form_field_outer_label_classes = 'col-10 col-sm-3 col-md-2 col-form-label' %}
     {% set form_field_label_classes = 'text-center text-sm-left font-weight-bold w-100' %}
-    {% set form_field_outer_data_classes = 'col-sm-9' %}
+    {% set form_field_outer_data_classes = 'col-10 col-sm-9 col-md-7 col-lg-6' %}
     {% set form_field_wrapper_classes = is_file ? 'w-100 p-0' : 'w-100' %}
     {% set form_field_input_classes = is_file ? 'd-none' : 'form-control' %}
+    {% set form_field_textarea_classes = 'form-control' %}
     {# set field.wrapper_classes = 'form-text text-muted' #}
 {% endif %}
 {% extends "forms/default/field.html.twig" %}
