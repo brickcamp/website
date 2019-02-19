@@ -27,21 +27,21 @@
     {# Width / Depth / Height #}
     {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
         <div class="width row">
-            <div class="label col text-right"><strong>Width:</strong></div>
+            <div class="label col text-right pr-0"><strong>Width:</strong></div>
             <div class="value col">{{ page.taxonomy.width[0] ~ ' ' ~ page.taxonomy.width[1]|pluralize }}</div>
         </div>
         {% set has_size = true %}
     {% endif %}
     {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
         <div class="depth row">
-            <div class="label col text-right"><strong>Depth:</strong></div>
+            <div class="label col text-right pr-0"><strong>Depth:</strong></div>
             <div class="value col">{{ page.taxonomy.depth[0] ~ ' ' ~ page.taxonomy.depth[1]|pluralize }}</div>
         </div>
         {% set has_size = true %}
     {% endif %}
     {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
         <div class="height row">
-            <div class="label col text-right"><strong>Height:</strong></div>
+            <div class="label col text-right pr-0"><strong>Height:</strong></div>
             <div class="value col">{{ page.taxonomy.height[0] ~ ' ' ~ page.taxonomy.height[1]|pluralize }}</div>
         </div>
         {% set has_size = true %}
@@ -52,7 +52,7 @@
     {% set functions = brick_functions(page) %}
     {% for function, taxonomies in functions %}
         <div class="{{ function }} row">
-            <div class="label col text-right"><strong>{{ function|humanize }}:</strong></div>
+            <div class="label col text-right pr-0"><strong>{{ function|humanize }}:</strong></div>
             <div class="values col scroll">
             {# {{ brick_term_image('function', function).resize(50, 50).html( function|humanize, function, 'img-fluid') }} #}
             {% for taxonomy, values in taxonomies %}
