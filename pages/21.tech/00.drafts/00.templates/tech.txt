@@ -11,12 +11,6 @@ source:
   author: "Name of the author"
   date: 01-01-2000
 
-links:
-  - name: "Title 1"
-    url: "https://cool.info/example.html"
-  - name: "Further Reading here"
-    url: "https://exhaustive.material.com/readme.txt"
-
 taxonomy:
   part: ["3002"]
   partcount: 17
