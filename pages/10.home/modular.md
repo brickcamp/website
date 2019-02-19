@@ -9,6 +9,7 @@ content:
         dir: asc
         custom:
             - _intro
+            - _newest
             - _rotations
             - _offsets
             - _patterns
