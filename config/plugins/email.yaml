@@ -1,17 +1,15 @@
 enabled: true
-from: 'info@brick.camp'
-from_name: 'Brick.Camp'
-to: 'info@brick.camp'
+from: 'INSERT_REAL_EMAIL_HERE'
+from_name: 'Brick.Camp Contact Form'
+to: 'INSERT_ANOTHER_REAL_EMAIL_HERE'
 to_name: 'Brick.Camp'
 mailer:
-  engine: 'sendmail'
+  engine: smtp
   smtp:
-    server: 'localhost'
-    port: 25
-    encryption: none
-    user: ''
-    password: ''
-  sendmail:
-    bin: '/usr/sbin/sendmail -bs'
+    server: 'smtp.strato.de'
+    port: 465
+    encryption: ssl
+    user: 'INSERT_REAL_EMAIL_HERE'
+    password: 'INSERT_REAL_PASSWORD_HERE'
 content_type: 'text/html'
 debug: false
