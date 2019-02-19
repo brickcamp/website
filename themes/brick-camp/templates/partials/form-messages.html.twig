@@ -1,0 +1,6 @@
+{% if form.message %}
+    {% set inline_errors = form.inline_errors is not null ? form.inline_errors : config.plugins.form.inline_errors(false) %}
+    {% set status_mapping = {'success':'alert-success', 'error': 'alert-danger', 'warning': 'alert-warning'} %}
+    {% set message = inline_errors and form.messages ? "FORM.VALIDATION_FAIL"|t : form.message %}
+    <div class="text-center alert {{ form.status }} {{ status_mapping[form.status] ?: 'green' }}" role="alert">{{ message|raw }}</div>
+{% endif %}
