@@ -1,9 +1,12 @@
 <div id="intro" class="text-center text-dark mt-2 mb-3">
 {% block intro %}
     <div class="container">
-        {% if page.header.icon %}
-            {{ page.media[page.header.icon].resize(150,150).html( page.title, page.title, 'rounded bg-white border' )|raw }}
+        {% set page_icon = page_icon ?: value %}
+
+        {% if not page_icon and page.header.icon %}
+            {% set page_icon = page.media[page.header.icon] %}
         {% endif %}
+        {{ page_icon ? page_icon.resize(150,150).html( page.title, page.title, 'rounded bg-white border' )|raw }}
 
         <h1 class="mb-0">{{ page_title ?: page.title }}</h1>
 

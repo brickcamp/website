@@ -46,8 +46,9 @@ abstract class Terms
     public function getImage($taxonomy, $term, $ext='png')
     {
         // try specific folder
-        $folder = Grav::instance()['page']->find('/images/tax-' . $taxonomy);
+        $folder = Grav::instance()['page']->find('/images/tax-' . strtolower($taxonomy));
         if ($folder) {
+
             // with specific image
             $image = $folder->media()[$term . '.' . $ext];
             if ($image) {

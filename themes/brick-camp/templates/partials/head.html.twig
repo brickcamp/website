@@ -1,5 +1,10 @@
 {% block head %}
-    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    <title>
+        {% if header.title or page_title %}
+            {{ (page_title ?: header.title)|e('html') }} | 
+        {% endif %}
+        {{ site.title|e('html') }}
+    </title>
 
     <link rel="icon" type="image/png" href="{{ url('theme://images/logo_icon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />

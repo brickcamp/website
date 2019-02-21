@@ -1,4 +1,17 @@
 {% extends 'partials/base.html.twig' %}
+{# Adapt introduction to current filter (if enabled) #}
+{% if page.header.filter_title %}
+    {% set params = uri.params(null, true) %}
+    {% do dump(params) %}
+    {% if params|length == 1 %}
+        {% set filter_tax = params|keys|first %}
+        {% set filter_term = params|first %}
+        {% set page_title = filter_tax|humanize ~ ': ' ~ brick_term_title(filter_tax, filter_term) %}
+        {% if page.header.filter_icon %}
+            {% set page_icon = brick_term_image(filter_tax, filter_term) %}
+        {% endif %}
+    {% endif %}
+{% endif %}
 
 {% set items = page.collection() %}
 {% block content %}
