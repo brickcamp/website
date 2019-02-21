@@ -12,7 +12,7 @@ source:
   date: 29-07-2015
 
 taxonomy:
-  part: ["30414", "44301", "44302", "73983"]
+  part: ["30414", "44301a", "44302a", "73983"]
   partcount: 8
 
   width: [7.5, stud]
