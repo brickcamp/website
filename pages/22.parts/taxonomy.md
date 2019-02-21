@@ -6,7 +6,7 @@ icon: icon.png
 
 terms:
     taxonomy: part
-    pool: 'techs/with'
+    pool: 'techs/using'
 
 # form:
 #     name: filter-parts

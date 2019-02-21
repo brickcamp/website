@@ -1,11 +1,7 @@
 ---
 title: Techs
 filter_title: true
-
-routes:
-    aliases:
-        - '/techs/having'
-        - '/techs/with'
+filter_icon: true
 
 content:
     items: 
