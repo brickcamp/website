@@ -3,6 +3,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-error
         path: user/plugins/error
         branch: master
+    feed:
+        url: https://github.com/getgrav/grav-plugin-feed
+        path: user/plugins/feed
+        branch: master
     form:
         url: https://github.com/getgrav/grav-plugin-form
         path: user/plugins/form
