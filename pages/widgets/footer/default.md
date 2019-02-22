@@ -6,7 +6,7 @@ content:
     items:
         - '@page.self': '/legal/impressum'
         - '@page.self': '/legal/privacy'
-        - '@page.self': '/contact/brickup'
+        - '@page.self': '/contact'
     order:
         by: default
         dir: asc
