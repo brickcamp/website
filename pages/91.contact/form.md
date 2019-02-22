@@ -49,4 +49,5 @@ form:
             cc: "{{ form.value.person|e }}"
             reply_to: "{{ form.value.person|e }}"
         - message: "Thank you for getting in touch!"
+        - reset: true
 ---
