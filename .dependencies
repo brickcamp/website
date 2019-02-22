@@ -1,4 +1,8 @@
 git:
+    email:
+        url: https://github.com/getgrav/grav-plugin-email
+        path: user/plugins/email
+        branch: master
     error:
         url: https://github.com/getgrav/grav-plugin-error
         path: user/plugins/error
