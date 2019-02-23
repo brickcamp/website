@@ -53,9 +53,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-49.289732"
-     inkscape:cy="88.520044"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="219.30575"
+     inkscape:cy="161.83375"
      inkscape:document-units="mm"
      inkscape:current-layer="g1016"
      showgrid="false"
@@ -125,13 +125,29 @@
          cy="59.072418"
          cx="106.28889"
          id="path4557-1"
-         style="display:inline;opacity:1;fill:#00aa00;fill-opacity:1;stroke:#ffffff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.4000001;stroke-opacity:1;paint-order:normal;enable-background:new" />
+         style="display:inline;opacity:1;fill:#b3b3b3;fill-opacity:1;stroke:#ffffff;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.4000001;stroke-opacity:1;paint-order:normal;enable-background:new" />
       <circle
          r="16.495586"
          cy="59.072418"
          cx="106.28889"
          id="path4557-1-3"
          style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#00aa00;stroke-width:2.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.4000001;stroke-opacity:1;paint-order:normal;enable-background:new" />
+      <ellipse
+         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.67025971;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.07086658;stroke-opacity:1;paint-order:normal"
+         id="path827"
+         cx="82.281807"
+         cy="84.735374"
+         transform="rotate(-17.222435)"
+         rx="1.9694268"
+         ry="3.1681237" />
+      <ellipse
+         style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.67025995;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.07086658;stroke-opacity:1;paint-order:normal;enable-background:new"
+         id="path827-6"
+         cx="88.652191"
+         cy="84.735382"
+         transform="rotate(-17.222437)"
+         rx="1.9694268"
+         ry="3.1681237" />
     </g>
     <path
        style="display:inline;opacity:1;vector-effect:none;fill:#002b00;fill-opacity:1;stroke:#ffffff;stroke-width:6;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;enable-background:new"
