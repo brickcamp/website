@@ -51,3 +51,7 @@ form:
         - message: "Thank you for getting in touch!"
         - reset: true
 ---
+
+Drop me a message here if you have any questions / suggestions / feedback concerning this site. I'm happy to get in touch with you!
+
+Alternatively, you can reach out to [my Mastodon account](https://my.brick.camp/@tobias) if you like.

@@ -2,7 +2,10 @@
 
 {% block single_content %}
 
-    {{ content }}
+    <div class="text-center col-10 col-sm-12 col-md-9 col-lg-8 mx-auto">
+        {{ content|raw }}
+    </div>
+
     {% include "forms/form.html.twig" %}
 
 {% endblock %}
