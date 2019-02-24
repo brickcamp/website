@@ -12,7 +12,7 @@ source:
   date: 19-02-2019
 
 taxonomy:
-  part: ["6256", 3820"]
+  part: ["6256", "3820"]
   partcount: 16
  
   width: [5, stud]
