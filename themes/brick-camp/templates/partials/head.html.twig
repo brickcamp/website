@@ -17,7 +17,7 @@
 
         <meta name="twitter:title" content="{{ page_title|e('html') }}">
         <meta property="og:title" content="{{ page_title|e('html') }}" />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="{{ page.template == 'tech' ? 'object' : 'website' }}" />
         <meta property="og:url" content="{{ page.url(true, true) }}" />
         <meta property="og:site_name" content="{{ site.title|e('html') }}" />
 
