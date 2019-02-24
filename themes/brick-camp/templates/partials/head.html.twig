@@ -1,7 +1,8 @@
 {% block head %}
+    {% set page_title = page_title ?: header.title %}
     <title>
         {% if header.title or page_title %}
-            {{ (page_title ?: header.title)|e('html') }} | 
+            {{ page_title|e('html') }} | 
         {% endif %}
         {{ site.title|e('html') }}
     </title>
@@ -13,6 +14,21 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="twitter:title" content="{{ page_title|e('html') }}">
+        <meta property="og:title" content="{{ page_title|e('html') }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ page.url(true, true) }}" />
+        <meta property="og:site_name" content="{{ site.title|e('html') }}" />
+
+        {% if header.image %}
+            {% set header_image_preview = page.media[page.header.image].cropZoom(400,400) %}
+            {% set header_image_preview_url = base_url_absolute ~ header_image_preview.url %}
+            <meta name="twitter:image" content="{{ header_image_preview_url }}"/>
+            <meta property="og:image" content="{{ header_image_preview_url }}"/>
+            <meta property="og:image:width" content="400"/>
+            <meta property="og:image:height" content="400"/>
+        {% endif %}
         {% for meta in page.metadata %}
             <meta 
                 {% if meta.name %} name="{{ meta.name }}" {% endif %}
@@ -25,13 +41,13 @@
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css/app.css', '50') %}
-        {% do assets.addCss('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css', '97') %}
+        {% do assets.addCss('theme://css/bootstrap.min.css', '97') %}
     {% endblock stylesheets %}
     {{ assets.css()|raw }}
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
-        {% do assets.addJs('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js', {'group': 'bottom', 'priority': '99'}) %}
+        {% do assets.addJs('theme://js/bootstrap.bundle.min.js', {'group': 'bottom', 'priority': '99'}) %}
     {% endblock javascripts %}
     {{ assets.js()|raw }}
 {% endblock head %}

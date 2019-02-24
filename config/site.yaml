@@ -1,6 +1,6 @@
 title: BrickCamp
 metadata:
-  description: 'The place to brick!'
+  description: 'A visual dictionary for LEGO® building techniques'
 
 gitlab:
   url: 'https://gitlab.com/brick.camp/brick.camp'
