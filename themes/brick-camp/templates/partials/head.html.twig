@@ -21,8 +21,8 @@
         <meta property="og:url" content="{{ page.url(true, true) }}" />
         <meta property="og:site_name" content="{{ site.title|e('html') }}" />
 
-        {% if header.image %}
-            {% set header_image_preview = page.media[page.header.image].cropZoom(400,400) %}
+        {% if header.icon or header.image %}
+            {% set header_image_preview = page.media[header.icon ?: header.image].cropZoom(400,400) %}
             {% set header_image_preview_url = base_url_absolute ~ header_image_preview.url %}
             <meta name="twitter:image" content="{{ header_image_preview_url }}"/>
             <meta property="og:image" content="{{ header_image_preview_url }}"/>
