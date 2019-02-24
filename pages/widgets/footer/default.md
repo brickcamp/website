@@ -13,4 +13,4 @@ content:
     url_taxonomy_filters: false
 ---
 _LEGO® is a trademark of the LEGO Group which does not sponsor, authorize or endorse this site._
-<span class="d-none"><a rel="me" href="https://my.brick.camp/@tobias">Me</a> | <a rel="me" href="https://my.brick.camp/@git">Bot</a></span>
+<span class="d-none">Follow on Mastodon: <a rel="me" href="https://my.brick.camp/@tobias">Admin</a> | <a rel="me" href="https://my.brick.camp/@techs">Techs Bot</a> | <a rel="me" href="https://my.brick.camp/@git">Git Bot</a></span>
