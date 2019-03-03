@@ -35,6 +35,7 @@ html, body, main, #header .navbar {
 .pagination {
     justify-content: center !important;
     margin: 1rem 0 2rem 0 !important;
+    flex-wrap: wrap;
 }
 
 /* * * * * * * * * * * * * * *
