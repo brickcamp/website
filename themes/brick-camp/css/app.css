@@ -9,6 +9,10 @@ html, body, main, #header .navbar {
     padding-top: 80px;
 }
 
+.text-white-75 {
+    color: rgba(255,255,255,.75)!important;
+}
+
 /* * * * * * * * * * * * * * *
  *  NAVIGATION
  * * * * * * * * * * * * * * */
@@ -212,4 +216,23 @@ form .required {
 
 form .w-100.dropzone {
     min-height: initial;
+}
+
+form .dropzone .dz-preview .dz-error-message{
+    top: -60px;
+}
+
+form .dropzone .dz-preview .dz-error-message::after{
+    bottom:-6px;
+    top: initial;
+    border-top:6px solid #be2626;
+    border-bottom: initial;
+}
+
+.dz-error-mark svg #Oval-2{
+    fill:red;
+}
+
+.dz-success-mark svg #Oval-2{
+    fill:green;
 }

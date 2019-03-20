@@ -1,4 +1,4 @@
-<section id="{{ section_id ?: "items" }}" class="row justify-content-center">
+<section id="{{ items_section_id ?: "items" }}" class="row justify-content-center">
     {% for item in items %}
     {% block item %}
         {% switch item.template %}

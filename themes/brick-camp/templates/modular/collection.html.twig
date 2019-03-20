@@ -1,5 +1,8 @@
 {% extends 'modular/base.html.twig' %}
 {% set item_wrapper_classes = page.header.item_wrapper_classes %}
 {% block module_content %}
-    {% include 'partials/items/base.html.twig' with { 'items': page.collection()} %}
+    {% include 'partials/items/base.html.twig' with { 
+        'items': page.collection(),
+        'items_section_id': page.slug ~ '-items'
+    }%}
 {% endblock %}
