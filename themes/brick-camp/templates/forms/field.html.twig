@@ -8,5 +8,7 @@
     {% set form_field_input_classes = is_file ? 'd-none' : 'form-control' %}
     {% set form_field_textarea_classes = 'form-control' %}
     {# set field.wrapper_classes = 'form-text text-muted' #}
+{% else %}
+    {% set form_field_label_classes = 'sr-only' %}
 {% endif %}
 {% extends "forms/default/field.html.twig" %}
