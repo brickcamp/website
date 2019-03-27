@@ -6,6 +6,7 @@ form:
     name: contact
     fields:
         -
+            id: contact_name
             name: name
             label: 'Name'
             placeholder: 'John Doe'
@@ -13,9 +14,11 @@ form:
             validate:
                 required: true
         -
+            id: contact_email
             name: email
             type: honeypot
         -
+            id: contact_person
             name: person
             label: 'E-Mail'
             placeholder: 'me@example.com'
@@ -23,6 +26,7 @@ form:
             validate:
                 required: true
         -
+            id: contact_sobject
             name: subject
             label: 'Subject'
             placeholder: 'My message title'
@@ -30,6 +34,7 @@ form:
             validate:
                 required: true
         -
+            id: contact_message
             name: message
             label: 'Message'
             placeholder: 'Here goes my feedback / question / request / ...'
@@ -45,7 +50,7 @@ form:
     process:
         - email:
             subject: "[Brick.Camp] {{ form.value.subject|e }}"
-            body: "{% include 'partials/mail/body.html.twig' %}"
+            body: "{% include 'partials/mail/contact.html.twig' %}"
             cc: "{{ form.value.person|e }}"
             reply_to: "{{ form.value.person|e }}"
         - message: "Thank you for getting in touch!"
