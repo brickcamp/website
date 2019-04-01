@@ -4,20 +4,20 @@
 {% block item_image %}
     {% switch page.collection|length %}
         {% case 1 %}
-            {% set width  = [300] %}
-            {% set height = [300] %}
+            {% set width  = [320] %}
+            {% set height = [320] %}
             {% set class = [''] %}
         {% case 2 %}
-            {% set width  = [150, 150] %}
-            {% set height = [300, 300] %}
+            {% set width  = [160, 160] %}
+            {% set height = [320, 320] %}
             {% set class = ['border-right text-right', 'border-left text-left'] %}
         {% case 3 %}
-            {% set width  = [150, 150, 150] %}
-            {% set height = [300, 150, 150] %}
+            {% set width  = [160, 160, 160] %}
+            {% set height = [320, 160, 160] %}
             {% set class = ['border-right text-right', 'border-left border-bottom', 'border-left border-top'] %}
         {% default %}
-            {% set width  = [150, 150, 150, 150] %}
-            {% set height = [150, 150, 150, 150] %}
+            {% set width  = [160, 160, 160, 160] %}
+            {% set height = [160, 160, 160, 160] %}
             {% set class = ['border-right text-right border-bottom', 'border-left border-bottom', 
                             'border-right text-right border-top', 'border-left border-top'] %}
     {% endswitch %}
