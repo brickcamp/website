@@ -30,11 +30,13 @@
             </section>
         </div>
 
-        {# <footer class="card-footer text-right">
-            {% block single_footer %}
-                <small>Added <time class="item-date" datetime="{{ page.date | date() }}">{{ page.date | date() | nicetime }}</time></small>            
-            {% endblock %}
-        </footer> #}
+        {% if card_footer %}
+            <footer class="card-body border-top">
+                {% block single_footer %}
+                    <small>Added <time class="item-date" datetime="{{ page.date | date() }}">{{ page.date | date() | nicetime }}</time></small>            
+                {% endblock %}
+            </footer>        
+        {% endif %}
     </article>
 
 {% endblock content %}

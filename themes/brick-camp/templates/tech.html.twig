@@ -1,5 +1,6 @@
 {% extends 'partials/single/card.html.twig' %}
 
+{% set card_footer = page.content ? true : false %}
 {% block single_content %}
     {% if page.header.source.url %}
         {# Source #}
@@ -103,4 +104,8 @@
             {% endfor %}
         </div>
     {% endif %}
+{% endblock %}
+
+{% block single_footer %}
+    {{ page.content|raw }}
 {% endblock %}
