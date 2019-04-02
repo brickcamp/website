@@ -34,7 +34,9 @@
             {% endfor %}
         
             {% if page.collection|length > 4 %}
-                <span class="more-count text-secondary text-center {{ class[3] }}">{{ page.collection|length - 3 }}</span>
+                {# See issue https://github.com/getgrav/grav-plugin-pagination/issues/29 #}
+                {% set fullsize = page.header.unpaginated ? page.collection('unpaginated') : page.collection %}
+                <span class="more-count text-secondary text-center {{ class[3] }}">{{ fullsize|length - 3 }}</span>
             {% endif %}
         </div>
     </a>

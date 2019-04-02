@@ -12,8 +12,5 @@ content:
         custom:
             - _intro
             - _newest
-            - _rotations
-            - _offsets
-            - _patterns
-            - _shapes
+            - _categories
 ---

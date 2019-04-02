@@ -17,6 +17,19 @@ content:
     limit: 12
     pagination: true
 
+########################################################################
+# Needed because size of paginated collection can't be queried
+# See issue https://github.com/getgrav/grav-plugin-pagination/issues/29
+unpaginated:
+    items:
+        - '@taxonomy.function': pattern_1D
+        - '@taxonomy.function': pattern_2D
+        # - '@taxonomy.function': pattern_3D
+    filter:
+        published: true
+        type: 'tech' 
+########################################################################
+
 form:
     name: filter-patterns
     id: items-filter
