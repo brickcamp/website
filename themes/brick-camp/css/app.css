@@ -74,6 +74,10 @@ html, body, main, #header .navbar {
 /* * * * * * * * * * * * * * *
  *  COLLECTION ITEM
  * * * * * * * * * * * * * * */
+.collection .card {
+    max-width: 300px;
+}
+
 .card-img-grid {
     display: grid;
     grid-template-rows: 50% 50%;
@@ -102,10 +106,6 @@ html, body, main, #header .navbar {
     font-size: 2em;
     font-weight: bold;
     padding-top: 30%;
-}
-
-#items .card {
-    max-width: 300px;
 }
 
 @media (max-width: 575px){
