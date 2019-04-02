@@ -6,7 +6,7 @@
     {% set menu = pages.find('/widgets/menu') %}
     {% set collection = menu.collection('menu-items') %}
 
-    <nav aria-label="main menu" class="navbar navbar-expand navbar-light fixed-top bg-light border-bottom shadow-sm">
+    <nav aria-label="main menu" class="navbar navbar-expand navbar-light fixed-top bg-white border-bottom shadow-sm">
         <div class="container">
             <a class="navbar-brand mr-1" href="{{ base_url == '' ? '/' : base_url }}" alt="{{ config.site.title }}">
                 <img src="{{ media['theme://images/logo_icon.svg'].url }}" class="img-fluid" title="Home" alt="{{ config.site.title }}" width="32px" height="32px">
@@ -16,10 +16,10 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav text-center ml-auto">
                     {% for item in collection %}
-                        <li class="nav-item active mr-sm-1 mr-xl-3">
-                            <a class="nav-link" href="{{ item.url }}" title="{{ item.menu }}">
+                        <li class="nav-item show mr-sm-1 mr-xl-3">
+                            <a class="nav-link" href="{{ item.redirect ?: item.url }}" title="{{ item.menu }}">
                                 <span class="d-inline-block"><img class="img-fluid" src="{{ item.media[item.header.icon].resize(32, 32).url }}" alt="{{ item.menu }}"></span>
-                                <span class="d-none d-md-inline-block pl-1">{{ item.menu }}</span>
+                                <span class="d-none d-md-inline-block pl-1 {{ item.active ? 'font-weight-bold' }}">{{ item.menu }}</span>
                             </a>
                         </li>
                     {% endfor %}

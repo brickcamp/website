@@ -16,7 +16,14 @@ html, body, main, #header .navbar {
 /* * * * * * * * * * * * * * *
  *  NAVIGATION
  * * * * * * * * * * * * * * */
- #header .navbar-nav .nav-item:last-child .d-none {
+#header a:hover span,
+#header a:focus span,
+#footer a:hover,
+#footer a:focus  {
+    text-decoration: underline;
+}
+
+#header .navbar-nav .nav-item:last-child .d-none {
     display: none !important;
 }
 
