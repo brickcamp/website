@@ -13,4 +13,8 @@ content:
             - _offsets
             - _patterns
             - _shapes
+            - _part_count
+            - _volume
+            - _parts_most
+            - _parts_least
 ---
