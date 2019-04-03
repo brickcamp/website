@@ -1,6 +1,5 @@
 ---
 title: 'Smallest'
-icon: 'icon.png'
 
 content:
     items: 

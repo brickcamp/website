@@ -1,6 +1,5 @@
 ---
 title: 'Largest'
-icon: 'icon.png'
 
 content:
     items: 
