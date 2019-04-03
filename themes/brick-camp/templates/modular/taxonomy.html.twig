@@ -1,0 +1,27 @@
+{% extends 'modular/collection.html.twig' %}
+
+{% set tax = page.header.terms.taxonomy %}
+{% set order_by = page.header.terms.order.by ?: 'title' %}
+{% set order_dir = page.header.terms.order.dir ?: 'asc' %}
+
+{% set terms = brick_terms(tax, order_by, order_dir) %}
+{% if page.header.terms.limit %}
+    {% set terms = terms|slice(0, page.header.terms.limit) %}
+{% endif %}
+
+
+{% set collection_url = base_url_absolute ~ '/' ~ page.header.terms.pool %}
+
+{% block module_content %}
+    <section id="{{ page.slug ~ '-items' }}" class="row justify-content-center">
+        {% for term in terms %}
+        {% block item %}
+            {% include '/partials/item/term.html.twig' with { 
+                'tax': tax, 
+                'term': term,
+                'collection_url': collection_url,
+            }%}
+        {% endblock %}
+        {% endfor %}
+    </section>
+{% endblock %}
