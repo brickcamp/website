@@ -27,6 +27,7 @@ taxonomies:
 
   - function
   - object
+  - module_type
 
   - pattern_segsize
   - pattern_1D_segsize

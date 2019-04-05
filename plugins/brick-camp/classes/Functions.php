@@ -31,6 +31,9 @@ abstract class Functions {
         self::PATTERN_1D => self::PATTERN_1D_SEGSIZE,
         self::PATTERN_2D => self::PATTERN_2D_SEGSIZE,
         self::PATTERN_3D => self::PATTERN_3D_SEGSIZE,
+
+        // self::MODULE
+        self::MODULE => self::MODULE_TYPE,
     );
 
     // Auto-generated terms
@@ -176,4 +179,13 @@ abstract class Functions {
     public const SEGSIZE_GROUPS = array( 
         array( 9, PHP_INT_MAX, '9up'),
     );
+    
+    /* * * * * * * * * * * * * * * * * * * * * * * * *
+     *   OFFSETS
+     * * * * * * * * * * * * * * * * * * * * * * * * */
+    // Functions
+    public const MODULE  = 'module';
+
+    // Taxonomies
+    public const MODULE_TYPE  = self::MODULE . '_type';
 }

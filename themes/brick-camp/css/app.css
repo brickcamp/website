@@ -181,6 +181,10 @@ html, body, main, #header .navbar {
     white-space: pre;
 }
 
+.module_type {
+    text-transform: capitalize;
+}
+
 @media (min-width: 768px) {
     .border-md-left {
         border-left: 1px solid #dee2e6;

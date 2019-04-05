@@ -44,6 +44,9 @@ taxonomy:
   function: ["object"]
   object: ["animal", "cat"]
 
+  function: ["module"]
+  module_type: ["city", "structure", "landscape", "train"]
+
   flag: ["loosely", "instable", "unseparatable"]
   flag: ["damaging", "stressing"]
   flag: ["incomplete", "incorrect"]
