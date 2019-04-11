@@ -13,6 +13,16 @@ html, body, main, #header .navbar {
     color: rgba(255,255,255,.75)!important;
 }
 
+html {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) { 
+    html {
+        font-size: 1.1rem;
+    }
+}
+
 /* * * * * * * * * * * * * * *
  *  NAVIGATION
  * * * * * * * * * * * * * * */
@@ -132,7 +142,7 @@ html, body, main, #header .navbar {
  *  SINGLE
  * * * * * * * * * * * * * * */
 #single.type-default {
-    max-width: 500px;
+    max-width: 750px;
 }
 
 #single > h1,
@@ -213,6 +223,10 @@ html, body, main, #header .navbar {
     .card-body .parts.scroll {
         max-height: 125px;
     }
+}
+
+.single footer.card-body > p:last-child{
+    margin-bottom: 0;
 }
 
 /* * * * * * * * * * * * * * *
