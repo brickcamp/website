@@ -41,3 +41,5 @@ taxonomy:
 | 37 × 78 | 86 | 25.1 | 64.9 |
 | 40 × 81 | 90 | 26.0 | 64.0 |
 | 66 × 73 | 98 | 42.1 | 47.9 |
+
+*Download as [tab-seperated CSV](table.csv) or [Spreadsheet](table.ods)*
