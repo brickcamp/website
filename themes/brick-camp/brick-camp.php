@@ -40,6 +40,7 @@ class BrickCamp extends Theme
         $raw_content = $page->content();
         $raw_content = preg_replace('/<table>/', '<div class="table-responsive"><table class="table table-sm table-striped table-bordered text-center">', $raw_content);
         $raw_content = preg_replace('/<th>/', '<th scope="col">', $raw_content);
+        $raw_content = preg_replace('/<tr>[^<]*<td>([^<]*)<\/td>/', '<tr><th scope="col">$1</th>', $raw_content);
         $raw_content = preg_replace('/<\/table>/', '</table></div>', $raw_content);
         $page->setRawContent($raw_content);
     }
