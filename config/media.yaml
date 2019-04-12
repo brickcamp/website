@@ -1,9 +1,0 @@
-types:
-  ods:
-    type: OpenDocument spreadsheet
-    thumb: media/thumb.png
-    mime: application/vnd.oasis.opendocument.spreadsheet
-  csv:
-    type: CSV File
-    thumb: media/thumb.png
-    mime: text/csv
