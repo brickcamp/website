@@ -15,6 +15,9 @@ links:
   - name: "LEGO Set with Pony Ears"
     url: "https://www.bricklink.com/v2/catalog/catalogitem.page?S=375-2"
 
+related_pages:
+  - /tech/toples-turn
+
 taxonomy:
   part: ["3021", "3023", "3069b"]
   partcount: 2

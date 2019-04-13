@@ -10,6 +10,9 @@ source:
   title: "Reverse pony ear"
   author: "Linus Bohman"
 
+related_pages:
+  - /tech/toples
+
 taxonomy:
   part: ["3021", "3023", "3069b"]
   partcount: 2

@@ -11,6 +11,9 @@ source:
   author: "Bram"
   date: 13-02-2013
 
+related_pages:
+  - /tech/toples
+
 taxonomy:
   part: ["4865a", "3068b", "3022", "3794b"]
   partcount: 9
