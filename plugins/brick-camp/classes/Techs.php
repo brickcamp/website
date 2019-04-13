@@ -36,7 +36,7 @@ abstract class Techs {
         self::addSourceTaxonomy($tech);
         self::addTermGroups($tech);
         self::addTaxonomyGroups($tech);
-    }
+        }
 
     public static function addVolumeTaxonomy( $tech ){
         // check obligatory header fields
@@ -99,13 +99,16 @@ abstract class Techs {
             }
 
             $add = array();
-            foreach ($pagetax[$taxonomy] as $term) {
+            foreach ($pagetax[$taxonomy] as $key=>$term) {
                 foreach ($groups as $group) {
                     if ($term >= $group[0] && $term <= $group[1]) {
                         $add[Functions::TERM_GROUP_PREFIX . $group[2]] = true;
                     }
                     //unset($add[$term]);
                 }
+
+                // filters don't work on integer terms -> convert to String
+                $pagetax[$taxonomy][$key] = strval($term);
             }
             $pagetax[$taxonomy] = array_merge($pagetax[$taxonomy], array_keys($add));
         }
