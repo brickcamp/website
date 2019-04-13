@@ -79,6 +79,15 @@ class BrickCampPlugin extends Plugin
         if ($page->template() == 'tech') {
             Techs::onPageProcessed($page);
         }
+
+        // convert taxonomy terms to String - see https://github.com/getgrav/grav/issues/2446
+        $taxonomy = $page->taxonomy();
+        foreach ($taxonomy as $tax => $terms) {
+            foreach ($terms as $key => $term) {
+                $taxonomy[$tax][$key] = strval($term);
+            }
+        }
+        $page->taxonomy($taxonomy);
     }
 
     /**

@@ -106,9 +106,6 @@ abstract class Techs {
                     }
                     //unset($add[$term]);
                 }
-
-                // filters don't work on integer terms -> convert to String
-                $pagetax[$taxonomy][$key] = strval($term);
             }
             $pagetax[$taxonomy] = array_merge($pagetax[$taxonomy], array_keys($add));
         }
