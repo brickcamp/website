@@ -1,5 +1,5 @@
 ---
-title: "Bracket Inline SNOT"
+title: "Bracket"
 date: 23-08-2015
 
 image: image.png
