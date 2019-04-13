@@ -19,8 +19,7 @@ taxonomy:
   depth: [5, stud]
   height: [1, brick]
 
-  function: ["shape_2D", "object"]
+  function: ["shape_2D"]
   shape_2D_segments: 15
   shape_2D_segsize: 1
-  object: ["sun"]
 ---
