@@ -20,6 +20,6 @@ taxonomy:
   height: [1, stud]
 
   function: ["stud_tilt", "pattern_2D"]
-  stud_tilt_angle: ["90", 180]
+  stud_tilt_angle: [90, 180]
   pattern_2D_segsize: 4
 ---
