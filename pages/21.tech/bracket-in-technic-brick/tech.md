@@ -6,10 +6,10 @@ image: image.png
 cad: model.ldr
 
 source:
-  url: "https://www.flickr.com/photos/matt_the_backward_one/5528419502"
-  title: "Rule #4"
-  author: "The Backward One"
-  date: 14-03-2011
+  url: "https://www.flickr.com/photos/28192677@N06/5004593024"
+  title: "Reversed studs"
+  author: "Larry Lars"
+  date: 19-09-2010
 
 taxonomy:
   part: ["32000", "99781"]
