@@ -6,9 +6,10 @@ image: image.png
 cad: model.ldr
 
 source:
-  url: "http://swooshable.com/snot/minifig-chainsaw"
-  title: "Minifig Chainsaw"
+  url: "https://www.flickr.com/photos/bohman/819791707"
+  title: "misc2"
   author: "Linus Bohman"
+  date: 15-07-2007
 
 taxonomy:
   part: ["6117"]
