@@ -1,6 +1,10 @@
 ---
-title: "Twisted 2 x 2 Tile Gaps"
+title: "2 x 2 Tile Twisted on Jumper"
 date: 06-12-2015
+
+routes:
+  aliases:
+    - '/tech/tile-2x2-twisted-gaps'
 
 image: image.png
 cad: model.ldr
