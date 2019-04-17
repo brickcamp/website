@@ -6,10 +6,10 @@ image: image.png
 cad: model.ldr
 
 source:
-  url: "http://www.lowlug.nl/brickbieb/bouwtechniek-schuin-plaatsen/"
-  title: "Bouwtechniek: schuin plaatsen"
-  author: "stuifzand"
-  date: 30-03-2014
+  url: "https://www.flickr.com/photos/96307745@N02/17375124335/"
+  title: "Angles"
+  author: "Gregory Brick"
+  date: 05-05-2015
 
 taxonomy:
   part: ["6141", "3021", "3865"]
