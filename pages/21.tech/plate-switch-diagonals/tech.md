@@ -6,10 +6,10 @@ image: image.png
 cad: model.ldr
 
 source:
-  url: "https://www.flickr.com/photos/96307745@N02/17375124335/"
-  title: "Angles"
-  author: "Gregory Brick"
-  date: 05-05-2015
+  url: "https://www.flickr.com/photos/peggyjdb/13603677904/"
+  title: "Building off the grid"
+  author: "James Pegrum"
+  date: 03-04-2014
 
 taxonomy:
   part: ["6141", "3021", "3865"]
