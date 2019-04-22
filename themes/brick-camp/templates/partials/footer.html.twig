@@ -7,7 +7,7 @@
         <div class="container justify-content-between text-center">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item show mr-lg-auto">
-                    <a aria-label="copyright and license" class="nav-link" href="{{ config.site.gitlab.base ~ config.site.gitlab.license }}" title="License of {{ config.site.title }}">
+                    <a class="nav-link" href="/about" title="About BrickCamp">
                         © {{ "now" | date('Y') }} {{ config.site.title }}
                     </a>
                 </li>
@@ -33,8 +33,8 @@
             </ul>
         </div>
     </nav>
-    <div class="text-center text-white-75 w-100 pb-3">
+    <small class="text-center text-white-75 w-100 pb-3">
         {{ footer.content|raw }}
-    </div>
+    </small>
 {% endblock %}
 </footer>
