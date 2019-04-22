@@ -5,4 +5,5 @@ title: Intro
 
 #### Welcome to BrickCamp
 A Visual Dictionary for 
-LEGO® Building Techniques
+LEGO® Building Techniques.
+[Read more...](/about)
