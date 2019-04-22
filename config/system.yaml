@@ -135,7 +135,7 @@ media:
   auto_metadata_exif: false
   upload_limit: 52428800
 session:
-  enabled: false
+  enabled: true
   initialize: true
   timeout: 1800
   name: brickcamp

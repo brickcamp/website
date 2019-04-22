@@ -8,15 +8,17 @@ menu-items:
         - '@page.self': '/techs/offsets'
         - '@page.self': '/techs/patterns'
         - '@page.self': '/techs/shapes'
+        - '@page.self': '/techs/add'
         - '@page.self': '/techs/more'
     order:
         by: default
         dir: asc
-        # custom: 
-        #     - techs/parts
-        #     - techs/rotations
-        #     - techs/patterns
-        #     - techs/shapes
-        #     - techs/offsets
+        custom: 
+            - 'rotations'
+            - 'offsets'
+            - 'patterns'
+            - 'shapes'
+            - 'add'
+            - 'more'
     url_taxonomy_filters: false
 ---
