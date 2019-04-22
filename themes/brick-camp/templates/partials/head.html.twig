@@ -23,12 +23,15 @@
 
         {% if header.icon or header.image %}
             {% set header_image_preview = page.media[header.icon ?: header.image].cropZoom(400,400) %}
-            {% set header_image_preview_url = base_url_absolute ~ header_image_preview.url %}
-            <meta name="twitter:image" content="{{ header_image_preview_url }}"/>
-            <meta property="og:image" content="{{ header_image_preview_url }}"/>
-            <meta property="og:image:width" content="400"/>
-            <meta property="og:image:height" content="400"/>
+        {% else %}
+            {% set header_image_preview = media['themes://brick-camp/images/logo_large.png'].cropZoom(400,400) %}
         {% endif %}
+        {% set header_image_preview_url = base_url_absolute ~ header_image_preview.url %}
+        <meta name="twitter:image" content="{{ header_image_preview_url }}"/>
+        <meta property="og:image" content="{{ header_image_preview_url }}"/>
+        <meta property="og:image:width" content="400"/>
+        <meta property="og:image:height" content="400"/>
+
         {% for meta in page.metadata %}
             <meta 
                 {% if meta.name %} name="{{ meta.name }}" {% endif %}
