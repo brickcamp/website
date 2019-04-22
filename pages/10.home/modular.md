@@ -12,4 +12,5 @@ content:
             - _intro
             - _newest
             - _categories
+            - _about
 ---
