@@ -13,7 +13,7 @@ source:
 
 taxonomy:
   part: ["30137"]
-  partcount: 15
+  partcount: 10
 
   width: [8, stud]
   depth: [8, stud]
