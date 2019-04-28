@@ -1,5 +1,5 @@
 ---
-title: "Clip Handle SNOT Cube"
+title: "Clip-Handle SNOT Cube"
 date: 23-08-2015
 
 image: image.png

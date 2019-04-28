@@ -1,5 +1,5 @@
 ---
-title: "Clip Handle SNOT Cube with Brackets"
+title: "Clip-Handle SNOT Cube with Brackets"
 date: 23-08-2015
 
 image: image.png

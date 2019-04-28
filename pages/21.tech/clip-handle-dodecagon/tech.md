@@ -1,5 +1,5 @@
 ---
-title: "Dodecagon"
+title: "Clip-Handle Dodecagon"
 date: 26-08-2015
 
 image: image.png

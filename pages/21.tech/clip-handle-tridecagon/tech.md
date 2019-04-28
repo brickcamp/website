@@ -1,5 +1,5 @@
 ---
-title: "Clip Handle Tridecagon"
+title: "Clip-Handle Tridecagon"
 date: 26-08-2015
 
 image: image.png

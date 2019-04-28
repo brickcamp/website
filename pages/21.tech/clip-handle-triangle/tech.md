@@ -1,5 +1,5 @@
 ---
-title: "Clip Handle Triangle"
+title: "Clip-Handle Triangle"
 date: 11-10-2015
 
 image: image.png

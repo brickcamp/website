@@ -1,5 +1,5 @@
 ---
-title: "Hexagon"
+title: "Clip-Handle Hexagon"
 date: 26-08-2015
 
 image: image.png

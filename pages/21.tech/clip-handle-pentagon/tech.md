@@ -1,5 +1,5 @@
 ---
-title: "Pentagon"
+title: "Clip-Handle Pentagon"
 date: 26-08-2015
 
 image: image.png

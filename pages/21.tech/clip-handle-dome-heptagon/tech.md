@@ -1,5 +1,5 @@
 ---
-title: "Heptagon with Domes"
+title: "Clip-Handle Heptagon with Domes"
 date: 26-08-2015
 
 image: image.png
