@@ -53,8 +53,7 @@ form:
             body: "{% include 'partials/mail/contact.html.twig' %}"
             cc: "{{ form.value.person|e }}"
             reply_to: "{{ form.value.person|e }}"
-        - message: "Thank you for getting in touch!"
-        - reset: true
+        - display: /contact/thanks
 ---
 
 Drop me a message here if you have any questions / suggestions / feedback concerning this site. I'm happy to get in touch with you!

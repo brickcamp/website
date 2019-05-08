@@ -45,17 +45,6 @@ form:
             label: 'Comment'
             placeholder: 'Add details or explanation if needed.'
             type: textarea
-        # -
-        #     name: image
-        #     label: 'Image'
-        #     type: file
-        #     multiple: true
-        #     accept:
-        #         - 'image/*'
-        #     destination: 'user/data/files'
-        #     avoid_overwriting: true
-        #     validate:
-        #         required: false
         -
             id: propose_tech_name
             name: name
@@ -77,10 +66,7 @@ form:
         - email:
             subject: "[Brick.Camp] Proposed Tech named \"{{ form.value.title|e }}\""
             body: "{% include 'partials/mail/add.html.twig' %}"
-            # attachments:
-            #     - image
-        - message: "Thanks for your proposal!"
-        - reset: true
+        - display: /contact/thanks
 ---
 
 In case you find an interesting technique missing on this site, please submit it here.
