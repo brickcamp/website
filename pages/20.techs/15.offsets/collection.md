@@ -60,6 +60,7 @@ form:
                         'all': 'All Lengths'
                         '10' : '1/2 Stud'
                         '5'  : '1/4 Stud'
+                        '4'  : '1/5 Stud'
                         '2'  : '1/10 Stud'
                         '1'  : '1/20 Stud'
         -
