@@ -3,7 +3,7 @@ title: "Lowell Sphere"
 date: 06-12-2015
 
 image: image.png
-cad: model.ldr
+cad: model.mpd
 
 source:
   url: "http://www.brucelowell.com/lowell-sphere/"
