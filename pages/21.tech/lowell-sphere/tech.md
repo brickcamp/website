@@ -20,8 +20,8 @@ links:
     url: "http://lego.bldesign.org/sphere/"
 
 taxonomy:
-  part: ["3022", "2420", "3710", "3794b", "4733", "3709", "3705", "3713"]
-  partcount: 89
+  part: ["3022", "2420", "3710", "3794b", "4733"]
+  partcount: 74
 
   width: [16, plate]
   depth: [16, plate]
