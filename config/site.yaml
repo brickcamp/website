@@ -50,3 +50,9 @@ taxonomies:
   - shape_segsize
   - shape_2D_segsize
   - shape_3D_segsize
+
+redirects:
+  '/techs/with/(shape.*)': '/techs/shapes/$1'
+  '/techs/with/(.*angle.*)': '/techs/rotations/$1'
+  '/techs/with/(.*length.*)': '/techs/offsets/$1'
+  '/techs/with/(pattern.*)': '/techs/patterns/$1'
