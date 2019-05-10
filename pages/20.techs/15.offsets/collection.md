@@ -63,6 +63,7 @@ form:
                         '4'  : '1/5 Stud'
                         '2'  : '1/10 Stud'
                         '1'  : '1/20 Stud'
+                        'flex' : Flexible
         -
             name: sorting
             type: fieldset

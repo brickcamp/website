@@ -39,7 +39,7 @@
         fillInputByUrl("rotation_angle", "_angle:([0-9\-\_]+)");
 
         fillInputByUrl("offset_type", "(stud_lift)|(stud_shift)|(axle_shift)");
-        fillInputByUrl("offset_length", "_length:([0-9\-\_]+)");
+        fillInputByUrl("offset_length", "_length:([0-9\-\_]+|flex)");
 
         fillInputByUrl("shape_type", "shape_(2D|3D)");
         fillInputByUrl("shape_type", "shape_(2D|3D)_segments(:[0-9up\_]+)");
