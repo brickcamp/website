@@ -2,15 +2,13 @@
 title: Datenschutz
 ---
 
-_**TL;DR:** No tracking. No Ads. No data collection._
+_**TL;DR:** Kein Tracking. Keine Werbung. Keine Datensammlung._
 
-_Following is the longer, legally compliant version of this statement. It's written in German in the [Impressum](/legal/impressum)_
+Die Nutzung unserer Webseite ist ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (z.B. Name oder E-Mail-Adressen) erhoben werden (z.B. in einem Kontaktformular), erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Deine ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 
-The use of our website is possible without providing personal data. If personal data (e.g. name or e-mail addresses) is collected on our pages (e.g. via contact form), this is always done on a voluntary basis. This data will not be passed on to third parties without your explicit consent.
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
 
-We would like to point out that data transmission on the Internet (e.g. communication by e-mail) can be subject to security gaps. A complete protection of the data against access by third parties is not possible.
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seite behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
-The use of contact data published on this site - especially within the scope of the imprint obligation - by third parties to send unsolicited advertising and information materials is hereby expressly prohibited. The operators of this website expressly reserve the right to take legal action against unsolicited mailing or e-mailing of spam and other similar advertising materials.
-
-### Found an issue?
-If you found an issue concerning the safety / integrity of this site or have another recommendation, please feel free to contact me via the link in the footer.
+### Fragen oder Probleme?
+Falls Du einen Hinweis bezüglich der Sicherheit / Integrität dieser Website hast oder einen Verbesserungsvorschlag loswerden möchtest: Kontaktiere mich gerne über den Kontakt-Link im Footer.
