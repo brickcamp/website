@@ -22,13 +22,12 @@ BrickCamp is only possible because of some amazing projects and technologies out
 A huge thanks to each and every one of these projects and their supporting communities.  
 _Legal Notice: LEGO`®` is a trademark of the LEGO Group which does not sponsor, authorize or endorse this site._
 
+
 ## License
 > Life would be much easier if I had the source code. <br>
 > _Unknown Author_
 
-The **source code** of this project is released under the [MIT License](https://choosealicense.com/licenses/mit/), which can also be found in the LICENSE file.
-
-The **content** (images, texts, ...) published on Brick.Camp (and stored in this repository) is licensed under the [Creative Commons Attribution ShareAlike 4.0 International license](https://choosealicense.com/licenses/cc-by-sa-4.0/). Excluded from this are all images / vector graphics concerning the BrickCamp logo, which currently remains under normal copyright.
+The **site including all content** of this project is released under the [Creative Commons Attribution ShareAlike 4.0 International license](https://choosealicense.com/licenses/cc-by-sa-4.0/).
 
 
 ## Local Setup
@@ -47,6 +46,7 @@ _Disclaimer: This setup is currently only tested with the admin user of this (an
 6. Start the included server by mapping the router.php to a local address (as quick development setup) - for example by:
 `php -S 127.0.0.1:8080 system/router.php`
 7. You should be ready to go.
+
 
 ## Thanks for your attention
 > I think quotes are very dangerous things. <br>
