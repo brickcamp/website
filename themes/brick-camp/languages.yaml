@@ -1,0 +1,13 @@
+en:
+  META:
+    DESCRIPTION: 'A visual dictionary for LEGO® building techniques'
+  FOOTER:
+    REPO: GitLab Repository
+    SOURCE: View Source
+
+de:
+  META:
+    DESCRIPTION: 'Ein grafisches Nachschlagewerk für LEGO® Bautechniken'
+  FOOTER:
+    REPO: GitLab Repository
+    SOURCE: Quelltext zeigen
