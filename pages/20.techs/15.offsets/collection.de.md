@@ -41,18 +41,18 @@ form:
             fields:
                 -
                     name: offset_type
-                    label: Type
+                    label: Art
                     type: select
                     id: offset_type
                     classes: custom-select
                     options:
                         'all': 'Alle Arten'
-                        'stud_lift': 'Stud Lift'
-                        'stud_shift': 'Stud Shift'
-                        'axle_shift': 'Axle Shift'
+                        'stud_lift': 'Noppen-Lift'
+                        'stud_shift': 'Noppen-Shift'
+                        'axle_shift': 'Achsen-Shift'
                 - 
                     name: offset_length
-                    label: Length
+                    label: Länge
                     type: select
                     id: offset_length
                     classes: custom-select
@@ -72,7 +72,7 @@ form:
             fields:
                 - 
                     name: order_by
-                    label: Order By
+                    label: Sortieren nach
                     type: select
                     id: order_by
                     classes: custom-select
@@ -85,7 +85,7 @@ form:
                         'random': 'nach Zufall'
                 -
                     name: order_dir
-                    label: Order Direction
+                    label: Sortierrichtung
                     type: select
                     id: order_dir
                     classes: custom-select

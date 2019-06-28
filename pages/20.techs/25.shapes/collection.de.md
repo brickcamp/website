@@ -41,7 +41,7 @@ form:
             fields:
                 -
                     name: shape_type
-                    label: Type
+                    label: Art
                     type: select
                     id: shape_type
                     classes: custom-select
@@ -60,7 +60,7 @@ form:
                         '3D':     '3D   | Alle Körper'
                 -
                     name: shape_segsize
-                    label: Parts
+                    label: Teile
                     type: select
                     id: shape_segsize
                     classes: custom-select
@@ -83,7 +83,7 @@ form:
             fields:
                 - 
                     name: order_by
-                    label: Order By
+                    label: Sortieren nach
                     type: select
                     id: order_by
                     classes: custom-select
@@ -96,7 +96,7 @@ form:
                         'random': 'nach Zufall'
                 -
                     name: order_dir
-                    label: Order Direction
+                    label: Sortierrichtung
                     type: select
                     id: order_dir
                     classes: custom-select

@@ -43,7 +43,7 @@ form:
             fields:
                 -
                     name: rotation_type
-                    label: Rotation Type
+                    label: Type
                     type: select
                     id: rotation_type
                     classes: custom-select
@@ -55,7 +55,7 @@ form:
                         # 'axle_tilt': 'Axle Tilt'
                 - 
                     name: rotation_angle
-                    label: Rotation Angle
+                    label: Angle
                     type: select
                     id: rotation_angle
                     classes: custom-select

@@ -43,19 +43,19 @@ form:
             fields:
                 -
                     name: rotation_type
-                    label: Rotation Type
+                    label: Art
                     type: select
                     id: rotation_type
                     classes: custom-select
                     default: all
                     options:
                         'all': 'Alle Arten'
-                        'stud_tilt': 'Stud Tilt'
-                        'stud_twist': 'Stud Twist'
+                        'stud_tilt': 'Noppen-Tilt'
+                        'stud_twist': 'Noppen-Twist'
                         # 'axle_tilt': 'Axle Tilt'
                 - 
                     name: rotation_angle
-                    label: Rotation Angle
+                    label: Winkel
                     type: select
                     id: rotation_angle
                     classes: custom-select
@@ -78,7 +78,7 @@ form:
             fields:
                 - 
                     name: order_by
-                    label: Order By
+                    label: Sortieren nach
                     type: select
                     id: order_by
                     classes: custom-select
@@ -91,7 +91,7 @@ form:
                         'random': 'nach Zufall'
                 -
                     name: order_dir
-                    label: Order Direction
+                    label: Sortierrichtung
                     type: select
                     id: order_dir
                     classes: custom-select
