@@ -10,14 +10,14 @@
             </a>
             <footer class="blockquote-footer pl-2">
                 <cite title="{{ page.header.source.author }}">
-                    {{ page.header.source.author ?: 'Unknown' }}
+                    {{ page.header.source.author ?: 'TECH.SOURCE.UNKNOWN'|t }}
                 </cite>
                 <div class="w-100">
                     {% if page.header.source.date %}
                         <small><em>{{ page.header.source.date }}</em>
                     {% endif %}
                     {% if page.taxonomy.source %}
-                        on <em>{{ page.taxonomy.source[0] }}</em></small>
+                        {{ 'TECH.SOURCE.ON'|t}} <em>{{ page.taxonomy.source[0] }}</em></small>
                     {% endif %}
                 </div>
             </footer>
@@ -28,22 +28,22 @@
     {# Width / Depth / Height #}
     {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
         <div class="width row">
-            <div class="label col text-right pr-0"><strong>Width:</strong></div>
-            <div class="value col">{{ page.taxonomy.width[0] ~ ' ' ~ page.taxonomy.width[1]|pluralize }}</div>
+            <div class="label col text-right pr-0"><strong>{{ 'TECH.WIDTH'|t }}:</strong></div>
+            <div class="value col">{{ page.taxonomy.width[0] ~ ' ' ~ ('TECH.UNIT.' ~ page.taxonomy.width[1]|pluralize|upper)|t }}</div>
         </div>
         {% set has_size = true %}
     {% endif %}
     {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
         <div class="depth row">
-            <div class="label col text-right pr-0"><strong>Depth:</strong></div>
-            <div class="value col">{{ page.taxonomy.depth[0] ~ ' ' ~ page.taxonomy.depth[1]|pluralize }}</div>
+            <div class="label col text-right pr-0"><strong>{{ 'TECH.DEPTH'|t }}:</strong></div>
+            <div class="value col">{{ page.taxonomy.depth[0] ~ ' ' ~ ('TECH.UNIT.' ~ page.taxonomy.depth[1]|pluralize|upper)|t }}</div>
         </div>
         {% set has_size = true %}
     {% endif %}
     {% if page.taxonomy.width and page.taxonomy.width|length == 2 %}
         <div class="height row">
-            <div class="label col text-right pr-0"><strong>Height:</strong></div>
-            <div class="value col">{{ page.taxonomy.height[0] ~ ' ' ~ page.taxonomy.height[1]|pluralize }}</div>
+            <div class="label col text-right pr-0"><strong>{{ 'TECH.HEIGHT'|t }}:</strong></div>
+            <div class="value col">{{ page.taxonomy.height[0] ~ ' ' ~ ('TECH.UNIT.' ~ page.taxonomy.height[1]|pluralize|upper)|t }}</div>
         </div>
         {% set has_size = true %}
     {% endif %}
@@ -53,7 +53,7 @@
     {% set functions = brick_functions(page) %}
     {% for function, taxonomies in functions %}
         <div class="{{ function }} row">
-            <div class="label col text-right pr-0"><strong>{{ function|humanize }}:</strong></div>
+            <div class="label col text-right pr-0"><strong>{{ ('TECH.FUNCTION.' ~ function|upper)|t }}:</strong></div>
             <div class="values col scroll">
             {# {{ brick_term_image('function', function).resize(50, 50).html( function|humanize, function, 'img-fluid') }} #}
             {% for taxonomy, values in taxonomies %}
@@ -71,7 +71,7 @@
     {# Parts #}
     {% if page.taxonomy.partcount %}
         <div class="partcount w-100 mb-2 text-center">
-            <strong>{{ page.taxonomy.partcount|first }} Parts</strong>
+            <strong>{{ page.taxonomy.partcount|first }} {{ 'TECH.PARTS'|t }}</strong>
         </div>
     {% endif %}
     {% if page.taxonomy.part %}
@@ -92,7 +92,7 @@
     {# Related Pages #}
     {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
         <div class="related row px-2 justify-content-center">
-            <div class="col-12 text-center mb-2"><strong>Randomly Related</strong></div>
+            <div class="col-12 text-center mb-2"><strong>{{ 'TECH.RELATED'|t }}</strong></div>
             {% set item_show_footer = false %}
             {% set item_wrapper_classes = 'col-4 col-sm-3 col-md-6 col-lg-4 px-1' %}
             {% set item_classes = 'mb-2' %}
