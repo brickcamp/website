@@ -1,0 +1,85 @@
+en:
+  META:
+    DESCRIPTION: 'A visual dictionary for LEGO® building techniques'
+  TECH:
+    SOURCE:
+      ON: 'on'
+
+    WIDTH: Width
+    DEPTH: Depth
+    HEIGHT: Height
+
+    FUNCTION:
+      STUD_TILT: Stud Tilt
+      STUD_TWIST: Stud Twist
+      AXLE_TILT: Axle Tilt
+
+      STUD_LIFT: Stud Lift
+      STUD_SHIFT: Stud Shift
+      AXLE_SHIFT: Axle Shift
+
+      PATTERN_1D: 1D-Pattern
+      PATTERN_2D: 2D-Pattern
+      PATTERN_3D: 3D-Pattern
+
+      SHAPE_2D: Form
+      SHAPE_3D: Body
+
+    UNIT:
+      LDUS: LDU
+      PLATES: plates
+      STUDS: studs
+      BRICKS: bricks
+      TRACKS: tracks
+
+    PARTS: Parts
+    RELATED: Randomly Related
+
+    SOURCE:
+      UNKNOWN: Unknown
+  FOOTER:
+    REPO: GitLab Repository
+    SOURCE: View Source
+
+
+
+de:
+  META:
+    DESCRIPTION: 'Ein grafisches Nachschlagewerk für LEGO® Bautechniken'
+  TECH:
+    SOURCE:
+      ON: auf
+
+    WIDTH: Breite
+    DEPTH: Tiefe
+    HEIGHT: Höhe
+
+    FUNCTION:
+      STUD_TILT: Noppen-Tilt
+      STUD_TWIST: Noppen-Twist
+      AXLE_TILT: Achsen-Tilt
+
+      STUD_LIFT: Noppen-Lift
+      STUD_SHIFT: Noppen-Shift
+      AXLE_SHIFT: Achsen-Shift
+
+      PATTERN_1D: 1D-Muster
+      PATTERN_2D: 2D-Muster
+      PATTERN_3D: 3D-Muster
+
+      SHAPE_2D: Form
+      SHAPE_3D: Körper
+
+    UNIT:
+      LDUS: LDU
+      PLATES: Platten
+      STUDS: Noppen
+      BRICKS: Steine
+      TRACKS: Schienen
+
+    PARTS: Teile
+    RELATED: Ähnliche Techniken
+
+  FOOTER:
+    REPO: GitLab Repository
+    SOURCE: Quelltext zeigen
