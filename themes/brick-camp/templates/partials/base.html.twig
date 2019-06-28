@@ -7,7 +7,7 @@
     {% include "partials/head.html.twig" %}
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 lang-{{ grav.language.getActive }}">
 {% block body %}
     {% include "partials/header.html.twig" %}
 

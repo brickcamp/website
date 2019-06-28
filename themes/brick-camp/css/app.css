@@ -189,10 +189,18 @@ html {
     content: ' x ';
 }
 
-.shape_2D_segsize::after,
-.shape_3D_segsize::after,
-.pattern_1D_segsize::after,
-.pattern_2D_segsize::after {
+body.lang-de .shape_2D_segsize::after,
+body.lang-de .shape_3D_segsize::after,
+body.lang-de .pattern_1D_segsize::after,
+body.lang-de .pattern_2D_segsize::after {
+    content: ' Teile\A';
+    white-space: pre;
+}
+
+body.lang-en .shape_2D_segsize::after,
+body.lang-en .shape_3D_segsize::after,
+body.lang-en .pattern_1D_segsize::after,
+body.lang-en .pattern_2D_segsize::after {
     content: ' Parts\A';
     white-space: pre;
 }
