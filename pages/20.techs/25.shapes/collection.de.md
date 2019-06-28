@@ -48,7 +48,7 @@ form:
                     options:
                         'all':    'Alle Arten'
                         'all-1':  '-----------------'
-                        '2D':     '2D   | Alle Formen'
+                        '2D':     '2D   | Alle Flächen'
                         '2D:3':   '2D.3 | Dreieck'
                         '2D:4':   '2D.4 | Rechteck'
                         '2D:5':   '2D.5 | Pentagon'
