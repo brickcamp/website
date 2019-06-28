@@ -1,7 +1,7 @@
 ---
 title: 'Stud Twist'
 icon: icon.png
-redirect: 'techs/rotations/function:stud_twist'
+redirect: '/techs/rotations/function:stud_twist'
 
 content:
     items: 
