@@ -5,6 +5,9 @@ date: 30-08-2015
 image: image.png
 cad: model.ldr
 
+related_pages:
+  - /tech/wedge-plate-3x6-torus
+
 taxonomy:
   part: ["3666", "3710"]
   partcount: 120
