@@ -1,5 +1,5 @@
 ---
-title: "Jumper-Plate-Wall"
+title: "Jumper Plate Wall"
 date: 06-07-2019
 
 image: image.png
