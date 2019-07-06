@@ -12,7 +12,7 @@ source:
   date: 19-12-2015
 
 taxonomy:
-  part: ["4589", "6019", "4081b", "30374"]
+  part: ["59900", "6019", "4081b", "30374"]
   partcount: 85
 
   width: [13.5, stud]
