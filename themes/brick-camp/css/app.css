@@ -247,6 +247,10 @@ body.lang-en .pattern_2D_segsize::after {
     margin-bottom: 0;
 }
 
+.single.type-tech {
+    border: 0 none;
+}
+
 /* * * * * * * * * * * * * * *
  *  FORMS
  * * * * * * * * * * * * * * */
