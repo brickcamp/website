@@ -103,7 +103,7 @@ form:
             value: Filter
     process:
         redirect: >-
-            /techs/patterns/{% 
+            /de/techs/patterns/{% 
                 set pattern_segsize = form.value.pattern_segsize                                      %}{%
                 set pattern_segsize = pattern_segsize|slice(0,3) == 'all' ? 'all' : pattern_segsize   %}{%
                 set pattern_type    = form.value.pattern_type                                         %}{%

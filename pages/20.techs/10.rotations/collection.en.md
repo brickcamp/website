@@ -105,7 +105,7 @@ form:
             value: Filter
     process:
         redirect: >-
-            /techs/rotations/{% 
+            /en/techs/rotations/{% 
                 set rotation_angle = form.value.rotation_angle                                   %}{%
                 set rotation_angle = rotation_angle|slice(0,3) == 'all' ? 'all' : rotation_angle %}{%
                 set rotation_type  = form.value.rotation_type                                    %}{%

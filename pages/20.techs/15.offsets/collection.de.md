@@ -98,7 +98,7 @@ form:
             value: Filter
     process:
         redirect: >-
-            /techs/offsets/{% 
+            /de/techs/offsets/{% 
                 set offset_length = form.value.offset_length                                     %}{%
                 set offset_length = offset_length|slice(0,3) == 'all' ? 'all' : offset_length    %}{%
                 set offset_type   = form.value.offset_type                                       %}{%

@@ -109,7 +109,7 @@ form:
             value: Filter
     process:
         redirect: >-
-            /techs/shapes/{% 
+            /de/techs/shapes/{% 
                 set shape_segsize = form.value.shape_segsize                                        %}{%
                 set shape_segsize = shape_segsize[:3] == 'all' ? 'all' : shape_segsize              %}{%
 
