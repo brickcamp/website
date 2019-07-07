@@ -24,7 +24,7 @@ taxonomy:
 
 ---
 
-**Overview of angles** that can be archived by a middle part of *x* plates height (rows) and *y* studs wide (cols). 
+**Overview of angles** that can be archived by a middle part of *x* studs wide (cols) and *y* plates height (rows). 
 
 |  × |   2   |   3   |   4   |   5  |   6  |   7  |   8  |   9  |  10  |  11  |  12  |  13  |  14  |  15  |  16  |
 |----|-------|-------|-------|------|------|------|------|------|------|------|------|------|------|------|------|
