@@ -3,14 +3,17 @@
 {% set page_subtitle = 'The requested page was not found' %}
 {% set content_vertical_center = true %}
 
+{% set page_home = pages.find('/') %}
+{% set page_contact = pages.find('/contact') %}
+
 {% block content %}
     <div class="text-center">
         <div class="pb-4">
             {{ media['theme://images/error/image.png'].cropResize(400,400).html('404 - Page not found', '404 error', 'img-fluid px-5')|raw }}
         </div>
         <div>
-            <a class="btn btn-success btn-lg m-2" href="/" title="{{ config.site.title }}">Take me home</a>
-            <a class="btn btn-outline-secondary btn-lg m-2" href="/contact/brickup" title="{{ config.site.title }}">Contact me</a>
+            <a class="btn btn-success btn-lg m-2" href="{{ page_home.url }}" title="{{ config.site.title }}">Take me home</a>
+            <a class="btn btn-outline-secondary btn-lg m-2" href="{{ page_contact.url }}" title="{{ config.site.title }}">Contact me</a>
         </div>
     </div>
 {% endblock content %}
