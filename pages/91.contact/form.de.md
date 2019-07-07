@@ -56,6 +56,6 @@ form:
         - display: /contact/thanks
 ---
 
-Drop me a message here if you have any questions / suggestions / feedback concerning this site. I'm happy to get in touch with you!
+Schreibe mir hier eine Nachricht falls Du Fragen / Vorschläge / Feedback zu dieser Website hast.
 
-Alternatively, you can reach out to [my Mastodon account](https://my.brick.camp/@tobias) if you like.
+Alternativ kannst Du mich über [mein Mastodon-Konto](https://my.brick.camp/@tobias) kontaktieren wenn Du magst.
