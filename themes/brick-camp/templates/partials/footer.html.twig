@@ -1,18 +1,18 @@
 <footer id="footer" class="mt-auto  bg-dark">
 {% block footer %}
     {% set footer = pages.find('/widgets/footer') %}
+    {% set about = pages.find('/about') %}
     {% set collection = footer.collection() %}
 
     <nav aria-label="footer" class="navbar navbar-expand-lg navbar-dark">
         <div class="container justify-content-between text-center">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item show mr-lg-auto">
-                    <a class="nav-link" href="/about" title="About BrickCamp">
+                    <a class="nav-link" href="{{ about.url }}" title="About BrickCamp">
                         © {{ "now" | date('Y') }} {{ config.site.title }}
                     </a>
                 </li>
-
-                <li class="nav-item show">
+                <li class="nav-item show d-none">
                     <a class="nav-link" href="{{ config.site.gitlab.url }}" title="{{ config.site.title }} on Gitlab" target="_blank" rel="noopener noreferrer">
                         {{ 'FOOTER.REPO'|t }}
                     </a>
@@ -22,6 +22,7 @@
                         {{ 'FOOTER.SOURCE'|t }}
                     </a>
                 </li>
+                {% include 'partials/langswitcher.html.twig' %}
             </ul>
 
             <ul class="navbar-nav mx-auto">
