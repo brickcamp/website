@@ -49,7 +49,6 @@ form:
                         'all': 'Alle Arten'
                         'stud_lift': 'Noppen-Lift'
                         'stud_shift': 'Noppen-Shift'
-                        'axle_shift': 'Achsen-Shift'
                 - 
                     name: offset_length
                     label: Länge

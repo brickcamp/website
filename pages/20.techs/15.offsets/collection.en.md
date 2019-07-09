@@ -49,7 +49,6 @@ form:
                         'all': 'All Types'
                         'stud_lift': 'Stud Lift'
                         'stud_shift': 'Stud Shift'
-                        'axle_shift': 'Axle Shift'
                 - 
                     name: offset_length
                     label: Length
