@@ -51,7 +51,6 @@ form:
                         'all': 'Alle Arten'
                         '1D':  '1D | Linear'
                         '2D':  '2D | Planar'
-                        '3D':  '3D | Räumlich'
                 -
                     name: pattern_segsize
                     label: Teile
