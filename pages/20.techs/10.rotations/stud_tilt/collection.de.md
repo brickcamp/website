@@ -1,7 +1,7 @@
 ---
 title: 'Noppen-Tilt'
 icon: icon.png
-redirect: '/techs/rotations/function:stud_tilt'
+redirect: '/de/techs/rotations/function:stud_tilt'
 
 content:
     items: 

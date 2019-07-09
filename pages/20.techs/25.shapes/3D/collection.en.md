@@ -1,7 +1,7 @@
 ---
 title: 'Bodies'
 icon: icon.png
-redirect: '/techs/shapes/function:shape_3D'
+redirect: '/en/techs/shapes/function:shape_3D'
 
 content:
     items: 

@@ -1,7 +1,7 @@
 ---
 title: 'Planare Muster'
 icon: 'icon.png'
-redirect: '/techs/patterns/function:pattern_2D'
+redirect: '/de/techs/patterns/function:pattern_2D'
 
 content:
     items: 

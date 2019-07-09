@@ -1,7 +1,7 @@
 ---
 title: 'Stud Tilt'
 icon: icon.png
-redirect: '/techs/rotations/function:stud_tilt'
+redirect: '/en/techs/rotations/function:stud_tilt'
 
 content:
     items: 

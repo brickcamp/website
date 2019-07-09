@@ -1,7 +1,7 @@
 ---
 title: 'Flächen'
 icon: icon.png
-redirect: '/techs/shapes/function:shape_2D'
+redirect: '/de/techs/shapes/function:shape_2D'
 
 content:
     items: 

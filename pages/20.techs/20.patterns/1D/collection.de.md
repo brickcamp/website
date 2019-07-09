@@ -1,7 +1,7 @@
 ---
 title: 'Lineare Muster'
 icon: 'icon.png'
-redirect: '/techs/patterns/function:pattern_1D'
+redirect: '/de/techs/patterns/function:pattern_1D'
 
 content:
     items: 

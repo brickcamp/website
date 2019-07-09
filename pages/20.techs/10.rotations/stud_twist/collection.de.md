@@ -1,7 +1,7 @@
 ---
 title: 'Noppen-Twist'
 icon: icon.png
-redirect: '/techs/rotations/function:stud_twist'
+redirect: '/de/techs/rotations/function:stud_twist'
 
 content:
     items: 
