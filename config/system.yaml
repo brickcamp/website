@@ -82,7 +82,7 @@ pages:
       - form
       - forms
 cache:
-  enabled: false
+  enabled: true
   check:
     method: none
   driver: auto
@@ -90,8 +90,8 @@ cache:
   clear_images_by_default: true
   cli_compatibility: false
   lifetime: 604800
-  gzip: false
-  allow_webserver_gzip: false
+  gzip: true
+  allow_webserver_gzip: true
   redis:
     socket: false
 twig:
@@ -131,13 +131,13 @@ images:
   debug: false
   auto_fix_orientation: false
 media:
-  enable_media_timestamp: false
+  enable_media_timestamp: true
   unsupported_inline_types: {  }
   allowed_fallback_types: {  }
   auto_metadata_exif: false
   upload_limit: 52428800
 session:
-  enabled: true
+  enabled: false
   initialize: true
   timeout: 1800
   name: brickcamp
@@ -152,4 +152,5 @@ gpm:
   verify_peer: true
   official_gpm_only: true
 strict_mode:
+  yaml_compat: false
   twig_compat: false
