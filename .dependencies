@@ -14,7 +14,7 @@ git:
     form:
         url: https://github.com/getgrav/grav-plugin-form
         path: user/plugins/form
-        branch: 3.0.5
+        branch: develop
     langswitcher:
         url: https://github.com/getgrav/grav-plugin-langswitcher
         path: user/plugins/langswitcher
