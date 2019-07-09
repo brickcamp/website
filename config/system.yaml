@@ -63,7 +63,7 @@ pages:
   expires: 604800
   cache_control: 3600
   last_modified: false
-  etag: false
+  etag: true
   vary_accept_encoding: false
   redirect_default_route: false
   redirect_default_code: '302'
