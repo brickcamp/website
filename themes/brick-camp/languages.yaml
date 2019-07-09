@@ -1,9 +1,51 @@
 en:
   META:
     DESCRIPTION: 'A visual dictionary for LEGO® building techniques'
+
+  TAXONOMY:
+    TAG: Tag
+    CATEGORY: Category
+    FLAG: Flag
+    SOURCE: Source
+
+    PART: Part
+    PARTCOUNT: Part Count
+    TECH: Tech
+
+    WIDTH: Width
+    DEPTH: Depth
+    HEIGHT: Height
+
+    FUNCTION: Function
+    OBJECT: Object
+    MODULE_TYPE: Module Type
+
+    PATTERN_SEGSIZE: Pattern Segment Size
+    PATTERN_1D_SEGSIZE: Pattern 1D Segment Size
+    PATTERN_2D_SEGSIZE: Pattern 2D Segment Size
+    PATTERN_3D_SEGSIZE: Pattern 3D Segment Size
+
+    OFFSET_LENGTH: Offset Length
+    STUD_LIFT_LENGTH: Stud Lift Length
+    STUD_SHIFT_LENGTH: Stud Shift Length
+    AXLE_SHIFT_LENGTH: Axle Shift Length
+
+    ROTATION_ANGLE: Rotation Angle
+    STUD_TILT_ANGLE: Stud Tilt Angle
+    STUD_TWIST_ANGLE: Stud Twist Angle
+    AXLE_TILT_ANGLE: Axle Tilt Angle
+
+    SHAPE_SEGMENTS: Shape Segments
+    SHAPE_2D_SEGMENTS: Shape 2D Segments
+    SHAPE_3D_SEGMENTS: Shape 3D Segments
+    SHAPE_SEGSIZE: Shape Segment Size
+    SHAPE_2D_SEGSIZE: Shape 2D Segment Size
+    SHAPE_3D_SEGSIZE: Shape 3D Segment Size
+
   TECH:
     SOURCE:
       ON: 'on'
+      UNKNOWN: Unknown
 
     WIDTH: Width
     DEPTH: Depth
@@ -35,8 +77,6 @@ en:
     PARTS: Parts
     RELATED: Randomly Related
 
-    SOURCE:
-      UNKNOWN: Unknown
   FOOTER:
     REPO: GitLab Repository
     SOURCE: View Source
@@ -46,9 +86,51 @@ en:
 de:
   META:
     DESCRIPTION: 'Ein grafisches Nachschlagewerk für LEGO® Bautechniken'
+
+  TAXONOMY:
+    TAG: Tag
+    CATEGORY: Kategorie
+    FLAG: Flag
+    SOURCE: Quelle
+
+    PART: Teil
+    PARTCOUNT: Teilanzahl
+    TECH: Tech
+
+    WIDTH: Breite
+    DEPTH: Tiefe
+    HEIGHT: Höhe
+
+    FUNCTION: Funktion
+    OBJECT: Objekt
+    MODULE_TYPE: Modultyp
+
+    PATTERN_SEGSIZE: Mustergröße
+    PATTERN_1D_SEGSIZE: 1D Mustergröße
+    PATTERN_2D_SEGSIZE: 2D Mustergröße
+    PATTERN_3D_SEGSIZE: 3D Mustergröße
+
+    OFFSET_LENGTH: Offset-Weite
+    STUD_LIFT_LENGTH: Stud Lift Length
+    STUD_SHIFT_LENGTH: Stud Shift Length
+    AXLE_SHIFT_LENGTH: Axle Shift Length
+
+    ROTATION_ANGLE: Rotation Angle
+    STUD_TILT_ANGLE: Stud Tilt Angle
+    STUD_TWIST_ANGLE: Stud Twist Angle
+    AXLE_TILT_ANGLE: Axle Tilt Angle
+
+    SHAPE_SEGMENTS: Segmente
+    SHAPE_2D_SEGMENTS: Segmente (2D)
+    SHAPE_3D_SEGMENTS: Segmente (3D)
+    SHAPE_SEGSIZE: Shape Segment Size
+    SHAPE_2D_SEGSIZE: Shape 2D Segment Size
+    SHAPE_3D_SEGSIZE: Shape 3D Segment Size
+    
   TECH:
     SOURCE:
       ON: auf
+      UNKNOWN: Unbekannt
 
     WIDTH: Breite
     DEPTH: Tiefe
