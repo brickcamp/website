@@ -1,4 +1,3 @@
-custom_base_url: 'brick.camp'
 force_ssl: true
 cache:
   enabled: true
