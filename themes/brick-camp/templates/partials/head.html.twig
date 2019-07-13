@@ -26,7 +26,7 @@
         {% else %}
             {% set header_image_preview = media['themes://brick-camp/images/logo_large.png'].cropZoom(400,400) %}
         {% endif %}
-        {% set header_image_preview_url = base_url_absolute ~ header_image_preview.url %}
+        {% set header_image_preview_url = base_url_simple ~ header_image_preview.url %}
         <meta name="twitter:image" content="{{ header_image_preview_url }}"/>
         <meta property="og:image" content="{{ header_image_preview_url }}"/>
         <meta property="og:image:width" content="400"/>
