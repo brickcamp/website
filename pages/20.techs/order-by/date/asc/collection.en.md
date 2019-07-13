@@ -1,7 +1,7 @@
 ---
 title: 'Oldest'
 icon: 'icon.png'
-redirect: '/en/techs/orderby:date/orderdir:asc'
+redirect: '/techs/orderby:date/orderdir:asc'
 
 content:
     items: 

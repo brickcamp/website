@@ -1,7 +1,7 @@
 ---
 title: 'Neueste'
 icon: 'icon.png'
-redirect: '/de/techs/orderby:date/orderdir:desc'
+redirect: '/techs/orderby:date/orderdir:desc'
 
 content:
     items: 
