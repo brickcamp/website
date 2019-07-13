@@ -82,7 +82,7 @@ pages:
       - form
       - forms
 cache:
-  enabled: true
+  enabled: false
   check:
     method: none
   driver: auto
