@@ -4,13 +4,13 @@
         {% block module_header %}
             {% if not page.header.title_hidden %}
                 <h2>
-                    {% if page.header.module_link %}<a class="text-success" href='{{ base_url_absolute ~ page.header.module_link }}'>{% endif %}
+                    {% if page.header.module_link %}<a class="text-success" href='{{ base_url_simple ~ page.header.module_link }}'>{% endif %}
                         {{ page.title }}
                     {% if page.header.module_link %}</a>{% endif %}
                 </h2>
             {% endif %}
 
-            {% if page.header.module_link %}<a class="text-decoration-none text-success" tabindex="-1" href='{{ base_url_absolute ~ page.header.module_link }}'>{% endif %}
+            {% if page.header.module_link %}<a class="text-decoration-none text-success" tabindex="-1" href='{{ base_url_simple ~ page.header.module_link }}'>{% endif %}
                 {% if page.header.module_description %}
                     <p class="h5 pb-2 text-muted">{{ page.header.module_description }}</p>
                 {% endif %}

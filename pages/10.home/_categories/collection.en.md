@@ -1,6 +1,6 @@
 ---
 title: Categories
-module_link: '/techs/explore'
+module_link: '/en/techs/explore'
 module_description: 'for you to explore'
 
 module_wrapper_classes: 'col-12'

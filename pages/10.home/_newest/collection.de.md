@@ -1,6 +1,6 @@
 ---
 title: Neueste
-module_link: '/techs/order-by/date/desc'
+module_link: '/de/techs/order-by/date/desc'
 module_description: 'Kürzlich hinzugefügt'
 
 module_wrapper_classes: 'col-12'

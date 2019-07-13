@@ -1,6 +1,6 @@
 ---
 title: Kategorien
-module_link: '/techs/explore'
+module_link: '/de/techs/explore'
 module_description: 'für Dich zum Stöbern'
 
 module_wrapper_classes: 'col-12'
