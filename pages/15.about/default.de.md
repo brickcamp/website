@@ -28,7 +28,7 @@ BrickCamp ist [komplett offen einsehbar](https://gitlab.com/brick.camp/brick.cam
  - Das [Theme dieser Webseite](https://gitlab.com/brick.camp/brick.camp/tree/master/themes/brick-camp?target=_blank&rel=noopener)
  - Wirklich alles. Du könntest sogar [eine lokale Kopie dieser Webseite nutzen](https://gitlab.com/brick.camp/brick.camp?target=_blank&rel=noopener#local-setup/).
 
-Ferner sind Bilder und Inhalte [als Creative Commons lizensiert](https://creativecommons.org/licenses/by-sa/4.0/?target=_blank&rel=noopener) - bis auf das Logo der Seite selbst.
+Ferner sind Bilder und Inhalte [als Creative Commons lizensiert](https://creativecommons.org/licenses/by-sa/4.0/?target=_blank&rel=noopener).
 
 ### Sicher und Privat
 ![Marakoeschtras Mauer](/tech/marakoeschtras-wall/image.png?cropResize=150,150&classes=mx-auto,d-block,img-fluid)

@@ -28,7 +28,7 @@ BrickCamp is [completely open source](https://gitlab.com/brick.camp/brick.camp?t
  - The [theme of this website](https://gitlab.com/brick.camp/brick.camp/tree/master/themes/brick-camp?target=_blank&rel=noopener)
  - Really everything - you could even [run a local copy of this website](https://gitlab.com/brick.camp/brick.camp?target=_blank&rel=noopener#local-setup/).
 
-Furthermore, images and contents are [licensed as creative commons](https://creativecommons.org/licenses/by-sa/4.0/?target=_blank&rel=noopener) - except the site branding itself (logo).
+Furthermore, images and contents are [licensed as creative commons](https://creativecommons.org/licenses/by-sa/4.0/?target=_blank&rel=noopener).
 
 ### Secure and Private
 ![Marakoeschtras Wall](/tech/marakoeschtras-wall/image.png?cropResize=150,150&classes=mx-auto,d-block,img-fluid)
