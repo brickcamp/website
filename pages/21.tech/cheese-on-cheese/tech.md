@@ -19,7 +19,7 @@ taxonomy:
   depth: [4.5, plate]
   height: [1, brick]
 
-  function: ["stud_tilt", "pattern_2D"]
+  function: ["stud_tilt", "pattern_1D"]
   stud_tilt_angle: 180
-  pattern_2D_segsize: 2
+  pattern_1D_segsize: 2
 ---
