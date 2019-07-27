@@ -22,6 +22,8 @@ taxonomy:
   depth: [7, plate]
   height: [7, plate]
 
-  function: stud_tilt
+  function: [stud_tilt, shape_3D]
   stud_tilt_angle: [90, 180]
+  shape_3D_segments: 6
+  shape_3D_segsize: 1.5
 ---
