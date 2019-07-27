@@ -8,7 +8,7 @@ cad: model.ldr
 source:
   url: "http://www.dagsbricks.com/2014/01/lego-techniques-cones.html"
   title: "LEGO Techniques - Cones"
-  author: "Brian Dag"
+  author: "Dag"
   date: 15-01-2014
 
 taxonomy:
