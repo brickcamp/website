@@ -1,6 +1,8 @@
 ---
 title: Privacy
 subtitle: Data Policy
+tntsearch:
+    index: false
 ---
 
 _**TL;DR:** No tracking. No Ads. No data collection._

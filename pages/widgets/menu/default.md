@@ -1,6 +1,10 @@
 ---
 title: Menu
 routable: false
+tntsearch:
+    index: false
+sitemap:
+    ignore: true
 
 menu-items:
     items:

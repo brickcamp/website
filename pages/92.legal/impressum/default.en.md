@@ -1,6 +1,8 @@
 ---
 title: Impressum
 subtitle: Legal Disclosure
+tntsearch:
+    index: false
 ---
 
 _This page is a legal requirement enforced by the ["Telemediengesetz"](https://de.wikipedia.org/wiki/Telemediengesetz). It has to be included in websites published in Germany and states the ownership and authorship of the [BrickCamp](https://brick.camp) website and it's content. For that sake, it's written in German._
