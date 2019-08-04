@@ -15,3 +15,6 @@ content:
 SNOT 
 SNOT = Studs Not On Top
 Noppen zeigen nicht nach oben
+
+Drehen Drehung gedreht
+Rotiert Rotieren Rotation

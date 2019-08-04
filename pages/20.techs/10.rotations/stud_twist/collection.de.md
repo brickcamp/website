@@ -19,3 +19,6 @@ Noppen nicht im rechten Winkel / im Raster
 SNIR
 SNIR = Studs Not In a Row
 Noppen nicht in einer Reihe
+
+Drehen Drehung gedreht
+Rotiert Rotieren Rotation

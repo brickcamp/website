@@ -17,3 +17,5 @@ SNARL = Studs Not At Right Angles
 
 SNIR
 SNIR = Studs Not In a Row
+
+Rotated Turned
