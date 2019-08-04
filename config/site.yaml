@@ -54,3 +54,4 @@ redirects:
   '/../techs/with/(.*angle.*)': '/techs/rotations/$1'
   '/../techs/with/(.*length.*)': '/techs/offsets/$1'
   '/../techs/with/(pattern.*)': '/techs/patterns/$1'
+  '/../techs/using/part:(.+)': '/part/$1'
