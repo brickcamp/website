@@ -1,7 +1,7 @@
 ---
 title: Neueste
 title_hidden: true
-module_link: '/de/techs/order-by/date/desc'
+module_link: '/de/techs/orderby:date/orderdir:desc'
 module_description: 'Kürzlich hinzugefügt'
 
 module_wrapper_classes: 'col-12'
