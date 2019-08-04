@@ -2,6 +2,7 @@
 namespace Grav\Plugin\BrickCamp;
 
 use Grav\Common\Grav;
+use Grav\Common\Page\Page;
 
 abstract class Terms
 {
@@ -106,6 +107,40 @@ abstract class Terms
             return (! empty($match[1])) ? $match[1] : $match[2];
         } else {
             return ucwords($term);
+        }
+    }
+
+    public static function initTermPages($taxonomy, $parent) {
+        $pages = Grav::instance()['pages'];
+        $path = $pages->find($parent)->path();
+        $terms = self::get($taxonomy);
+
+        foreach ($terms as $term) {
+            // check whether term page already exists
+            $route = $parent . '/' . $term;
+            $page = $pages->find($route);
+            if ($page) {
+                continue;
+            }
+
+            // create file for page
+            $page = new Page;
+            $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.md');
+            $page->header( array(
+                'title' => self::getTitle($taxonomy, $term),
+                'icon' => self::getImage($taxonomy, $term)->path(),
+                'content' => array(
+                    'items' => array(
+                        '@taxonomy.' . $taxonomy => $term
+                    ),
+                    'limit' => 12,
+                    'pagination' => true
+                )
+            ));
+
+            // add to pages
+            $pages->addPage($page, $route);
+            $page->save();
         }
     }
 }
