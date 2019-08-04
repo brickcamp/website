@@ -1,12 +1,12 @@
-<div class="row">
-    <p class="info">
+<p class="text-center">
+    <span class="text-secondary">
         {% if config.get('plugins.tntsearch.display_hits') %}
             <span class="hits">{{ "PLUGIN_TNTSEARCH.FOUND_RESULTS"|t(tntsearch_results.number_of_hits)|raw }}</span>
         {% endif %}
         {% if config.get('plugins.tntsearch.display_time') %}
             <span class="time">{{ "PLUGIN_TNTSEARCH.FOUND_IN"|t(tntsearch_results.execution_time)|raw }}</span>
         {% endif %}
-    </p>
-</div>
+    </span>
+</p>
 
 {% include "partials/items/base.html.twig" with { items: tntsearch_results.hits, item_wrapper_classes: 'col-12 col-sm-6 col-lg-3' } %}
