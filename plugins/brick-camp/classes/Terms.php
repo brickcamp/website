@@ -128,7 +128,7 @@ abstract class Terms
             $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.md');
             $page->header( array(
                 'title' => self::getTitle($taxonomy, $term),
-                'icon' => self::getImage($taxonomy, $term)->path(),
+                'image' => 'image.png',
                 'content' => array(
                     'items' => array(
                         '@taxonomy.' . $taxonomy => $term
@@ -137,6 +137,9 @@ abstract class Terms
                     'pagination' => true
                 )
             ));
+            $media = $page->media();
+            $media->add('image.png', self::getImage($taxonomy, $term));
+            $page->media($media);
 
             // add to pages
             $pages->addPage($page, $route);
