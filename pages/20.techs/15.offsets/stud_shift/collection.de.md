@@ -1,7 +1,9 @@
 ---
 title: 'Noppen-Shift'
 icon: 'icon.png'
-redirect: '/de/techs/offsets/function:stud_shift'
+link: '/de/techs/offsets/function:stud_shift'
+sitemap:
+    ignore: true
 
 content:
     items: 
@@ -10,3 +12,4 @@ content:
         published: true
         type: 'tech' 
 ---
+Noppe / Studs verschieben

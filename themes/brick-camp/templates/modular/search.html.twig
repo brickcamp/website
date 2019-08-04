@@ -1,0 +1,7 @@
+{% extends 'modular/base.html.twig' %}
+{% set item_wrapper_classes = page.header.item_wrapper_classes %}
+
+{% block module_header %}{% endblock %}
+{% block module_content %}
+    {% include 'partials/search.html.twig' with { in_page: 0, live_update: 0}%}
+{% endblock %}

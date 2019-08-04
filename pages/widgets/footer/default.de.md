@@ -1,6 +1,10 @@
 ---
 title: Footer
 routable: false
+tntsearch:
+    index: false
+sitemap:
+    ignore: true
 
 content:
     items:

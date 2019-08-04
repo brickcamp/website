@@ -1,6 +1,7 @@
 ---
 title: Status Board
 subtitle: Overview of Techs
+published: false
 ---
 https://getbootstrap.com/docs/4.2/components/progress/
 

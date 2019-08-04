@@ -1,5 +1,7 @@
 ---
 title: Impressum
+tntsearch:
+    index: false
 ---
 
 ### Seiteninhaber

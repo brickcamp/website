@@ -1,7 +1,9 @@
 ---
 title: 'Linear Patterns'
 icon: 'icon.png'
-redirect: '/en/techs/patterns/function:pattern_1D'
+link: '/en/techs/patterns/function:pattern_1D'
+sitemap:
+    ignore: true
 
 content:
     items: 
@@ -10,3 +12,6 @@ content:
         published: true
         type: 'tech' 
 ---
+Row
+Line
+Decoration

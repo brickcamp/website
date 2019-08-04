@@ -1,7 +1,9 @@
 ---
 title: 'Noppen-Lift'
 icon: 'icon.png'
-redirect: '/de/techs/offsets/function:stud_lift'
+link: '/de/techs/offsets/function:stud_lift'
+sitemap:
+    ignore: true
 
 content:
     items: 
@@ -10,3 +12,6 @@ content:
         published: true
         type: 'tech' 
 ---
+Noppen anheben
+Abstand verkleinern
+Hoch Höher

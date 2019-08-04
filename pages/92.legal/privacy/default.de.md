@@ -1,5 +1,7 @@
 ---
 title: Datenschutz
+tntsearch:
+    index: false
 ---
 
 _**TL;DR:** Kein Tracking. Keine Werbung. Keine Datensammlung._

@@ -1,7 +1,9 @@
 ---
 title: 'Forms'
 icon: icon.png
-redirect: '/en/techs/shapes/function:shape_2D'
+link: '/en/techs/shapes/function:shape_2D'
+sitemap:
+    ignore: true
 
 content:
     items: 
@@ -10,3 +12,12 @@ content:
         published: true
         type: 'tech' 
 ---
+Flat shapes
+Triangle
+Rechtangle Square
+Pentagon
+Hexagon
+Heptagon
+Octagon
+Decagon
+Circle
