@@ -1,6 +1,9 @@
 ---
 title: About BrickCamp
 subtitle: The Technique Dictionary
+tntsearch:
+    index: false
+
 image: theme://images/logo.svg
 ---
 ![Brick.Camp Logo](themes://brick-camp/images/logo_large.png?cropResize=150,150&classes=mx-auto,d-block,img-fluid)
