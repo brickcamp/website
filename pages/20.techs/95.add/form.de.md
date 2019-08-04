@@ -1,7 +1,7 @@
 ---
 title: Technik vorschlagen
 icon: icon.png
-image: image.png
+image: icon.png
 
 form:
     name: propose_tech
