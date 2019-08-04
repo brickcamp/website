@@ -1,5 +1,6 @@
 ---
 title: Neueste
+title_hidden: true
 module_link: '/de/techs/order-by/date/desc'
 module_description: 'Kürzlich hinzugefügt'
 

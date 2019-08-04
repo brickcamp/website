@@ -1,5 +1,6 @@
 ---
 title: Newest
+title_hidden: true
 module_link: '/en/techs/order-by/date/desc'
 module_description: 'Recently added techniques'
 

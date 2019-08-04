@@ -1,8 +1,8 @@
 {% extends "partials/tntsearch.html.twig" %}
 
 {% block tntsearch_input %}
-    <div id="tntsearch-wrapper" class="input-group input-group-lg">
-        <div class="input-group-prepend">
+    <div id="tntsearch-wrapper" class="input-group input-group-lg col-lg-8 mx-auto">
+        <div class="input-group-prepend d-none d-sm-block">
             <span class="input-group-text bg-success text-white"><i class="icon icon-search icon-2x"></i></span>
         </div>
         <input type="text" name = "q"
@@ -12,7 +12,7 @@
                 value="{{ not dropdown ? query|e : '' }}" 
                 autofocus>
         <div class="input-group-append">
-            <span class="btn text-danger tntsearch-clear" style="display: none;"}}>
+            <span class="btn text-danger tntsearch-clear d-none" style="display: none;">
                 <i class="icon icon-close icon-2x"></i>
             </span>
         </div>
