@@ -2,42 +2,48 @@
 {% extends '/partials/item/base.html.twig' %}
 
 {% block item_image %}
-    {% switch page.collection|length %}
-        {% case 1 %}
-            {% set width  = [300] %}
-            {% set height = [300] %}
-            {% set class = [''] %}
-        {% case 2 %}
-            {% set width  = [150, 150] %}
-            {% set height = [300, 300] %}
-            {% set class = ['border-right text-right', 'border-left text-left'] %}
-        {% case 3 %}
-            {% set width  = [150, 150, 150] %}
-            {% set height = [300, 150, 150] %}
-            {% set class = ['border-right text-right', 'border-left border-bottom', 'border-left border-top'] %}
-        {% default %}
-            {% set width  = [150, 150, 150, 150] %}
-            {% set height = [150, 150, 150, 150] %}
-            {% set class = ['border-right text-right border-bottom', 'border-left border-bottom', 
-                            'border-right text-right border-top', 'border-left border-top'] %}
-    {% endswitch %}
+    {% if item_image or page.header.image %}
+        {{ parent() }}
+    {% else %}
+        {% switch page.collection|length %}
+            {% case 1 %}
+                {% set width  = [300] %}
+                {% set height = [300] %}
+                {% set class = [''] %}
+            {% case 2 %}
+                {% set width  = [150, 150] %}
+                {% set height = [300, 300] %}
+                {% set class = ['border-right text-right', 'border-left text-left'] %}
+            {% case 3 %}
+                {% set width  = [150, 150, 150] %}
+                {% set height = [300, 150, 150] %}
+                {% set class = ['border-right text-right', 'border-left border-bottom', 'border-left border-top'] %}
+            {% default %}
+                {% set width  = [150, 150, 150, 150] %}
+                {% set height = [150, 150, 150, 150] %}
+                {% set class = ['border-right text-right border-bottom', 'border-left border-bottom', 
+                                'border-right text-right border-top', 'border-left border-top'] %}
+        {% endswitch %}
 
-    <a href="{{ page.redirect ?: page.header.link ?: page.url }}" class="{{ item_image_link_classes ?: 'card-image text-decoration-none' }}">
-        <div class="card-img-grid text-left">
-            {% set count = page.collection|length == 4 ? 4 : 3 %}
-            {% for example in page.collection[:count] %}
-                <img 
-                    class="img-fluid card-img-top w-auto {{ class[loop.index0] }}" 
-                    src="{{ example.media[example.header.image].cropZoom(width[loop.index0], height[loop.index0]).url }}" 
-                    alt="{{ example.title }}"
-                >
-            {% endfor %}
-        
-            {% if page.collection|length > 4 %}
-                {# See issue https://github.com/getgrav/grav-plugin-pagination/issues/29 #}
-                {% set fullsize = page.header.unpaginated ? page.collection('unpaginated') : page.collection %}
-                <span class="more-count text-secondary text-center {{ class[3] }}">{{ fullsize|length - 3 }}</span>
-            {% endif %}
-        </div>
-    </a>
+        <a href="{{ page.redirect ?: page.header.link ?: page.url }}"
+                class="{{ item_image_link_classes ?: 'card-image text-decoration-none' }}"
+                title="{{ page.title }}">
+            <div class="card-img-grid text-left">
+                {% set count = page.collection|length == 4 ? 4 : 3 %}
+                {% for example in page.collection[:count] %}
+                    <img 
+                        class="img-fluid card-img-top w-auto {{ class[loop.index0] }}" 
+                        src="{{ example.media[example.header.image].cropZoom(width[loop.index0], height[loop.index0]).url }}" 
+                        alt="{{ example.title }}"
+                    >
+                {% endfor %}
+            
+                {% if page.collection|length > 4 %}
+                    {# See issue https://github.com/getgrav/grav-plugin-pagination/issues/29 #}
+                    {% set fullsize = page.header.unpaginated ? page.collection('unpaginated') : page.collection %}
+                    <span class="more-count text-secondary text-center {{ class[3] }}">{{ fullsize|length - 3 }}</span>
+                {% endif %}
+            </div>
+        </a>
+    {% endif %}
 {% endblock %}
