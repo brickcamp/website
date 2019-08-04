@@ -1,4 +1,9 @@
 en:
+  PLUGIN_TNTSEARCH:
+    FOUND_RESULTS: "Found %s results"
+    FOUND_IN: "in <span>%s</span>"
+    SEARCH_PLACEHOLDER: 'Search ...'
+
   META:
     DESCRIPTION: 'A visual dictionary for LEGO® building techniques'
 
@@ -84,6 +89,11 @@ en:
 
 
 de:
+  PLUGIN_TNTSEARCH:
+    FOUND_RESULTS: "%s Treffer"
+    FOUND_IN: "in <span>%s</span>"
+    SEARCH_PLACEHOLDER: 'Suche ...'
+
   META:
     DESCRIPTION: 'Ein grafisches Nachschlagewerk für LEGO® Bautechniken'
 

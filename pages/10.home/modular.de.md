@@ -10,6 +10,7 @@ content:
         dir: asc
         custom:
             - _intro
+            - _search
             - _newest
             - _categories
             - _about

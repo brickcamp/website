@@ -39,6 +39,7 @@
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css/app.css', '50') %}
+        {% do assets.addCss('theme://css/icons.min.css', '55') %}
         {% do assets.addCss('theme://css/bootstrap.min.css', '97') %}
     {% endblock stylesheets %}
     {{ assets.css()|raw }}
