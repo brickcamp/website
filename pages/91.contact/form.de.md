@@ -1,6 +1,7 @@
 ---
 title: Kontakt
 icon: image.png
+image: image.png
 
 form:
     name: contact
