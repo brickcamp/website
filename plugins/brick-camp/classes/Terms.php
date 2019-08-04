@@ -129,6 +129,7 @@ abstract class Terms
             $page->header( array(
                 'title' => self::getTitle($taxonomy, $term),
                 'image' => 'image.png',
+                'icon' => 'image.png',
                 'content' => array(
                     'items' => array(
                         '@taxonomy.' . $taxonomy => $term
