@@ -9,4 +9,10 @@
     </span>
 </p>
 
-{% include "partials/items/base.html.twig" with { items: tntsearch_results.hits, item_wrapper_classes: 'col-12 col-sm-6 col-lg-3' } %}
+{% if tntsearch_results.number_of_hits == 0 %}
+    <p class="h5 pb-2 text-center text-muted">{{ "PLUGIN_TNTSEARCH.NO_RESULTS"|t }}</p>
+{% else %}
+    {% include "partials/items/base.html.twig" with { items: tntsearch_results.hits, item_wrapper_classes: 'col-12 col-sm-6 col-lg-3' } %}
+{% endif %}
+
+

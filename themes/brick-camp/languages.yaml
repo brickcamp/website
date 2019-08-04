@@ -3,6 +3,7 @@ en:
     FOUND_RESULTS: "Found %s results"
     FOUND_IN: "in <span>%s</span>"
     SEARCH_PLACEHOLDER: 'Search ...'
+    NO_RESULTS: No results found
 
   META:
     DESCRIPTION: 'A visual dictionary for LEGO® building techniques'
@@ -93,6 +94,7 @@ de:
     FOUND_RESULTS: "%s Treffer"
     FOUND_IN: "in <span>%s</span>"
     SEARCH_PLACEHOLDER: 'Suche ...'
+    NO_RESULTS: Keine Treffer gefunden
 
   META:
     DESCRIPTION: 'Ein grafisches Nachschlagewerk für LEGO® Bautechniken'
