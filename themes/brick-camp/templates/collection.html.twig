@@ -1,4 +1,7 @@
 {% extends 'partials/base.html.twig' %}
+{% set item_wrapper_classes = page.header.item_wrapper_classes %}
+{% set item_show_footer = page.header.item_show_footer is defined ? page.header.item_show_footer : true %}
+
 {# Adapt introduction to current filter (if enabled) #}
 {% if page.header.filter_title %}
     {% set params = uri.params(null, true) %}
