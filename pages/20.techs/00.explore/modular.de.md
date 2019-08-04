@@ -1,6 +1,8 @@
 ---
 title: Stöbern
 title_hidden: true
+tntsearch:
+    index: false
 
 content:
     items: '@self.modular'

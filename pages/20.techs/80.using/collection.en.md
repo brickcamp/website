@@ -2,6 +2,8 @@
 title: Techs
 filter_title: true
 filter_icon: true
+tntsearch:
+    index: false
 
 content:
     items: 
