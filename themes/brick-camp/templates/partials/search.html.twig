@@ -11,5 +11,10 @@
                 placeholder="{{ "PLUGIN_TNTSEARCH.SEARCH_PLACEHOLDER"|t }}" 
                 value="{{ not dropdown ? query|e : '' }}" 
                 autofocus>
+        <div class="input-group-append">
+            <span class="btn text-danger tntsearch-clear"{{ not query or dropdown ? ' style="display: none;"' : '' }}>
+                <i class="icon icon-close icon-2x"></i>
+            </span>
+        </div>
     </div>
 {% endblock %}
