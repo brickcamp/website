@@ -2,6 +2,8 @@
 title: More Collections
 menu: More
 icon: icon.png
+tntsearch:
+    index: false
 
 content:
     items: 
