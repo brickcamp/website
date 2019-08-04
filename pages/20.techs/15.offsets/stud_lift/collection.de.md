@@ -12,3 +12,6 @@ content:
         published: true
         type: 'tech' 
 ---
+Noppen anheben
+Abstand verkleinern
+Hoch Höher

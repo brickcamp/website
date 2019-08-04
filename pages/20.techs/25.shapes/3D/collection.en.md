@@ -12,3 +12,6 @@ content:
         published: true
         type: 'tech' 
 ---
+Box
+Sphere
+Cuboid

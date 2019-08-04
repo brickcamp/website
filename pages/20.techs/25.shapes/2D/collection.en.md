@@ -12,3 +12,12 @@ content:
         published: true
         type: 'tech' 
 ---
+Flat shapes
+Triangle
+Rechtangle Square
+Pentagon
+Hexagon
+Heptagon
+Octagon
+Decagon
+Circle

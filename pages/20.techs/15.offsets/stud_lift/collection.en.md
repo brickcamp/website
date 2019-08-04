@@ -12,3 +12,5 @@ content:
         published: true
         type: 'tech' 
 ---
+Higher studs
+Lower distance

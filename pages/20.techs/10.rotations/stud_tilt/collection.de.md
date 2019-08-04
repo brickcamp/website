@@ -12,5 +12,6 @@ content:
         published: true
         type: 'tech' 
 ---
-SNOT SNOT = Studs Not On Top
+SNOT 
+SNOT = Studs Not On Top
 Noppen zeigen nicht nach oben

@@ -12,3 +12,9 @@ content:
         published: true
         type: 'tech' 
 ---
+Fußboden
+Decke
+Wand
+Dekoration
+Mosaik
+Puzzle

@@ -12,3 +12,12 @@ content:
         published: true
         type: 'tech' 
 ---
+Flach Form Formen
+
+Dreieck
+Viereck Quadrat Rechteck
+Fünfeck Pentagon
+Sechseck Hexagon
+Siebeneck Heptagon
+Achteck Oktagon
+Kreis

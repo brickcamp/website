@@ -12,5 +12,10 @@ content:
         published: true
         type: 'tech' 
 ---
+SNARL
 SNARL = Studs Not At Right Angles
+Noppen nicht im rechten Winkel / im Raster
+
+SNIR
 SNIR = Studs Not In a Row
+Noppen nicht in einer Reihe

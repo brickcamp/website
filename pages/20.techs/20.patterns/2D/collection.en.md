@@ -12,3 +12,9 @@ content:
         published: true
         type: 'tech' 
 ---
+floor
+ceiling
+wall
+decoration
+mosaic
+puzzle
