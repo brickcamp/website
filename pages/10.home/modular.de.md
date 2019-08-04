@@ -14,6 +14,7 @@ content:
             - _intro
             - _search
             - _newest
-            - _categories
-            - _about
+            #- _categories
+            #- _about
+    limit: 3
 ---
