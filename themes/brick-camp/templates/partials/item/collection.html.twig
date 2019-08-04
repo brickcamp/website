@@ -22,7 +22,7 @@
                             'border-right text-right border-top', 'border-left border-top'] %}
     {% endswitch %}
 
-    <a href="{{ page.redirect ?: page.url }}" class="{{ item_image_link_classes ?: 'card-image text-decoration-none' }}">
+    <a href="{{ page.redirect ?: page.header.link ?: page.url }}" class="{{ item_image_link_classes ?: 'card-image text-decoration-none' }}">
         <div class="card-img-grid text-left">
             {% set count = page.collection|length == 4 ? 4 : 3 %}
             {% for example in page.collection[:count] %}

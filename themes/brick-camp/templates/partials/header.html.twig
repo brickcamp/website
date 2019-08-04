@@ -17,7 +17,7 @@
                 <ul class="navbar-nav text-center ml-auto">
                     {% for item in collection %}
                         <li class="nav-item show mr-sm-1 mr-xl-2">
-                            <a class="nav-link" href="{{ item.redirect ?: item.url }}" title="{{ item.menu }}">
+                            <a class="nav-link" href="{{ item.redirect ?: item.header.link ?: item.url }}" title="{{ item.menu }}">
                                 <span class="d-inline-block"><img class="img-fluid" src="{{ item.media[item.header.icon].resize(32, 32).url }}" alt="{{ item.menu }}"></span>
                                 <span class="d-none d-md-inline-block {{ item.active ? 'font-weight-bold' }}">{{ item.menu }}</span>
                             </a>

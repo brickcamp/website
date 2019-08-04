@@ -7,7 +7,7 @@
 
         {% if item_show_image %}
             {% block item_image %}
-                <a href="{{ page.redirect ?: page.url }}" class="{{ item_image_link_classes ?: 'card-image test' }}">
+                <a href="{{ page.redirect ?: page.header.link ?: page.url }}" class="{{ item_image_link_classes ?: 'card-image test' }}">
                     {% set item_image = item_image ?: page.header.image ?: 'themes://brick-camp/images/no_image.png' %}
                     <img    
                         class="{{ item_image_classes ?: 'card-img-top img-fluid w-auto' }}" 
@@ -30,12 +30,12 @@
         {% if item_show_footer %}
             <div class="card-footer {{ page.header.icon ? 'd-flex justify-content-between align-items-center py-1 pr-1' }}">
                 {% block item_footer %}
-                    <a href="{{ page.redirect ?: page.url }}" class="text-dark" tabindex="-1">
+                    <a href="{{ page.redirect ?: page.header.link ?: page.url }}" class="text-dark" tabindex="-1">
                         <span class="caption text-truncate {{ page.header.icon ? '' : 'd-block' }}">{{ page.title }}</span>
                     </a>
                 
                     {% if page.header.icon %}
-                        <a href="{{ page.redirect ?: page.url }}" tabindex="-1">
+                        <a href="{{ page.redirect ?: page.header.link ?: page.url }}" tabindex="-1">
                             <img class="img-fluid" src="{{ page.media[page.header.icon].resize(48,48).url }}" alt="{{ page.title }}">
                         </a>
                     {% endif %}
