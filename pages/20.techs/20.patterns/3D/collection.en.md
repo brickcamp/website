@@ -2,7 +2,9 @@
 title: 'Spatial Patterns'
 icon: 'icon.png'
 published: false
-redirect: '/en/techs/patterns/function:pattern_3D'
+link: '/en/techs/patterns/function:pattern_3D'
+sitemap:
+    ignore: true
 
 content:
     items: 

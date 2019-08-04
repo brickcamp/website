@@ -1,7 +1,9 @@
 ---
 title: 'Stud Lift'
 icon: 'icon.png'
-redirect: '/en/techs/offsets/function:stud_lift'
+link: '/en/techs/offsets/function:stud_lift'
+sitemap:
+    ignore: true
 
 content:
     items: 

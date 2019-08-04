@@ -1,7 +1,9 @@
 ---
 title: 'Noppen-Tilt'
 icon: icon.png
-redirect: '/de/techs/rotations/function:stud_tilt'
+link: '/de/techs/rotations/function:stud_tilt'
+sitemap:
+    ignore: true
 
 content:
     items: 
@@ -10,3 +12,5 @@ content:
         published: true
         type: 'tech' 
 ---
+SNOT SNOT = Studs Not On Top
+Noppen zeigen nicht nach oben

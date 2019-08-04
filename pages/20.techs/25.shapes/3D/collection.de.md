@@ -1,7 +1,9 @@
 ---
 title: 'Körper'
 icon: icon.png
-redirect: '/de/techs/shapes/function:shape_3D'
+link: '/de/techs/shapes/function:shape_3D'
+sitemap:
+    ignore: true
 
 content:
     items: 

@@ -1,7 +1,9 @@
 ---
 title: 'Newest'
 icon: 'icon.png'
-redirect: '/techs/orderby:date/orderdir:desc'
+link: '/techs/orderby:date/orderdir:desc'
+sitemap:
+    ignore: true
 
 content:
     items: 

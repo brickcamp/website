@@ -1,7 +1,9 @@
 ---
 title: 'Stud Shift'
 icon: 'icon.png'
-redirect: '/en/techs/offsets/function:stud_shift'
+link: '/en/techs/offsets/function:stud_shift'
+sitemap:
+    ignore: true
 
 content:
     items: 

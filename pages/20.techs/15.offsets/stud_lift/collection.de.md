@@ -1,7 +1,9 @@
 ---
 title: 'Noppen-Lift'
 icon: 'icon.png'
-redirect: '/de/techs/offsets/function:stud_lift'
+link: '/de/techs/offsets/function:stud_lift'
+sitemap:
+    ignore: true
 
 content:
     items: 

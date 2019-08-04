@@ -2,7 +2,9 @@
 title: 'Räumliche Muster'
 icon: 'icon.png'
 published: false
-redirect: '/de/techs/patterns/function:pattern_3D'
+link: '/de/techs/patterns/function:pattern_3D'
+sitemap:
+    ignore: true
 
 content:
     items: 

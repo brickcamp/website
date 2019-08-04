@@ -1,7 +1,9 @@
 ---
 title: 'Planar Patterns'
 icon: 'icon.png'
-redirect: '/en/techs/patterns/function:pattern_2D'
+link: '/en/techs/patterns/function:pattern_2D'
+sitemap:
+    ignore: true
 
 content:
     items: 

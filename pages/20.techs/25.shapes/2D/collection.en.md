@@ -1,7 +1,9 @@
 ---
 title: 'Forms'
 icon: icon.png
-redirect: '/en/techs/shapes/function:shape_2D'
+link: '/en/techs/shapes/function:shape_2D'
+sitemap:
+    ignore: true
 
 content:
     items: 

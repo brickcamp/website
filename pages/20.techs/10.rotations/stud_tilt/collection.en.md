@@ -1,7 +1,9 @@
 ---
 title: 'Stud Tilt'
 icon: icon.png
-redirect: '/en/techs/rotations/function:stud_tilt'
+link: '/en/techs/rotations/function:stud_tilt'
+sitemap:
+    ignore: true
 
 content:
     items: 
@@ -10,3 +12,4 @@ content:
         published: true
         type: 'tech' 
 ---
+SNOT = Studs Not On Top
