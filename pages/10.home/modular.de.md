@@ -1,6 +1,8 @@
 ---
 title: Nachschlagewerk für LEGO® Bautechniken
 title_hidden: true
+tntsearch:
+    index: false
 
 image: themes://brick-camp/images/logo_large.png
 content:

@@ -5,4 +5,5 @@ data/brick-camp/*
 data/form-files/**
 data/tntsearch/**
 pages/images/tax-part/**
+!pages/images/tax-part/dummy.md
 !pages/images/tax-part/.gitkeep
