@@ -123,6 +123,11 @@ abstract class Terms
                 continue;
             }
 
+            // get title and increase search visibility for shorter titles
+            $title = self::getTitle($taxonomy, $term);
+            $weight = round( 50 / str_word_count( $title ));
+            $content = str_repeat( $title . ' ', $weight );
+
             // create file for page
             $page = new Page;
             $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.md');
@@ -138,6 +143,7 @@ abstract class Terms
                     'pagination' => true
                 )
             ));
+            $page->content($content);
             $media = $page->media();
             $media->add('image.png', self::getImage($taxonomy, $term));
             $page->media($media);
