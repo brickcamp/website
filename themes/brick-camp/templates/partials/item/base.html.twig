@@ -1,6 +1,7 @@
 {% set item_show_image = item_show_image is defined ? item_show_image : page.header.image %}
 {# set item_show_content = item_show_content is defined ? item_show_content : page.content #}
 {% set item_show_footer = item_show_footer is defined ? item_show_footer : page.title %}
+{% set item_show_footer_icon = page.header.icon and page.header.icon != page.header.image %}
 
 <div class="{{ item_wrapper_classes ?: 'col-sm-6 col-md-4 col-xl-3' }}">
     <div class="{{ item_classes ?: 'mb-4' }} card mx-auto shadow-sm text-center">
@@ -28,13 +29,14 @@
 
         
         {% if item_show_footer %}
-            <div class="card-footer {{ page.header.icon ? 'd-flex justify-content-between align-items-center py-1 pr-1' }}">
+            
+            <div class="card-footer {{ item_show_footer_icon ? 'd-flex justify-content-between align-items-center py-1 pr-1' }}">
                 {% block item_footer %}
                     <a href="{{ page.redirect ?: page.header.link ?: page.url }}" class="text-dark" tabindex="-1">
-                        <span class="caption text-truncate {{ page.header.icon ? '' : 'd-block' }}">{{ page.title }}</span>
+                        <span class="caption text-truncate {{ item_show_footer_icon ? '' : 'd-block' }}">{{ page.title }}</span>
                     </a>
                 
-                    {% if page.header.icon %}
+                    {% if item_show_footer_icon %}
                         <a href="{{ page.redirect ?: page.header.link ?: page.url }}" tabindex="-1">
                             <img class="img-fluid" src="{{ page.media[page.header.icon].resize(48,48).url }}" alt="{{ page.title }}">
                         </a>

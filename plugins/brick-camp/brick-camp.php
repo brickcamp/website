@@ -5,6 +5,7 @@ use Grav\Common\Grav;
 use Grav\Common\Plugin;
 use Grav\Common\Uri;
 use Grav\Plugin\BrickCamp\Techs;
+use Grav\Plugin\BrickCamp\Terms;
 use Grav\Plugin\BrickCamp\TermsTwigExtension;
 use RocketTheme\Toolbox\Event\Event;
 
@@ -45,6 +46,7 @@ class BrickCampPlugin extends Plugin
             'onFormInitialized' => ['onFormInitialized', 0],
             // 'onFormProcessed' => ['onFormProcessed', 0],
             'onPageProcessed' => ['onPageProcessed', 0],
+            'onPagesInitialized' => ['onPagesInitialized', 0],
             'onCollectionProcessed' => ['onCollectionProcessed', 0],
         ]);
     }
@@ -79,6 +81,11 @@ class BrickCampPlugin extends Plugin
         if ($page->template() == 'tech') {
             Techs::onPageProcessed($page);
         }
+    }
+
+    public function onPagesInitialized(Event $event)
+    {
+        Terms::initTermPages('part', '/part');
     }
 
     /**

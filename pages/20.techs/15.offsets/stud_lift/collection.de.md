@@ -15,3 +15,4 @@ content:
 Noppen anheben
 Abstand verkleinern
 Hoch Höher
+Offset

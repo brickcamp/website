@@ -1,7 +1,7 @@
 ---
 title: Propose Tech
 icon: icon.png
-image: image.png
+image: icon.png
 
 form:
     name: propose_tech
