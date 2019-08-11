@@ -7,5 +7,3 @@ data/tntsearch/**
 pages/images/tax-part/**
 !pages/images/tax-part/dummy.md
 !pages/images/tax-part/.gitkeep
-pages/23.part/**
-!pages/23.part/dummy.md
