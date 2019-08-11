@@ -126,11 +126,11 @@ abstract class Terms
             // get title and increase search visibility for shorter titles
             $title = self::getTitle($taxonomy, $term);
             $weight = round( 10 / str_word_count( $title ));
-            $content = str_repeat( $title . ' ', $weight );
+            $content = str_repeat( $title . "\n", $weight );
 
             // create file for page
             $page = new Page;
-            $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.md');
+            $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.en.md');
             $page->header( array(
                 'title' => self::getTitle($taxonomy, $term),
                 'image' => 'image.png',
@@ -141,14 +141,24 @@ abstract class Terms
                     ),
                     'limit' => 12,
                     'pagination' => true
+                ),
+                'taxonomy' => array(
+                    'tag' => 'translate'
                 )
             ));
             $page->content($content);
+
+            // add to pages
+            $pages->addPage($page, $route);
+            $page->save();
+
+            // add german translation and image
+            $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.de.md');
+            
             $media = $page->media();
             $media->add('image.png', self::getImage($taxonomy, $term));
             $page->media($media);
 
-            // add to pages
             $pages->addPage($page, $route);
             $page->save();
         }
