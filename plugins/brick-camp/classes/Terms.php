@@ -132,7 +132,7 @@ abstract class Terms
             $page = new Page;
             $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.en.md');
             $page->header( array(
-                'title' => self::getTitle($taxonomy, $term),
+                'title' => $title,
                 'image' => 'image.png',
                 'icon' => 'image.png',
                 'content' => array(
@@ -147,18 +147,16 @@ abstract class Terms
                 )
             ));
             $page->content($content);
-
-            // add to pages
             $pages->addPage($page, $route);
-            $page->save();
+            $page->save();            
 
-            // add german translation and image
+            // add image
+            $img_source = self::getImage($taxonomy, $term)['filepath'];
+            $img_dest = $path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'image.png';
+            copy($img_source, $img_dest);
+
+            // add german translation template
             $page->filePath($path . DIRECTORY_SEPARATOR . $term . DIRECTORY_SEPARATOR . 'collection.de.md');
-            
-            $media = $page->media();
-            $media->add('image.png', self::getImage($taxonomy, $term));
-            $page->media($media);
-
             $pages->addPage($page, $route);
             $page->save();
         }
