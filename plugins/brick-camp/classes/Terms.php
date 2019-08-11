@@ -125,7 +125,7 @@ abstract class Terms
 
             // get title and increase search visibility for shorter titles
             $title = self::getTitle($taxonomy, $term);
-            $weight = round( 50 / str_word_count( $title ));
+            $weight = round( 10 / str_word_count( $title ));
             $content = str_repeat( $title . ' ', $weight );
 
             // create file for page
