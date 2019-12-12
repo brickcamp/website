@@ -24,7 +24,7 @@
         }
 
         // hide submit button
-        var buttons = form.getElementsByClassName("btn");
+        var buttons = form.getElementsByClassName("button");
         for(i = 0; i < buttons.length; i++) {
             buttons.item(i).style.display = "none";
         }
