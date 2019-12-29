@@ -44,7 +44,7 @@ abstract class Terms
         return array_keys($result);
     }
 
-    public function getImage($taxonomy, $term, $ext='png')
+    public static function getImage($taxonomy, $term, $ext='png')
     {
         // try specific folder
         $folder = Grav::instance()['page']->find('/images/tax-' . strtolower($taxonomy));
@@ -88,7 +88,7 @@ abstract class Terms
         }
     }
 
-    public function getTitle($taxonomy, $term)
+    public static function getTitle($taxonomy, $term)
     {
         // cache title list if necessary
         if (! isset(self::$_nameList[$taxonomy])) {
