@@ -36,6 +36,6 @@ git:
         path: user/plugins/sitemap
         branch: master
     tntsearch:
-        url: https://github.com/brickcamp/grav-plugin-tntsearch
+        url: https://github.com/trilbymedia/grav-plugin-tntsearch
         path: user/plugins/tntsearch
-        branch: brickcamp-nojs-search
+        branch: master
