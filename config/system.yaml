@@ -26,9 +26,9 @@ pages:
   ignore_folders: [.git, .idea, 00.drafts]
 
 cache:
-  enabled: true
+  enabled: false
   check:
-    method: file
+    method: none
   gzip: true
   allow_webserver_gzip: true
 
