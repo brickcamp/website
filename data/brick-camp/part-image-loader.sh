@@ -11,7 +11,7 @@
     targetFolder="../../pages/images/tax-part"
     workingFolder="temp"
     downloadPage="https://rebrickable.com/downloads/"
-    partFilePattern="https://m.rebrickable.com/media/downloads/ldraw/parts_[[:digit:]]+.zip"
+    partFilePattern="https://cdn.rebrickable.com/media/downloads/ldraw/parts_[[:digit:]]+.zip"
     partFileList="part_links.txt"
     importantColors="216,232,313,462,73,320,272,14,1,4"
     removeDownloads=0

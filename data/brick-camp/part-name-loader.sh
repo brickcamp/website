@@ -6,29 +6,8 @@
 ##########################################################################################
 # Configuration
 ##########################################################################################
-    targetFolder="."
-    targetFile="part.csv"
-    downloadLink="https://m.rebrickable.com/media/downloads/parts.csv"
-##########################################################################################
-#
-# Here we go!
-#
-##########################################################################################
-echo "## Making sure folder exist"
-if [[ -z $targetFolder || ! -d $targetFolder ]]; 
-then
-    echo " - ERROR: Folder \"$targetFolder\" doesn't exist"
-    exit 1
-fi
-cd $targetFolder
-
-if [ $? -ne 0 ];
-then 
-    echo " - ERROR: Failed to enter folder"
-    exit 1
-fi
-
+    downloadLink="https://cdn.rebrickable.com/media/downloads/parts.csv.gz"
 ##########################################################################################
 echo "## Get list of parts"
-wget -q -O $targetFile $downloadLink
+wget -q $downloadLink  -O - | gunzip -c > part.csv
 echo "## FINISHED"
