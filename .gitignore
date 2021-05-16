@@ -1,4 +1,5 @@
-.vscode/settings.json
+.vscode/**
+config/versions.yaml
 brick-camp.code-workspace
 data/brick-camp/*
 !data/brick-camp/*.sh
