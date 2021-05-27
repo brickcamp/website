@@ -181,7 +181,7 @@ abstract class Functions {
     );
     
     /* * * * * * * * * * * * * * * * * * * * * * * * *
-     *   OFFSETS
+     *   MODULES
      * * * * * * * * * * * * * * * * * * * * * * * * */
     // Functions
     public const MODULE  = 'module';
