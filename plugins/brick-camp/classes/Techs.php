@@ -224,6 +224,9 @@ abstract class Techs {
         }
 
         if (in_array($taxonomy, Functions::OFFSET_LENGTHS)) {
+            if ($value == "flex") {
+                return $language->translate(['TAXONOMY.VALUE.FLEX']);
+            }
             return $value . " LDU";
         }
 

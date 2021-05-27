@@ -48,6 +48,9 @@ en:
     SHAPE_2D_SEGSIZE: Shape 2D Segment Size
     SHAPE_3D_SEGSIZE: Shape 3D Segment Size
 
+    VALUE:
+      FLEX: flexible
+
   TECH:
     SOURCE:
       ON: 'on'
@@ -138,7 +141,10 @@ de:
     SHAPE_SEGSIZE: Shape Segment Size
     SHAPE_2D_SEGSIZE: Shape 2D Segment Size
     SHAPE_3D_SEGSIZE: Shape 3D Segment Size
-    
+
+    VALUE:
+      FLEX: flexibel
+
   TECH:
     SOURCE:
       ON: auf
