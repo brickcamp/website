@@ -1,5 +1,7 @@
 <?php
 namespace Grav\Plugin\BrickCamp;
+
+use Grav\Common\Grav;
 use Grav\Plugin\BrickCamp\Functions;
 
 abstract class Techs {
@@ -183,6 +185,62 @@ abstract class Techs {
         }
 
         return $result;
+    }
+
+    public static function getFunctionValueUrl( $taxonomy, $value ) {
+
+        $url_value = urlencode($value);
+        $param_separator = Grav::instance()['config']->get('system.param_sep');
+
+        if($taxonomy == 'part') {
+            return "/techs/using/" . $taxonomy . $param_separator . $url_value;
+        }
+
+        if (in_array($taxonomy, Functions::ROTATION_ANGLES)) {
+            return "/techs/rotations/" . $taxonomy . $param_separator . $url_value;
+        }
+
+        if (in_array($taxonomy, Functions::OFFSET_LENGTHS)) {
+            return "/techs/offsets/" . $taxonomy . $param_separator . $url_value;
+        }
+
+        if (in_array($taxonomy, Functions::SHAPE_SEGMENTS) || 
+            in_array($taxonomy, Functions::SHAPE_SEGSIZE)) {
+            return "/techs/shapes/" . $taxonomy . $param_separator . $url_value;
+        }
+
+        if (in_array($taxonomy, Functions::PATTERN_SEGSIZE)) {
+            return "/techs/patterns/" . $taxonomy . $param_separator . $url_value;
+        }
+
+        return "/techs/with/" . $taxonomy . $param_separator . $url_value;
+    }
+
+    public static function getFunctionValue( $taxonomy, $value ) {
+        $language = Grav::instance()['language'];
+
+        if (in_array($taxonomy, Functions::ROTATION_ANGLES)) {
+            return $value . "°";
+        }
+
+        if (in_array($taxonomy, Functions::OFFSET_LENGTHS)) {
+            return $value . " LDU";
+        }
+
+        if (in_array($taxonomy, Functions::SHAPE_SEGMENTS)) {
+            return $value . " x ";
+        }
+
+        if (in_array($taxonomy, Functions::SHAPE_SEGSIZE) ||
+            in_array($taxonomy, Functions::PATTERN_SEGSIZE)) {
+            return $value . " " . $language->translate(['TECH.PARTS']);
+        }
+
+        if ($taxonomy == Functions::MODULE_TYPE) {
+            return ucfirst($value);
+        }
+
+        return $value;
     }
 
     /**

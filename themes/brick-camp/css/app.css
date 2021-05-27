@@ -184,41 +184,16 @@ html {
     max-width: 100px;
 }
 
-.shape_2D_segments::after,
-.shape_3D_segments::after {
-    content: ' x ';
-}
-
-body.lang-de .shape_2D_segsize::after,
-body.lang-de .shape_3D_segsize::after,
-body.lang-de .pattern_1D_segsize::after,
-body.lang-de .pattern_2D_segsize::after {
-    content: ' Teile\A';
-    white-space: pre;
-}
-
-body.lang-en .shape_2D_segsize::after,
-body.lang-en .shape_3D_segsize::after,
-body.lang-en .pattern_1D_segsize::after,
-body.lang-en .pattern_2D_segsize::after {
-    content: ' Parts\A';
-    white-space: pre;
-}
-
+.shape_2D_segsize::after,
+.shape_3D_segsize::after,
+.pattern_1D_segsize::after,
+.pattern_2D_segsize::after,
 .stud_tilt_angle::after,
-.stud_twist_angle::after {
-    content: '°\A';
-    white-space: pre;
-}
-
+.stud_twist_angle::after,
 .stud_shift_length::after,
 .stud_lift_length::after {
-    content: ' LDU\A';
+    content: '\A';
     white-space: pre;
-}
-
-.module_type {
-    text-transform: capitalize;
 }
 
 @media (min-width: 768px) {

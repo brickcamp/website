@@ -25,6 +25,8 @@ class TermsTwigExtension extends \Twig_Extension
             new \Twig_SimpleFunction( 'brick_term_title', [ $this, 'getTermTitle'] ),
             new \Twig_SimpleFunction( 'brick_term_image', [ $this, 'getTermImage'] ),
             new \Twig_SimpleFunction( 'brick_functions', [ $this, 'getTechFunctions'] ),
+            new \Twig_SimpleFunction( 'brick_function_value_url', [ $this, 'getFunctionValueUrl'] ),
+            new \Twig_SimpleFunction( 'brick_function_value', [ $this, 'getFunctionValue'] ),
         ];
     }
 
@@ -45,5 +47,13 @@ class TermsTwigExtension extends \Twig_Extension
 
     public function getTechFunctions($tech) {
         return Techs::getFunctions($tech);
+    }
+
+    public function getFunctionValueUrl($taxonomy, $value) {
+        return Techs::getFunctionValueUrl($taxonomy, $value);
+    }
+
+    public function getFunctionValue($taxonomy, $value) {
+        return Techs::getFunctionValue($taxonomy, $value);
     }
 }

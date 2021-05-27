@@ -58,8 +58,8 @@
             {# {{ brick_term_image('function', function).resize(50, 50).html( function|humanize, function, 'img-fluid') }} #}
             {% for taxonomy, values in taxonomies %}
                 {% for value in values %}
-                    <a href="{{ base_url }}/techs/with/{{ taxonomy }}{{ config.system.param_sep }}{{ value|url_encode }}">
-                        <span class="{{ taxonomy }}">{{ value }}</span>
+                    <a href="{{ base_url }}{{ brick_function_value_url(taxonomy, value) }}">
+                        <span class="{{ taxonomy }}">{{ brick_function_value(taxonomy, value) }}</span>
                     </a>
                 {% endfor %}
             {% endfor %}
