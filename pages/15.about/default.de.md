@@ -25,12 +25,12 @@ Und es folgt mehr - bleib neugierig.
 ### Frei und Offen
 ![Minifigur-Hände an Teller (Sonne)](/tech/minifig-hands-on-dinner-plate/image.png?cropResize=150,150&classes=mx-auto,d-block,img-fluid)
 
-BrickCamp ist [komplett offen einsehbar](https://gitlab.com/brick.camp/brick.camp?target=_blank&rel=noopener). Das bedeutet, Du kannst alles genauer unter die Lupe nehmen: 
+BrickCamp ist [komplett offen einsehbar](https://github.com/brickcamp/website?target=_blank&rel=noopener). Das bedeutet, Du kannst alles genauer unter die Lupe nehmen: 
 
- - Die [Dateien für jede einzelne Bautechnik](https://gitlab.com/brick.camp/brick.camp/tree/master/pages/21.tech?target=_blank&rel=noopener) auf dieser Seite.
- - Die [komplette Historie](https://gitlab.com/brick.camp/brick.camp/commits/master?target=_blank&rel=noopener) dieser Webseite seit ihren [ersten Schritten](https://gitlab.com/brick.camp/brick.camp/commit/b288341df51d14e9f6ada3dffbbd6108b095d16e?target=_blank&rel=noopener) im Juni 2018.
- - Das [Theme dieser Webseite](https://gitlab.com/brick.camp/brick.camp/tree/master/themes/brick-camp?target=_blank&rel=noopener)
- - Wirklich alles. Du könntest sogar [eine lokale Kopie dieser Webseite nutzen](https://gitlab.com/brick.camp/brick.camp?target=_blank&rel=noopener#local-setup/).
+ - Die [Dateien für jede einzelne Bautechnik](https://github.com/brickcamp/website/tree/main/pages/21.tech?target=_blank&rel=noopener) auf dieser Seite.
+ - Die [komplette Historie](https://github.com/brickcamp/website/commits/main?target=_blank&rel=noopener) dieser Webseite seit ihren [ersten Schritten](https://github.com/brickcamp/website/commit/b288341df51d14e9f6ada3dffbbd6108b095d16e?target=_blank&rel=noopener) im Juni 2018.
+ - Das [Theme dieser Webseite](https://github.com/brickcamp/website/tree/main/themes/brick-camp?target=_blank&rel=noopener)
+ - Wirklich alles. Du könntest sogar [eine lokale Kopie dieser Webseite nutzen](https://github.com/brickcamp/website?target=_blank&rel=noopener#local-setup).
 
 Ferner sind Bilder und Inhalte [als Creative Commons lizensiert](https://creativecommons.org/licenses/by-sa/4.0/?target=_blank&rel=noopener).
 

@@ -87,7 +87,7 @@ en:
     RELATED: Randomly Related
 
   FOOTER:
-    REPO: GitLab Repository
+    REPO: GitHub Repository
     SOURCE: View Source
 
 
@@ -181,5 +181,5 @@ de:
     RELATED: Ähnliche Techniken
 
   FOOTER:
-    REPO: GitLab Repository
+    REPO: GitHub Repository
     SOURCE: Quelltext zeigen

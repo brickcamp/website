@@ -1,8 +1,8 @@
 title: BrickCamp
 
-gitlab:
-  url: 'https://gitlab.com/brick.camp/brick.camp'
-  base: 'https://gitlab.com/brick.camp/brick.camp/tree/master/'
+github:
+  url: 'https://github.com/brickcamp/website/'
+  base: 'https://github.com/brickcamp/website/blob/main/'
   license: 'README.md#license'
 
 author:

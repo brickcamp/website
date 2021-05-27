@@ -25,12 +25,12 @@ And there's more on the horizont - stay curious.
 ### Free and Open
 ![Minifig Hands on Dinner Plate (Sun)](/tech/minifig-hands-on-dinner-plate/image.png?cropResize=150,150&classes=mx-auto,d-block,img-fluid)
 
-BrickCamp is [completely open source](https://gitlab.com/brick.camp/brick.camp?target=_blank&rel=noopener). This means, you can study everything: 
+BrickCamp is [completely open source](https://github.com/brickcamp/website?target=_blank&rel=noopener). This means, you can study everything: 
 
- - The [files for each and every technique](https://gitlab.com/brick.camp/brick.camp/tree/master/pages/21.tech?target=_blank&rel=noopener) published here.
- - The [complete history](https://gitlab.com/brick.camp/brick.camp/commits/master?target=_blank&rel=noopener) of this website since its [very first step](https://gitlab.com/brick.camp/brick.camp/commit/b288341df51d14e9f6ada3dffbbd6108b095d16e?target=_blank&rel=noopener) in June 2018.
- - The [theme of this website](https://gitlab.com/brick.camp/brick.camp/tree/master/themes/brick-camp?target=_blank&rel=noopener)
- - Really everything - you could even [run a local copy of this website](https://gitlab.com/brick.camp/brick.camp?target=_blank&rel=noopener#local-setup/).
+ - The [files for each and every technique](https://github.com/brickcamp/website/tree/main/pages/21.tech?target=_blank&rel=noopener) published here.
+ - The [complete history](https://github.com/brickcamp/website/commits/main?target=_blank&rel=noopener) of this website since its [very first step](https://github.com/brickcamp/website/commit/b288341df51d14e9f6ada3dffbbd6108b095d16e?target=_blank&rel=noopener) in June 2018.
+ - The [theme of this website](https://github.com/brickcamp/website/tree/main/themes/brick-camp?target=_blank&rel=noopener)
+ - Really everything - you could even [run a local copy of this website](https://github.com/brickcamp/website?target=_blank&rel=noopener#local-setup).
 
 Furthermore, images and contents are [licensed as creative commons](https://creativecommons.org/licenses/by-sa/4.0/?target=_blank&rel=noopener).
 
